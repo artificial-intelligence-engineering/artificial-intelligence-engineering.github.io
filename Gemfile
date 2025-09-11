@@ -15,3 +15,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
 end
+
+gem "jekyll", "~> 3.10"
+
+gem "bigdecimal", "~> 3.2"
