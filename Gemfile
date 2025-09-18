@@ -19,3 +19,5 @@ end
 gem "jekyll", "~> 3.10"
 
 gem "bigdecimal", "~> 3.2"
+gem "fiddle"
+gem "ostruct"
