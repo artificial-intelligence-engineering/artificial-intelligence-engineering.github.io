@@ -1,7 +1,9 @@
 main:
-  - title: "Posts"
+  - title: "Glossary"
+    url: /glossary/
+  - title: "LxM"
     url: /posts/
-  - title: "Categories"
+  - title: "Tools"
     url: /categories/
   - title: "Tags"
     url: /tags/
