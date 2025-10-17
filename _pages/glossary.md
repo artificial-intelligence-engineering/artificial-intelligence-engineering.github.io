@@ -1,8 +1,7 @@
 ---
 title: "Glossary Table"
 permalink: /glossary/
-layout: single
-author_profile: false
+layout: splash
 ---
 
 <table>
@@ -43,16 +42,93 @@ author_profile: false
     <tr>
       <th scope="row">LMM</th>
         <td>
-            JavaScript frameworks
+            Large Multimodal Models (aka, MLLMs - Multimodal LLMs) expand the capabilities of traditional large language 
+            models (LLMs), which are primarily focused on processing and generating text. By integrating multiple types 
+            of data, LMMs enable more complex and versatile applications that require the synthesis and interpretation 
+            of both textual and nontextual information, such as text, images, video, audio, and more.
         </td>
         <td>
-            29
+            This term is related to the concept of Multimodal AI which refers to machine learning models capable of 
+            processing and integrating information from multiple modalities or types of data. These modalities can 
+            include text, images, audio, video and other forms of sensory input.
         </td>
     </tr>
     <tr>
-      <th scope="row">DDDD</th>
-      <td>Web performance</td>
-      <td>36</td>
+      <th scope="row">LxM</th>
+        <td>
+            Large "x" Models family. An LxM is just an umbrella term for representing the LLM, LMM and further terminologies.
+            It's another way of naming the Foundation Models (FM).
+        </td>
+        <td>
+           TODO 
+        </td>
+    </tr>
+    <tr>
+      <th scope="row">AI Engineering</th>
+        <td>
+            Refers to the process of building applications on top of foundation models. Many terms are being used to 
+            describe the process of building applications on top of foundation models, including ML engineering, 
+            MLOps, AIOps, LLMOps, etc.
+        </td>
+        <td>
+           TODO 
+        </td>
+    </tr>
+    <tr>
+      <th scope="row">Prompt Engineering</th>
+        <td>
+            It is the art of asking a Generative AI model questions in natural language so that the model responds 
+            according to our needs.
+        </td>
+        <td>
+           TODO 
+        </td>
+    </tr>
+    <tr>
+      <th scope="row">Prompt Context</th>
+        <td>
+            Prompt context is background information or details provided in a prompt that help guide an AI's response 
+            to be more relevant and specific.
+        </td>
+        <td>
+           TODO 
+        </td>
+    </tr>
+    <tr>
+      <th scope="row">Context Window</th>
+        <td>
+            The "context window" in GenAI refers to the amount of information a model can process and "remember" at one 
+            time, like a short-term memory. It is measured in tokens, which are pieces of words, images, or video. 
+            A larger context window allows the AI to handle longer conversations and larger documents by retaining more 
+            of the input and output without forgetting the beginning
+        </td>
+        <td>
+           TODO 
+        </td>
+    </tr>
+    <tr>
+      <th scope="row">GenAI Token</th>
+        <td>
+            A token is the smallest unit into which text data (or not text) can be broken down for an AI model to process.
+            Whether a transformer AI model is processing text, images, audio clips, videos or another modality, it will 
+            translate the data into tokens. This process is known as tokenization. Large language models have varying 
+            token limits, which dictate the amount of text they can process at once, combining both the input prompt 
+            and the output completion. The token limit determines the model's "context window" the amount of information 
+            it can consider at any one time. So the number of supported tokens of a model is frequently used as a 
+            measure of the model power.
+        </td>
+        <td>
+           TODO 
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">TODO</th>
+        <td>
+            TODO
+        </td>
+        <td>
+               TODO 
+        </td>
     </tr>
   </tbody>
 </table>
