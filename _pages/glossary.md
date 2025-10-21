@@ -64,6 +64,18 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row">SLM</th>
+        <td>
+            Small language models (SLMs) in this context are AI models that are trained on smaller, more focused 
+            amounts of data compared to large language models. Despite their smaller size, SLMs can perform a variety 
+            of tasks, such as text generation, summarization, translation, and classification. While they may not match 
+            the extensive capabilities of LLMs, SLMs are often more resource efficient and can be highly effective for specific, targeted applications. 
+        </td>
+        <td>
+           TODO 
+        </td>
+    </tr>
+    <tr>
       <th scope="row">AI Engineering</th>
         <td>
             Refers to the process of building applications on top of foundation models. Many terms are being used to 
