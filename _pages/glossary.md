@@ -105,12 +105,12 @@ layout: splash
             describe the process of building applications on top of foundation models, including ML engineering, 
             MLOps, AIOps, LLMOps, etc.
         </td>
-        <td>
-            <ul>
-              <li><a href="https://www.oreilly.com/library/view/ai-engineering/9781098166298/" target="_blank">AI Engineering (Book) – Chip Huyen, O'Reilly</a></li>
-              <li><a href="https://huyenchip.com/2024/04/11/ai-engineering.html" target="_blank">What is AI Engineering? – Chip Huyen</a></li>
-            </ul>
-        </td>
+         <td>
+             <ul>
+               <li><a href="https://www.oreilly.com/library/view/ai-engineering/9781098166298/" target="_blank">AI Engineering (Book) – Chip Huyen, O'Reilly</a></li>
+               <li><a href="https://www.youtube.com/watch?v=p7F4f42iZ-c&t=9s" target="_blank">What You MUST Know About AI Engineering | Chip Huyen</a></li>
+             </ul>
+         </td>
     </tr>
     <tr>
       <th scope="row">Prompt Engineering</th>

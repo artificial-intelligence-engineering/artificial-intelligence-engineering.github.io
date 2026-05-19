@@ -6,9 +6,16 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
 excerpt: >
-  AI Engineering is a new discipline that is constantly evolving. On this site, 
-  we compile all related information, such as tools, frameworks, glossaries, best practices, 
-  and resources for further study.
+  <div style="display: flex; gap: 1.5rem; align-items: flex-start;">
+    <div style="flex: 1; color: #fff;">
+      AI Engineering is a new discipline that is constantly evolving. On this site,
+      we compile all related information, such as tools, frameworks, glossaries, best practices,
+      and resources for further study.
+    </div>
+    <div style="flex: 0 0 32%; font-style: italic; font-size: 0.9em; line-height: 1.4; color: #fff;">
+      "We are no longer asking how to build models; we're asking how to build products that use models." -- Chip Huyen, AI Engineering: Building Applications with Foundation Models
+    </div>
+  </div>
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
