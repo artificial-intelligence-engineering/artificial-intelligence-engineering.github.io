@@ -3,6 +3,8 @@ main:
     url: /glossary/
   - title: "LxM"
     url: /lxm/
+  - title: "Benchmarks"
+    url: /benchmarks/
   - title: "Tools"
     url: /tools/
   - title: "About"
