@@ -10,3 +10,85 @@ $link-color: blue;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* ---- Table UX refresh (grayscale + soft purple accent) ---- */
+$page-table-border: #d9d9df;
+$page-table-head-bg: #f1f1f4;
+$page-table-row-even: #f8f8fa;
+$page-table-row-hover: #efedf7;
+$page-table-text: #2f2f36;
+$page-table-muted: #5e5e68;
+$page-table-accent: #6f5aa8;
+
+.page__content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: $page-table-text;
+  border: 1px solid $page-table-border;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.page__content thead th {
+  background: $page-table-head-bg;
+  color: $page-table-muted;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 0.78rem;
+  border-bottom: 1px solid $page-table-border;
+  padding: 0.8rem 0.9rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.page__content tbody td,
+.page__content tbody th[scope="row"] {
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid #ececf1;
+  vertical-align: top;
+}
+
+.page__content tbody tr:nth-child(even) {
+  background: $page-table-row-even;
+}
+
+.page__content tbody tr:hover {
+  background: $page-table-row-hover;
+  transition: background-color 120ms ease-in-out;
+}
+
+.page__content tbody tr:hover td:first-child,
+.page__content tbody tr:hover th[scope="row"]:first-child {
+  box-shadow: inset 3px 0 0 $page-table-accent;
+}
+
+.page__content table a {
+  color: $page-table-accent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.page__content tbody th[scope="row"] {
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.page__content table.lxm-table td:nth-child(3),
+.page__content table.lxm-table th:nth-child(3) {
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .page__content table {
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+  }
+}
+

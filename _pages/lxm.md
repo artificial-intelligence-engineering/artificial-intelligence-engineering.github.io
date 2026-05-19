@@ -1,15 +1,22 @@
----
+﻿---
 title: "LxM Ecosystem Table"
 permalink: /lxm/
 layout: splash
 ---
 
-<table>
+<table class="lxm-table">
+  <colgroup>
+    <col style="width: 12%;">
+    <col style="width: 24%;">
+    <col style="width: 16%;">
+    <col style="width: 12%;">
+    <col style="width: 36%;">
+  </colgroup>
   <thead>
     <tr>
       <th scope="col">Ecosystem</th>
       <th scope="col">Model</th>
-      <th scope="col">Release Date</th>
+      <th scope="col" style="white-space: nowrap;">Release Date</th>
       <th scope="col">Status</th>
       <th scope="col">Notes</th>
     </tr>
@@ -21,7 +28,7 @@ layout: splash
             GPT-1
         </td>
         <td>
-            11 June 2018
+            June, 2018
         </td>
         <td>
             Active
@@ -36,7 +43,7 @@ layout: splash
             GPT-2
         </td>
         <td>
-            14 February  2019
+            February, 2019
         </td>
         <td>
             Active
@@ -51,7 +58,7 @@ layout: splash
             GPT-3
         </td>
         <td>
-            28 May, 2020
+            May, 2020
         </td>
         <td>
             Active
@@ -67,7 +74,7 @@ layout: splash
             GPT-3.5
         </td>
         <td>
-            15 March 2022
+            March, 2022
         </td>
         <td>
             Active
@@ -82,7 +89,7 @@ layout: splash
             GPT-4
         </td>
         <td>
-            14 March 2023
+            March, 2023
         </td>
         <td>
             Active
@@ -97,7 +104,7 @@ layout: splash
             GPT-4o
         </td>
         <td>
-            13 May 2024
+            May, 2024
         </td>
         <td>
             Active
@@ -112,7 +119,7 @@ layout: splash
             GPT-4.5
         </td>
         <td>
-            27 February 2025
+            February, 2025
         </td>
         <td>
             Active
@@ -127,7 +134,7 @@ layout: splash
            GPT-4.1 
         </td>
         <td>
-            14 April 2025
+            April, 2025
         </td>
         <td>
             Active
@@ -142,7 +149,7 @@ layout: splash
            GPT-5
         </td>
         <td>
-           7 August 2025
+           August, 2025
         </td>
         <td>
             Active
@@ -157,7 +164,7 @@ layout: splash
             GPT-5.1
         </td>
         <td>
-            November 2025
+            November, 2025
         </td>
         <td>
             Active
@@ -172,7 +179,7 @@ layout: splash
             GPT-5.2
         </td>
         <td>
-            December 2025
+            December, 2025
         </td>
         <td>
             Active
@@ -217,7 +224,7 @@ layout: splash
             GPT-5.4
         </td>
         <td>
-            March 2026
+            March, 2026
         </td>
         <td>
             Active
@@ -247,7 +254,7 @@ layout: splash
             GPT-4 Turbo
         </td>
         <td>
-            6 November 2023
+            November, 2023
         </td>
         <td>
             Discontinued
@@ -262,7 +269,7 @@ layout: splash
             GPT-4o mini
         </td>
         <td>
-            18 July 2024
+            July, 2024
         </td>
         <td>
             Active
@@ -277,7 +284,7 @@ layout: splash
             o1-preview
         </td>
         <td>
-            12 September 2024
+            September, 2024
         </td>
         <td>
             Discontinued
@@ -292,7 +299,7 @@ layout: splash
             o1-mini
         </td>
         <td>
-            12 September 2024
+            September, 2024
         </td>
         <td>
             Active
@@ -307,7 +314,7 @@ layout: splash
             o1
         </td>
         <td>
-            December 2024
+            December, 2024
         </td>
         <td>
             Active
@@ -322,7 +329,7 @@ layout: splash
             o3-mini
         </td>
         <td>
-            January 2025
+            January, 2025
         </td>
         <td>
             Active
@@ -367,7 +374,7 @@ layout: splash
             LaMDA
         </td>
         <td>
-           11 May 2022
+           May, 2022
         </td>
         <td>
            Active
@@ -382,7 +389,7 @@ layout: splash
              Bard
         </td>
         <td>
-           21 March 2023
+           March, 2023
         </td>
         <td>
            Discontinued
@@ -397,7 +404,7 @@ layout: splash
              PaLM
         </td>
         <td>
-           April 2022
+           April, 2022
         </td>
         <td>
            Discontinued
@@ -412,7 +419,7 @@ layout: splash
              PaLM 2
         </td>
         <td>
-           May 2023
+           May, 2023
         </td>
         <td>
            Discontinued
@@ -427,7 +434,7 @@ layout: splash
              Gemini 1.0 Nano
         </td>
         <td>
-           6 December 2023
+           December, 2023
         </td>
         <td>
            Discontinued
@@ -442,7 +449,7 @@ layout: splash
              Gemini 1.0 Pro
         </td>
         <td>
-           13 December 2023
+           December, 2023
         </td>
         <td>
            Discontinued
@@ -457,7 +464,7 @@ layout: splash
              Gemini 1.0 Ultra
         </td>
         <td>
-           	8 February 2024
+           	February, 2024
         </td>
         <td>
            Discontinued
@@ -472,7 +479,7 @@ layout: splash
             Gemini 1.5 Pro
         </td>
         <td>
-           	15 February 2024
+           	February, 2024
         </td>
         <td>
            Discontinued
@@ -488,7 +495,7 @@ layout: splash
             Gemini 1.5 Flash
         </td>
         <td>
-           	14 May 2024
+           	May, 2024
         </td>
         <td>
            Discontinued
@@ -503,7 +510,7 @@ layout: splash
             Gemini 2.0 Flash
         </td>
         <td>
-           30 January 2025	
+           January, 2025
         </td>
         <td>
            Active
@@ -518,7 +525,7 @@ layout: splash
             Gemini 2.0 Flash Thinking
         </td>
         <td>
-           December 2024
+           December, 2024
         </td>
         <td>
            Active
@@ -533,7 +540,7 @@ layout: splash
             Gemini 2.0 Pro (Experimental)
         </td>
         <td>
-           February 2025
+           February, 2025
         </td>
         <td>
            Active
@@ -548,7 +555,7 @@ layout: splash
             Gemini 2.0 Flash-Lite
         </td>
         <td>
-           1 February 2025
+           February, 2025
         </td>
         <td>
            Active
@@ -563,7 +570,7 @@ layout: splash
             Gemini 2.5 Pro
         </td>
         <td>
-           25 March 2025
+           March, 2025
         </td>
         <td>
            Active
@@ -578,7 +585,7 @@ layout: splash
             Gemini 2.5 Flash
         </td>
         <td>
-          17 April 2025 
+          April, 2025
         </td>
         <td>
            Active
@@ -593,7 +600,7 @@ layout: splash
             Gemini 2.5 Flash-Lite
         </td>
         <td>
-          17 June 2025
+          June, 2025
         </td>
         <td>
            Active
@@ -608,7 +615,7 @@ layout: splash
             Gemini 2.5 Flash Image (Nano Banana)
         </td>
         <td>
-          26 August 2025
+          August, 2025
         </td>
         <td>
            Active
@@ -623,7 +630,7 @@ layout: splash
             Gemma
         </td>
         <td>
-           February 2024
+           February, 2024
         </td>
         <td>
            Active
@@ -638,7 +645,7 @@ layout: splash
             Gemma 2
         </td>
         <td>
-           June 2024
+           June, 2024
         </td>
         <td>
            Active
@@ -668,7 +675,7 @@ layout: splash
             Gemini 3 Pro
         </td>
         <td>
-            18 November 2025
+            November, 2025
         </td>
         <td>
             Active
@@ -683,7 +690,7 @@ layout: splash
             Gemini 3 Deep Think
         </td>
         <td>
-            18 November 2025
+            November, 2025
         </td>
         <td>
             Active
@@ -698,7 +705,7 @@ layout: splash
             Gemini 3 Flash
         </td>
         <td>
-            17 December 2025
+            December, 2025
         </td>
         <td>
             Active
@@ -713,7 +720,7 @@ layout: splash
             Gemini 3.1 Pro
         </td>
         <td>
-            19 February 2026
+            February, 2026
         </td>
         <td>
             Active
@@ -728,7 +735,7 @@ layout: splash
             Gemini 3.1 Flash-Lite
         </td>
         <td>
-            3 March 2026
+            March, 2026
         </td>
         <td>
             Active
@@ -743,7 +750,7 @@ layout: splash
             Gemini Robotics
         </td>
         <td>
-            12 March 2025
+            March, 2025
         </td>
         <td>
             Active
@@ -758,7 +765,7 @@ layout: splash
             Gemma 4
         </td>
         <td>
-            2 April 2026
+            April, 2026
         </td>
         <td>
             Active
@@ -773,7 +780,7 @@ layout: splash
             OPT 
         </td>
         <td>
-            May 2022
+            May, 2022
         </td>
         <td>
             Non-commercial
@@ -789,7 +796,7 @@ layout: splash
             Galactica
         </td>
         <td>
-            November 2022
+            November, 2022
         </td>
         <td>
             Discontinued
@@ -804,7 +811,7 @@ layout: splash
             Llama 1
         </td>
         <td>
-            24 February 2023
+            February, 2023
         </td>
         <td>
             Discontinued
@@ -819,7 +826,7 @@ layout: splash
             Chameleon
         </td>
         <td>
-            June 2024
+            June, 2024
         </td>
         <td>
             Active
@@ -834,7 +841,7 @@ layout: splash
             Llama 2
         </td>
         <td>
-            18 July 2023
+            July, 2023
         </td>
         <td>
             Discontinued
@@ -849,7 +856,7 @@ layout: splash
             Code Llama
         </td>
         <td>
-            24 August 2023
+            August, 2023
         </td>
         <td>
             Discontinued
@@ -864,7 +871,7 @@ layout: splash
             Llama 3
         </td>
         <td>
-            April 18, 2024
+            April, 2024
         </td>
         <td>
             Active
@@ -879,7 +886,7 @@ layout: splash
             Llama 3.1
         </td>
         <td>
-            23 July 2024
+            July, 2024
         </td>
         <td>
             Active
@@ -894,7 +901,7 @@ layout: splash
             Llama 3.2
         </td>
         <td>
-            September 25, 2024	
+            September, 2024
         </td>
         <td>
             Active
@@ -909,7 +916,7 @@ layout: splash
             Llama 3.3
         </td>
         <td>
-            December 7, 2024
+            December, 2024
         </td>
         <td>
             Active
@@ -924,7 +931,7 @@ layout: splash
             Llama 4
         </td>
         <td>
-            April 5, 2025
+            April, 2025
         </td>
         <td>
             Active
@@ -939,7 +946,7 @@ layout: splash
             Llama 4 Maverick
         </td>
         <td>
-            5 April 2025
+            April, 2025
         </td>
         <td>
             Active
@@ -954,7 +961,7 @@ layout: splash
             Llama 4 Scout
         </td>
         <td>
-            5 April 2025
+            April, 2025
         </td>
         <td>
             Active
@@ -969,7 +976,7 @@ layout: splash
             Llama 4 Behemoth
         </td>
         <td>
-            2025 (announced)
+            2025
         </td>
         <td>
             Announced
@@ -984,7 +991,7 @@ layout: splash
             Copilot
         </td>
         <td>
-            September 21, 2023
+            September, 2023
         </td>
         <td>
            Active
@@ -999,7 +1006,7 @@ layout: splash
             Phi-1
         </td>
         <td>
-            June 2023
+            June, 2023
         </td>
         <td>
             Discontinued
@@ -1014,7 +1021,7 @@ layout: splash
             Phi-1.5
         </td>
         <td>
-            September 2023
+            September, 2023
         </td>
         <td>
             Discontinued
@@ -1029,7 +1036,7 @@ layout: splash
             Phi-2
         </td>
         <td>
-            December 2023
+            December, 2023
         </td>
         <td>
             Active
@@ -1044,7 +1051,7 @@ layout: splash
             Phi-3
         </td>
         <td>
-            April 2024
+            April, 2024
         </td>
         <td>
             Active
@@ -1059,7 +1066,7 @@ layout: splash
             Phi-3.5
         </td>
         <td>
-            August 2024
+            August, 2024
         </td>
         <td>
             Active
@@ -1074,7 +1081,7 @@ layout: splash
             Phi-4
         </td>
         <td>
-            December 2024
+            December, 2024
         </td>
         <td>
             Active
@@ -1134,7 +1141,7 @@ layout: splash
             Claude 1
         </td>
         <td>
-            March 2023
+            March, 2023
         </td>
         <td>
             Discontinued
@@ -1149,7 +1156,7 @@ layout: splash
             Claude 2
         </td>
         <td>
-            July 2023
+            July, 2023
         </td>
         <td>
             Discontinued
@@ -1179,7 +1186,7 @@ layout: splash
             Claude 2.1
         </td>
         <td>
-            November 2023
+            November, 2023
         </td>
         <td>
             Discontinued
@@ -1194,7 +1201,7 @@ layout: splash
             Claude 3 (Haiku, Sonnet, Opus)
         </td>
         <td>
-            March 2024
+            March, 2024
         </td>
         <td>
             Active
@@ -1209,7 +1216,7 @@ layout: splash
             Claude 3.5 Sonnet
         </td>
         <td>
-            June 2024
+            June, 2024
         </td>
         <td>
             Active
@@ -1224,7 +1231,7 @@ layout: splash
             Claude 3.5 Haiku
         </td>
         <td>
-            October 2024
+            October, 2024
         </td>
         <td>
             Active
@@ -1239,7 +1246,7 @@ layout: splash
             Claude 3.7 Sonnet
         </td>
         <td>
-            February 2025
+            February, 2025
         </td>
         <td>
             Active
@@ -1254,7 +1261,7 @@ layout: splash
             Claude Sonnet 4
         </td>
         <td>
-            May 2025
+            May, 2025
         </td>
         <td>
             Active
@@ -1269,7 +1276,7 @@ layout: splash
             Claude Opus 4
         </td>
         <td>
-            May 2025
+            May, 2025
         </td>
         <td>
             Active
@@ -1284,7 +1291,7 @@ layout: splash
             Claude Opus 4.1
         </td>
         <td>
-            April 2026
+            April, 2026
         </td>
         <td>
             Active
@@ -1299,7 +1306,7 @@ layout: splash
             Claude Haiku 4.5
         </td>
         <td>
-            October 2025
+            October, 2025
         </td>
         <td>
             Active
@@ -1344,7 +1351,7 @@ layout: splash
             Claude Sonnet 4.6
         </td>
         <td>
-            February 2026
+            February, 2026
         </td>
         <td>
             Active
@@ -1374,7 +1381,7 @@ layout: splash
             Claude Opus 4.7
         </td>
         <td>
-            April 2026
+            April, 2026
         </td>
         <td>
             Active
@@ -1389,7 +1396,7 @@ layout: splash
             Mistral 7B
         </td>
         <td>
-            September 2023
+            September, 2023
         </td>
         <td>
             Active
@@ -1404,7 +1411,7 @@ layout: splash
             Mixtral 8x7B
         </td>
         <td>
-            December 2023
+            December, 2023
         </td>
         <td>
             Active
@@ -1419,7 +1426,7 @@ layout: splash
             Mixtral 8x22B
         </td>
         <td>
-            April 2024
+            April, 2024
         </td>
         <td>
             Active
@@ -1434,7 +1441,7 @@ layout: splash
             Mistral Large 2
         </td>
         <td>
-            July 2024
+            July, 2024
         </td>
         <td>
             Active
@@ -1449,7 +1456,7 @@ layout: splash
             Pixtral 12B
         </td>
         <td>
-            September 2024
+            September, 2024
         </td>
         <td>
             Active
@@ -1464,7 +1471,7 @@ layout: splash
             Mistral Large (24.02)
         </td>
         <td>
-            February 2024
+            February, 2024
         </td>
         <td>
             Discontinued
@@ -1479,7 +1486,7 @@ layout: splash
             Mistral Small
         </td>
         <td>
-            February 2024
+            February, 2024
         </td>
         <td>
             Discontinued
@@ -1494,7 +1501,7 @@ layout: splash
             Codestral 22B
         </td>
         <td>
-            May 2024
+            May, 2024
         </td>
         <td>
             Discontinued
@@ -1509,7 +1516,7 @@ layout: splash
             Mathstral 7B
         </td>
         <td>
-            July 2024
+            July, 2024
         </td>
         <td>
             Active
@@ -1524,7 +1531,7 @@ layout: splash
             Codestral Mamba 7B
         </td>
         <td>
-            July 2024
+            July, 2024
         </td>
         <td>
             Active
@@ -1539,7 +1546,7 @@ layout: splash
             Ministral 3B
         </td>
         <td>
-            October 2024
+            October, 2024
         </td>
         <td>
             Active
@@ -1554,7 +1561,7 @@ layout: splash
             Ministral 8B
         </td>
         <td>
-            October 2024
+            October, 2024
         </td>
         <td>
             Active
@@ -1569,7 +1576,7 @@ layout: splash
             Pixtral Large (24.11)
         </td>
         <td>
-            November 2024
+            November, 2024
         </td>
         <td>
             Active
@@ -1584,7 +1591,7 @@ layout: splash
             Mistral Large 2 (24.11)
         </td>
         <td>
-            November 2024
+            November, 2024
         </td>
         <td>
             Active
@@ -1599,7 +1606,7 @@ layout: splash
             Mistral Small 3
         </td>
         <td>
-            January 2025
+            January, 2025
         </td>
         <td>
             Discontinued
@@ -1614,7 +1621,7 @@ layout: splash
             Codestral 25.01
         </td>
         <td>
-            January 2025
+            January, 2025
         </td>
         <td>
             Discontinued
@@ -1629,7 +1636,7 @@ layout: splash
             Mistral Small 3.1
         </td>
         <td>
-            March 2025
+            March, 2025
         </td>
         <td>
             Discontinued
@@ -1644,7 +1651,7 @@ layout: splash
             Devstral Small (25.05)
         </td>
         <td>
-            May 2025
+            May, 2025
         </td>
         <td>
             Discontinued
@@ -1659,7 +1666,7 @@ layout: splash
             Mistral Small 3.2
         </td>
         <td>
-            June 2025
+            June, 2025
         </td>
         <td>
             Discontinued
@@ -1674,7 +1681,7 @@ layout: splash
             Devstral Medium 1.0
         </td>
         <td>
-            July 2025
+            July, 2025
         </td>
         <td>
             Active
@@ -1689,7 +1696,7 @@ layout: splash
             Devstral Small 1.1 (25.07)
         </td>
         <td>
-            July 2025
+            July, 2025
         </td>
         <td>
             Active
@@ -1704,7 +1711,7 @@ layout: splash
             Codestral 25.08
         </td>
         <td>
-            August 2025
+            August, 2025
         </td>
         <td>
             Active
@@ -1719,7 +1726,7 @@ layout: splash
             Mistral Large 3
         </td>
         <td>
-            December 2025
+            December, 2025
         </td>
         <td>
             Active
@@ -1734,7 +1741,7 @@ layout: splash
             Ministral 3
         </td>
         <td>
-            December 2025
+            December, 2025
         </td>
         <td>
             Active
@@ -1749,7 +1756,7 @@ layout: splash
             Devstral 2
         </td>
         <td>
-            December 2025
+            December, 2025
         </td>
         <td>
             Active
@@ -1764,7 +1771,7 @@ layout: splash
             Devstral Small 2
         </td>
         <td>
-            December 2025
+            December, 2025
         </td>
         <td>
             Active
@@ -1809,7 +1816,7 @@ layout: splash
             Grok-1
         </td>
         <td>
-            November 2023
+            November, 2023
         </td>
         <td>
             Discontinued
@@ -1824,7 +1831,7 @@ layout: splash
             Grok-1.5
         </td>
         <td>
-            May 2024
+            May, 2024
         </td>
         <td>
             Discontinued
@@ -1839,7 +1846,7 @@ layout: splash
             Grok-2
         </td>
         <td>
-            August 2024
+            August, 2024
         </td>
         <td>
             Discontinued
@@ -1854,7 +1861,7 @@ layout: splash
             Grok-2 mini
         </td>
         <td>
-            August 2024
+            August, 2024
         </td>
         <td>
             Discontinued
@@ -1869,7 +1876,7 @@ layout: splash
             Grok-2.5
         </td>
         <td>
-            August 2025
+            August, 2025
         </td>
         <td>
             Discontinued
@@ -1884,7 +1891,7 @@ layout: splash
             Grok-3
         </td>
         <td>
-            17 February 2025
+            February, 2025
         </td>
         <td>
             Discontinued
@@ -1899,7 +1906,7 @@ layout: splash
             Grok-3 mini
         </td>
         <td>
-            February 2025
+            February, 2025
         </td>
         <td>
             Discontinued
@@ -1914,7 +1921,7 @@ layout: splash
             Grok 4
         </td>
         <td>
-            9 July 2025
+            July, 2025
         </td>
         <td>
             Active
@@ -1929,7 +1936,7 @@ layout: splash
             Grok 4 Fast
         </td>
         <td>
-            September 2025
+            September, 2025
         </td>
         <td>
             Active
@@ -1944,7 +1951,7 @@ layout: splash
             Grok 4.1
         </td>
         <td>
-            17 November 2025
+            November, 2025
         </td>
         <td>
             Active
@@ -1959,7 +1966,7 @@ layout: splash
             Grok 4.1 Fast
         </td>
         <td>
-            19 November 2025
+            November, 2025
         </td>
         <td>
             Active
@@ -1974,7 +1981,7 @@ layout: splash
             Grok 4.3 Beta
         </td>
         <td>
-            17 April 2026
+            April, 2026
         </td>
         <td>
             Active
@@ -1989,7 +1996,7 @@ layout: splash
             Command R
         </td>
         <td>
-            March 2024
+            March, 2024
         </td>
         <td>
             Active
@@ -2004,7 +2011,7 @@ layout: splash
             Command R+
         </td>
         <td>
-            April 2024
+            April, 2024
         </td>
         <td>
             Active
@@ -2034,7 +2041,7 @@ layout: splash
             Qwen 1.5
         </td>
         <td>
-            February 2024
+            February, 2024
         </td>
         <td>
             Active
@@ -2049,7 +2056,7 @@ layout: splash
             Qwen 2
         </td>
         <td>
-            June 2024
+            June, 2024
         </td>
         <td>
             Active
@@ -2064,7 +2071,7 @@ layout: splash
             Qwen 2.5
         </td>
         <td>
-            September 2024
+            September, 2024
         </td>
         <td>
             Active
@@ -2079,7 +2086,7 @@ layout: splash
             Qwen 3
         </td>
         <td>
-            April 2025
+            April, 2025
         </td>
         <td>
             Active
@@ -2094,7 +2101,7 @@ layout: splash
             QwQ-32B
         </td>
         <td>
-            November 2024
+            November, 2024
         </td>
         <td>
             Active
@@ -2109,7 +2116,7 @@ layout: splash
             Qwen2.5-Coder
         </td>
         <td>
-            November 2024
+            November, 2024
         </td>
         <td>
             Active
@@ -2124,7 +2131,7 @@ layout: splash
             Qwen2.5-VL
         </td>
         <td>
-            January 2025
+            January, 2025
         </td>
         <td>
             Active
@@ -2139,7 +2146,7 @@ layout: splash
             Qwen2.5-Omni
         </td>
         <td>
-            March 2025
+            March, 2025
         </td>
         <td>
             Active
@@ -2154,7 +2161,7 @@ layout: splash
             Qwen3-Coder
         </td>
         <td>
-            July 2025
+            July, 2025
         </td>
         <td>
             Active
@@ -2169,7 +2176,7 @@ layout: splash
             Qwen3-Omni
         </td>
         <td>
-            September 2025
+            September, 2025
         </td>
         <td>
             Active
@@ -2184,7 +2191,7 @@ layout: splash
             Qwen3-VL
         </td>
         <td>
-            September 2025
+            September, 2025
         </td>
         <td>
             Active
@@ -2199,7 +2206,7 @@ layout: splash
             Qwen3-Coder-Next
         </td>
         <td>
-            February 2026
+            February, 2026
         </td>
         <td>
             Active
@@ -2214,7 +2221,7 @@ layout: splash
             Qwen3.5
         </td>
         <td>
-            February 2026
+            February, 2026
         </td>
         <td>
             Active
@@ -2229,7 +2236,7 @@ layout: splash
             Qwen3.5-Plus
         </td>
         <td>
-            February 2026
+            February, 2026
         </td>
         <td>
             Active
@@ -2244,7 +2251,7 @@ layout: splash
             Qwen3.6-35B-A3B
         </td>
         <td>
-            April 2026
+            April, 2026
         </td>
         <td>
             Active
@@ -2259,7 +2266,7 @@ layout: splash
             Qwen3.6-27B
         </td>
         <td>
-            April 2026
+            April, 2026
         </td>
         <td>
             Active
@@ -2274,7 +2281,7 @@ layout: splash
             Qwen3.7 Plus
         </td>
         <td>
-            May 2026
+            May, 2026
         </td>
         <td>
             Active
@@ -2289,7 +2296,7 @@ layout: splash
             Qwen3.7 Max
         </td>
         <td>
-            May 2026
+            May, 2026
         </td>
         <td>
             Active
@@ -2304,7 +2311,7 @@ layout: splash
             DeepSeek Coder
         </td>
         <td>
-            November 2023
+            November, 2023
         </td>
         <td>
             Active
@@ -2319,7 +2326,7 @@ layout: splash
             DeepSeek-V2
         </td>
         <td>
-            May 2024
+            May, 2024
         </td>
         <td>
             Active
@@ -2334,7 +2341,7 @@ layout: splash
             DeepSeek-V2.5
         </td>
         <td>
-            September 2024
+            September, 2024
         </td>
         <td>
             Active
@@ -2349,7 +2356,7 @@ layout: splash
             DeepSeek-V3
         </td>
         <td>
-            December 2024
+            December, 2024
         </td>
         <td>
             Active
@@ -2364,7 +2371,7 @@ layout: splash
             DeepSeek-V3-0324
         </td>
         <td>
-            March 2025
+            March, 2025
         </td>
         <td>
             Active
@@ -2379,7 +2386,7 @@ layout: splash
             DeepSeek-V3.1
         </td>
         <td>
-            August 2025
+            August, 2025
         </td>
         <td>
             Active
@@ -2394,7 +2401,7 @@ layout: splash
             DeepSeek-V3.1-Terminus
         </td>
         <td>
-            September 2025
+            September, 2025
         </td>
         <td>
             Active
@@ -2409,7 +2416,7 @@ layout: splash
             DeepSeek-V3.2-Exp
         </td>
         <td>
-            September 2025
+            September, 2025
         </td>
         <td>
             Discontinued
@@ -2424,7 +2431,7 @@ layout: splash
             DeepSeek-V3.2
         </td>
         <td>
-            December 2025
+            December, 2025
         </td>
         <td>
             Active
@@ -2439,7 +2446,7 @@ layout: splash
             DeepSeek-V3.2-Speciale
         </td>
         <td>
-            December 2025
+            December, 2025
         </td>
         <td>
             Active
@@ -2454,7 +2461,7 @@ layout: splash
             DeepSeek-VL2
         </td>
         <td>
-            November 2025
+            November, 2025
         </td>
         <td>
             Active
@@ -2469,7 +2476,7 @@ layout: splash
             DeepSeek-R1-Lite-Preview
         </td>
         <td>
-            November 2024
+            November, 2024
         </td>
         <td>
             Discontinued
@@ -2484,7 +2491,7 @@ layout: splash
             DeepSeek-R1
         </td>
         <td>
-            January 2025
+            January, 2025
         </td>
         <td>
             Active
@@ -2499,7 +2506,7 @@ layout: splash
             DeepSeek-R1-0528
         </td>
         <td>
-            May 2025
+            May, 2025
         </td>
         <td>
             Active
@@ -2514,7 +2521,7 @@ layout: splash
             DeepSeek-V4-Pro (Preview)
         </td>
         <td>
-            April 2026
+            April, 2026
         </td>
         <td>
             Preview
@@ -2529,7 +2536,7 @@ layout: splash
             DeepSeek-V4-Flash (Preview)
         </td>
         <td>
-            April 2026
+            April, 2026
         </td>
         <td>
             Preview
