@@ -20,6 +20,40 @@ layout: splash
   </ul>
 </nav>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var toc = document.querySelector(".lxm-toc");
+    if (!toc) return;
+
+    var links = toc.querySelectorAll("a[href^='#ecosystem-']");
+
+    links.forEach(function (link) {
+      link.addEventListener("click", function (event) {
+        var hash = link.getAttribute("href");
+        var target = document.querySelector(hash);
+        if (!target) return;
+
+        event.preventDefault();
+
+        // Offset keeps the target row fully visible below the sticky TOC.
+        var stickyOffset = toc.offsetHeight + 12;
+        var targetTop = target.getBoundingClientRect().top + window.pageYOffset;
+
+        window.scrollTo({
+          top: Math.max(0, targetTop - stickyOffset),
+          behavior: "smooth"
+        });
+
+        if (history.pushState) {
+          history.pushState(null, "", hash);
+        } else {
+          window.location.hash = hash;
+        }
+      });
+    });
+  });
+</script>
+
 <table class="lxm-table">
   <colgroup>
     <col style="width: 12%;">
@@ -2459,21 +2493,6 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
-            DeepSeek-V3.2-Speciale
-        </td>
-        <td>
-            December, 2025
-        </td>
-        <td>
-            Active
-        </td>
-        <td>
-            Reasoning-focused V3.2 variant released alongside V3.2.
-        </td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-        <td>
             DeepSeek-VL2
         </td>
         <td>
@@ -2563,4 +2582,3 @@ layout: splash
     </tr>
  </tbody>
 </table>
-
