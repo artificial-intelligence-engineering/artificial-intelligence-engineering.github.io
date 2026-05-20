@@ -41,3 +41,35 @@ feature_row:
 ---
 
 {% include feature_row %}
+
+<style>
+  .feature__item .archive__item-teaser,
+  .feature__item .archive__item-body {
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var items = document.querySelectorAll(".feature__item");
+
+    items.forEach(function (item) {
+      var button = item.querySelector(".btn");
+      if (!button || !button.href) return;
+
+      var targetUrl = button.href;
+      var teaser = item.querySelector(".archive__item-teaser");
+      var body = item.querySelector(".archive__item-body");
+
+      [teaser, body].forEach(function (el) {
+        if (!el) return;
+
+        el.addEventListener("click", function (event) {
+          // Keep native behavior for existing links/buttons inside the card.
+          if (event.target.closest("a, button")) return;
+          window.location.href = targetUrl;
+        });
+      });
+    });
+  });
+</script>
