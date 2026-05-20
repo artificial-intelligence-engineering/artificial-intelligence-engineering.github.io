@@ -92,3 +92,24 @@ $page-table-accent: #6f5aa8;
   }
 }
 
+/* ---- Expand page content to use full width ---- */
+.page {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 2rem !important;
+}
+
+.page__content {
+  max-width: none !important;
+}
+
+.page__inner {
+  max-width: 100% !important;
+}
+
+/* Adjust single layout to use full width */
+.layout--single {
+  max-width: 100%;
+}
+

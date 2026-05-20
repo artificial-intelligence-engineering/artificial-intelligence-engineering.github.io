@@ -2,7 +2,9 @@
 title: "Model Development"
 permalink: /model-development/
 layout: single
+author_profile: false
 toc: true
+toc_sticky: true
 toc_label: "Table of Contents"
 ---
 

@@ -2,7 +2,9 @@
 title: "AI Infrastructure"
 permalink: /ai-infrastructure/
 layout: single
+author_profile: false
 toc: true
+toc_sticky: true
 toc_label: "Table of Contents"
 ---
 
