@@ -92,6 +92,67 @@ $page-table-accent: #6f5aa8;
   }
 }
 
+/* ---- LxM Ecosystem TOC (horizontal sticky bar) ---- */
+.lxm-toc {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #f8f8fa;
+  border-bottom: 1px solid #d9d9df;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  font-size: 0.82rem;
+  margin-bottom: 1rem;
+}
+
+.lxm-toc strong {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  color: #5e5e68;
+  white-space: nowrap;
+  margin-right: 0.5rem;
+}
+
+.lxm-toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.6rem;
+}
+
+.lxm-toc ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.lxm-toc ul li a {
+  color: #6f5aa8;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  display: inline-block;
+}
+
+.lxm-toc ul li a:hover {
+  background: #efedf7;
+  border-color: #6f5aa8;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .lxm-toc {
+    position: static;
+  }
+}
+
 /* ---- Expand page content to use full width ---- */
 .page {
   max-width: 100% !important;

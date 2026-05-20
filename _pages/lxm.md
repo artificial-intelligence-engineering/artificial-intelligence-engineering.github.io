@@ -4,6 +4,22 @@ permalink: /lxm/
 layout: splash
 ---
 
+<nav class="lxm-toc" aria-label="Ecosystem navigation">
+  <strong>Ecosystems</strong>
+  <ul>
+    <li><a href="#ecosystem-openai">OpenAI</a></li>
+    <li><a href="#ecosystem-google">Google</a></li>
+    <li><a href="#ecosystem-meta">Meta</a></li>
+    <li><a href="#ecosystem-microsoft">Microsoft</a></li>
+    <li><a href="#ecosystem-anthropic">Anthropic</a></li>
+    <li><a href="#ecosystem-mistral">Mistral AI</a></li>
+    <li><a href="#ecosystem-xai">xAI</a></li>
+    <li><a href="#ecosystem-cohere">Cohere</a></li>
+    <li><a href="#ecosystem-alibaba">Alibaba (Qwen)</a></li>
+    <li><a href="#ecosystem-deepseek">DeepSeek</a></li>
+  </ul>
+</nav>
+
 <table class="lxm-table">
   <colgroup>
     <col style="width: 12%;">
@@ -23,7 +39,7 @@ layout: splash
   </thead>
   <tbody>
     <tr>
-      <th scope="row">OpenAI</th>
+      <th scope="row" id="ecosystem-openai">OpenAI</th>
         <td>
             GPT-1
         </td>
@@ -369,7 +385,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">Google</th>
+      <th scope="row" id="ecosystem-google">Google</th>
         <td>
             LaMDA
         </td>
@@ -775,7 +791,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">Meta</th>
+      <th scope="row" id="ecosystem-meta">Meta</th>
         <td>
             OPT 
         </td>
@@ -986,7 +1002,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">Microsoft</th>
+      <th scope="row" id="ecosystem-microsoft">Microsoft</th>
         <td>
             Copilot
         </td>
@@ -1136,7 +1152,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">Anthropic</th>
+      <th scope="row" id="ecosystem-anthropic">Anthropic</th>
         <td>
             Claude 1
         </td>
@@ -1391,7 +1407,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">Mistral AI</th>
+      <th scope="row" id="ecosystem-mistral">Mistral AI</th>
         <td>
             Mistral 7B
         </td>
@@ -1811,7 +1827,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">xAI</th>
+      <th scope="row" id="ecosystem-xai">xAI</th>
         <td>
             Grok-1
         </td>
@@ -1991,7 +2007,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">Cohere</th>
+      <th scope="row" id="ecosystem-cohere">Cohere</th>
         <td>
             Command R
         </td>
@@ -2036,7 +2052,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">Alibaba (Qwen)</th>
+      <th scope="row" id="ecosystem-alibaba">Alibaba (Qwen)</th>
         <td>
             Qwen 1.5
         </td>
@@ -2306,7 +2322,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">DeepSeek</th>
+      <th scope="row" id="ecosystem-deepseek">DeepSeek</th>
         <td>
             DeepSeek Coder
         </td>
