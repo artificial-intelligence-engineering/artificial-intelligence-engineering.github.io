@@ -27,6 +27,37 @@ toc_label: "Table of Contents"
   .page__content strong {
     color: #586e75;
   }
+
+  .page__content table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fdf6e3;
+    border: 1px solid #eee8d5;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .page__content table th,
+  .page__content table td {
+    border: 1px solid #eee8d5;
+    padding: 0.65rem 0.75rem;
+  }
+
+  .page__content table thead th,
+  .page__content table tr:first-child th {
+    background: #e8f4fb;
+    color: #355f7c;
+  }
+
+  .page__content table tbody tr:nth-child(even),
+  .page__content table tr:nth-child(even):has(td) {
+    background: #f8f1dd;
+  }
+
+  .page__content table tbody tr:hover,
+  .page__content table tr:hover:has(td) {
+    background: #eef8f0;
+  }
 </style>
 
 <div style="padding: 0.9rem 1rem; border-left: 4px solid #5b58d6; background: #f6f7ff; margin-bottom: 1rem;">
@@ -342,3 +373,26 @@ Explain the traversal used.
 <div style="padding: 0.85rem 1rem; border-left: 4px solid #00b48c; background: #f2fff9; margin-top: 1.2rem;">
 Tip: Start with the simplest pattern that solves your task, then move to more advanced ones (RAG, ReAct, ToT, Reflexion) only when needed.
 </div>
+
+## Prompt Patterns Quick Reference
+
+| Technique | What it is | Best use case |
+| --- | --- | --- |
+| Zero-Shot Prompting | Direct instruction with no examples. | Clear tasks with strict constraints and low latency needs. |
+| Few-Shot Prompting | Adds example input/output pairs to guide behavior. | Structured outputs, style control, and consistency. |
+| Chain-of-Thought (CoT) | Asks for intermediate reasoning steps. | Multi-step logic, math, and planning tasks. |
+| Meta Prompting | Uses prompts to improve or generate prompts. | Prompt quality iteration and reusable templates. |
+| Self-Consistency | Samples multiple reasoning paths and votes. | Hard reasoning where single-pass output is unstable. |
+| Generate Knowledge Prompting | Produces relevant facts before final answering. | Knowledge-heavy recommendations and synthesis. |
+| Prompt Chaining | Splits a workflow into sequential prompt steps. | Complex pipelines with extraction -> transform -> decision. |
+| Tree of Thoughts (ToT) | Explores and evaluates multiple reasoning branches. | Search/planning tasks with several plausible paths. |
+| Retrieval-Augmented Generation (RAG) | Grounds responses with retrieved external context. | Enterprise QA over private docs and fresh information. |
+| Automatic Reasoning and Tool-use (ART) | Combines reasoning with tools/APIs. | Tasks requiring calculations, lookups, or execution. |
+| Automatic Prompt Engineer (APE) | Auto-generates and evaluates prompt variants. | Data-driven prompt optimization at scale. |
+| Active-Prompt | Selects uncertain/high-value samples iteratively. | Efficient quality improvements with limited labeling budget. |
+| Directional Stimulus Prompting (DSP) | Adds guidance signals to steer generation. | Output framing, tone, and emphasis control. |
+| Program-Aided Language Models (PAL) | Solves tasks via generated executable code. | Numeric/symbolic tasks where correctness is critical. |
+| ReAct | Interleaves thought, action, and observation loops. | Agentic workflows with iterative tool use. |
+| Reflexion | Uses self-critique and revision loops. | Improving draft quality and reducing first-pass errors. |
+| Multimodal CoT | Extends stepwise reasoning across modalities. | Vision-language diagnosis and evidence-based analysis. |
+| Graph Prompting | Reasons over entities and explicit relations. | Dependency, impact, lineage, and graph-centric tasks. |
