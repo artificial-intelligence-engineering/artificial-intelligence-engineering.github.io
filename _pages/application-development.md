@@ -53,3 +53,7 @@ to apply each one based on the goal. We name prompting techniques or prompting p
 | Reflexion | Adds self-critique and iterative correction loops. | Reducing mistakes in non-trivial multi-step tasks. |
 | Multimodal CoT | Extends CoT to mixed modalities (text + image, etc.). | Vision-language tasks that need structured reasoning. |
 | Graph Prompting | Uses graph-structured context and relations during prompting. | Knowledge graph tasks and relationship-centric reasoning. |
+
+To go deeper into each technique with practical examples:
+
+<a href="{% link _pages/prompt-patterns.md %}" class="btn btn--primary btn--large">Open the Prompt Patterns Guide</a>
