@@ -43,6 +43,24 @@ feature_row:
 {% include feature_row %}
 
 <style>
+  .page__hero--overlay {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .page__hero--overlay::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(135deg, rgba(91, 88, 214, 0.46), rgba(0, 180, 140, 0.3) 45%, rgba(255, 140, 66, 0.28));
+  }
+
+  .page__hero--overlay .wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
   .feature__item .archive__item-teaser,
   .feature__item .archive__item-body {
     cursor: pointer;
