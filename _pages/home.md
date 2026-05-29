@@ -47,6 +47,46 @@ feature_row:
   .feature__item .archive__item-body {
     cursor: pointer;
   }
+
+  .feature__item .archive__item-teaser {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #d9d9e3;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .feature__item .archive__item-teaser img {
+    display: block;
+    width: 100%;
+    filter: saturate(1.35) contrast(1.08) brightness(1.03);
+    transition: transform 0.25s ease, filter 0.25s ease;
+  }
+
+  .feature__item .archive__item-teaser::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.35;
+  }
+
+  .feature__item:nth-child(1) .archive__item-teaser::after {
+    background: linear-gradient(135deg, rgba(89, 97, 255, 0.45), rgba(76, 201, 240, 0.2));
+  }
+
+  .feature__item:nth-child(2) .archive__item-teaser::after {
+    background: linear-gradient(135deg, rgba(0, 180, 140, 0.4), rgba(72, 149, 239, 0.2));
+  }
+
+  .feature__item:nth-child(3) .archive__item-teaser::after {
+    background: linear-gradient(135deg, rgba(255, 140, 66, 0.4), rgba(255, 0, 110, 0.18));
+  }
+
+  .feature__item:hover .archive__item-teaser img {
+    transform: scale(1.03);
+    filter: saturate(1.5) contrast(1.1) brightness(1.05);
+  }
 </style>
 
 <script>
@@ -61,15 +101,17 @@ feature_row:
       var teaser = item.querySelector(".archive__item-teaser");
       var body = item.querySelector(".archive__item-body");
 
-      [teaser, body].forEach(function (el) {
+      function bindCardClick(el) {
         if (!el) return;
 
         el.addEventListener("click", function (event) {
-          // Keep native behavior for existing links/buttons inside the card.
           if (event.target.closest("a, button")) return;
           window.location.href = targetUrl;
         });
-      });
+      }
+
+      bindCardClick(teaser);
+      bindCardClick(body);
     });
   });
 </script>

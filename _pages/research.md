@@ -32,7 +32,7 @@ layout: splash
     <tr><th scope="row">2021-01</th><td>Switch Transformers</td><td>Google</td><td><a href="https://arxiv.org/pdf/2101.03961.pdf">Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity</a></td></tr>
     <tr><th scope="row">2021-08</th><td>Codex</td><td>OpenAI</td><td><a href="https://arxiv.org/pdf/2107.03374.pdf">Evaluating Large Language Models Trained on Code</a></td></tr>
     <tr><th scope="row">2021-08</th><td>Foundation Models</td><td>Stanford</td><td><a href="https://arxiv.org/pdf/2108.07258.pdf">On the Opportunities and Risks of Foundation Models</a></td></tr>
-    <tr><th scope="row">2021-09</th><td>FLAN</td><td>Google</td><td><a href="https://openreview.net/forum?id=gEZrGCozdqR">Finetuned Language Models are Zero-Shot Learners</a></td></tr>
+    <tr><th scope="row">2021-09</th><td>Zero-Shot Prompting</td><td>Google</td><td><a href="https://arxiv.org/pdf/2109.01652">Finetuned Language Models Are Zero-Shot Learners</a></td></tr>
     <tr><th scope="row">2021-10</th><td>T0</td><td>HuggingFace et al.</td><td><a href="https://arxiv.org/abs/2110.08207">Multitask Prompted Training Enables Zero-Shot Task Generalization</a></td></tr>
     <tr><th scope="row">2021-12</th><td>GLaM</td><td>Google</td><td><a href="https://arxiv.org/pdf/2112.06905.pdf">GLaM: Efficient Scaling of Language Models with Mixture-of-Experts</a></td></tr>
     <tr><th scope="row">2021-12</th><td>WebGPT</td><td>OpenAI</td><td><a href="https://www.semanticscholar.org/paper/WebGPT%3A-Browser-assisted-question-answering-with-Nakano-Hilton/2f3efe44083af91cef562c1a3451eee2f8601d22">WebGPT: Browser-assisted question-answering with human feedback</a></td></tr>
@@ -84,4 +84,3 @@ layout: splash
     <tr><th scope="row">2025-01</th><td>DeepSeek-R1</td><td>DeepSeek</td><td><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</a></td></tr>
   </tbody>
 </table>
-

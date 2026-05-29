@@ -7,33 +7,51 @@ author_profile: false
 
 This section is dedicated to explaining the philosophy of this website focused on AI Engineering. The main approach is to structure AI Engineering around three primary areas: **Application Development**, which is the core focus of AI engineering; **Model Development**, focused on model development technologies, model selection, model adaptation, and related topics; and **AI Infrastructure**, centered on the infrastructure technologies required to build AI applications, including large LLM infrastructures, orchestration, and the different components that enable the creation of complex AI applications.
 
-<div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #e5e5e5; border-radius: 10px; background: #fafafa;">
+<div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #e5e5e5; border-radius: 10px; background: linear-gradient(145deg, #f7f8ff 0%, #f9fbff 50%, #f7fff8 100%);">
   <svg viewBox="0 0 960 520" role="img" aria-label="AI Engineering foundations diagram" style="width: 100%; height: auto; display: block;">
     <defs>
+      <linearGradient id="canvasGlow" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#eef2ff" />
+        <stop offset="100%" stop-color="#ecfdf3" />
+      </linearGradient>
+      <linearGradient id="appGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#eff4ff" />
+        <stop offset="100%" stop-color="#dbeafe" />
+      </linearGradient>
+      <linearGradient id="modelGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#ecfeff" />
+        <stop offset="100%" stop-color="#d1fae5" />
+      </linearGradient>
+      <linearGradient id="infraGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff7ed" />
+        <stop offset="100%" stop-color="#ffe4e6" />
+      </linearGradient>
       <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
-        <path d="M0,0 L0,6 L9,3 z" fill="#6f5aa8" />
+        <path d="M0,0 L0,6 L9,3 z" fill="#5b58d6" />
       </marker>
     </defs>
 
-    <line x1="300" y1="150" x2="660" y2="150" stroke="#6f5aa8" stroke-width="3" marker-end="url(#arrow)" />
-    <line x1="700" y1="190" x2="520" y2="350" stroke="#6f5aa8" stroke-width="3" marker-end="url(#arrow)" />
-    <line x1="440" y1="350" x2="260" y2="190" stroke="#6f5aa8" stroke-width="3" marker-end="url(#arrow)" />
+    <rect x="12" y="12" width="936" height="496" rx="18" fill="url(#canvasGlow)" stroke="#dbe4ff" />
 
-    <rect x="90" y="80" width="260" height="140" rx="14" fill="#ffffff" stroke="#d9d9d9" />
-    <text x="220" y="118" text-anchor="middle" font-size="22" font-weight="700" fill="#222">Application</text>
-    <text x="220" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="#222">Development</text>
-    <text x="220" y="176" text-anchor="middle" font-size="16" fill="#555">Products, UX, workflows</text>
+    <line x1="300" y1="150" x2="660" y2="150" stroke="#5b58d6" stroke-width="3" marker-end="url(#arrow)" />
+    <line x1="700" y1="190" x2="520" y2="350" stroke="#5b58d6" stroke-width="3" marker-end="url(#arrow)" />
+    <line x1="440" y1="350" x2="260" y2="190" stroke="#5b58d6" stroke-width="3" marker-end="url(#arrow)" />
 
-    <rect x="610" y="80" width="260" height="140" rx="14" fill="#ffffff" stroke="#d9d9d9" />
-    <text x="740" y="118" text-anchor="middle" font-size="22" font-weight="700" fill="#222">Model</text>
-    <text x="740" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="#222">Development</text>
-    <text x="740" y="176" text-anchor="middle" font-size="16" fill="#555">Training, tuning, eval</text>
+    <rect x="90" y="80" width="260" height="140" rx="14" fill="url(#appGrad)" stroke="#b6ccff" />
+    <text x="220" y="118" text-anchor="middle" font-size="22" font-weight="700" fill="#1e2a5a">Application</text>
+    <text x="220" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="#1e2a5a">Development</text>
+    <text x="220" y="176" text-anchor="middle" font-size="16" fill="#334155">Products, UX, workflows</text>
 
-    <rect x="350" y="300" width="260" height="140" rx="14" fill="#ffffff" stroke="#d9d9d9" />
-    <text x="480" y="338" text-anchor="middle" font-size="22" font-weight="700" fill="#222">AI Infrastructure</text>
-    <text x="480" y="368" text-anchor="middle" font-size="16" fill="#555">Compute, storage, orchestration</text>
+    <rect x="610" y="80" width="260" height="140" rx="14" fill="url(#modelGrad)" stroke="#99e6d4" />
+    <text x="740" y="118" text-anchor="middle" font-size="22" font-weight="700" fill="#11453d">Model</text>
+    <text x="740" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="#11453d">Development</text>
+    <text x="740" y="176" text-anchor="middle" font-size="16" fill="#334155">Training, tuning, eval</text>
 
-    <text x="480" y="490" text-anchor="middle" font-size="16" fill="#555">
+    <rect x="350" y="300" width="260" height="140" rx="14" fill="url(#infraGrad)" stroke="#ffc9a8" />
+    <text x="480" y="338" text-anchor="middle" font-size="22" font-weight="700" fill="#7c2d12">AI Infrastructure</text>
+    <text x="480" y="368" text-anchor="middle" font-size="16" fill="#334155">Compute, storage, orchestration</text>
+
+    <text x="480" y="490" text-anchor="middle" font-size="16" fill="#334155">
       These foundations are interdependent: each one enables and constrains the others.
     </text>
   </svg>
