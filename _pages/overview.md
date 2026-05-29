@@ -8,25 +8,35 @@ author_profile: false
 This section is dedicated to explaining the philosophy of this website focused on AI Engineering. The main approach is to structure AI Engineering around three primary areas: **Application Development**, which is the core focus of AI engineering; **Model Development**, focused on model development technologies, model selection, model adaptation, and related topics; and **AI Infrastructure**, centered on the infrastructure technologies required to build AI applications, including large LLM infrastructures, orchestration, and the different components that enable the creation of complex AI applications.
 
 <div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #e5e5e5; border-radius: 10px; background: #fafafa;">
-  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.75rem; text-align: center;">
-	<div style="flex: 1 1 220px; min-width: 220px; padding: 1rem; border: 1px solid #d9d9d9; border-radius: 10px; background: #ffffff;">
-	  <strong>Application Development</strong><br>
-	  <span style="font-size: 0.92em;">Build products, experiences, and workflows on top of AI.</span>
-	</div>
-	<div style="font-size: 1.6rem; color: #6f5aa8; font-weight: 700;">→</div>
-	<div style="flex: 1 1 220px; min-width: 220px; padding: 1rem; border: 1px solid #d9d9d9; border-radius: 10px; background: #ffffff;">
-	  <strong>Model Development</strong><br>
-	  <span style="font-size: 0.92em;">Create, train, adapt, and evaluate the models that power the system.</span>
-	</div>
-	<div style="font-size: 1.6rem; color: #6f5aa8; font-weight: 700;">→</div>
-	<div style="flex: 1 1 220px; min-width: 220px; padding: 1rem; border: 1px solid #d9d9d9; border-radius: 10px; background: #ffffff;">
-	  <strong>AI Infrastructure</strong><br>
-	  <span style="font-size: 0.92em;">Provide compute, storage, orchestration, and scaling foundations.</span>
-	</div>
-  </div>
-  <div style="margin-top: 0.85rem; text-align: center; font-size: 0.95em; color: #555;">
-	These three layers are interdependent: applications define requirements, models provide intelligence, and infrastructure makes both scalable and reliable.
-  </div>
+  <svg viewBox="0 0 960 520" role="img" aria-label="AI Engineering foundations diagram" style="width: 100%; height: auto; display: block;">
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#6f5aa8" />
+      </marker>
+    </defs>
+
+    <line x1="300" y1="150" x2="660" y2="150" stroke="#6f5aa8" stroke-width="3" marker-end="url(#arrow)" />
+    <line x1="700" y1="190" x2="520" y2="350" stroke="#6f5aa8" stroke-width="3" marker-end="url(#arrow)" />
+    <line x1="440" y1="350" x2="260" y2="190" stroke="#6f5aa8" stroke-width="3" marker-end="url(#arrow)" />
+
+    <rect x="90" y="80" width="260" height="140" rx="14" fill="#ffffff" stroke="#d9d9d9" />
+    <text x="220" y="118" text-anchor="middle" font-size="22" font-weight="700" fill="#222">Application</text>
+    <text x="220" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="#222">Development</text>
+    <text x="220" y="176" text-anchor="middle" font-size="16" fill="#555">Products, UX, workflows</text>
+
+    <rect x="610" y="80" width="260" height="140" rx="14" fill="#ffffff" stroke="#d9d9d9" />
+    <text x="740" y="118" text-anchor="middle" font-size="22" font-weight="700" fill="#222">Model</text>
+    <text x="740" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="#222">Development</text>
+    <text x="740" y="176" text-anchor="middle" font-size="16" fill="#555">Training, tuning, eval</text>
+
+    <rect x="350" y="300" width="260" height="140" rx="14" fill="#ffffff" stroke="#d9d9d9" />
+    <text x="480" y="338" text-anchor="middle" font-size="22" font-weight="700" fill="#222">AI Infrastructure</text>
+    <text x="480" y="368" text-anchor="middle" font-size="16" fill="#555">Compute, storage, orchestration</text>
+
+    <text x="480" y="490" text-anchor="middle" font-size="16" fill="#555">
+      These foundations are interdependent: each one enables and constrains the others.
+    </text>
+  </svg>
 </div>
 
 ## Application Development (The Product Layer)
@@ -52,4 +62,3 @@ AI infrastructure provides the hardware, networking, and orchestration required 
 - **Compute**: Heavy utilization of GPUs (Graphics Processing Units) and TPUs for parallel processing.
 - **Networking & Storage**: High-bandwidth fabrics such as InfiniBand and specialized, high-throughput storage systems to feed data to processors.
 - **Management**: Platforms such as Kubernetes to orchestrate distributed workloads and manage container scaling.
-
