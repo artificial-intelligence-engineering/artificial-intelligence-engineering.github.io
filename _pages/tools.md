@@ -44,13 +44,13 @@ layout: splash
   });
 </script>
 
-<table class="lxm-table">
+<table class="lxm-table tools-table">
   <colgroup>
-    <col style="width: 14%;">
-    <col style="width: 10%;">
-    <col style="width: 12%;">
-    <col style="width: 38%;">
-    <col style="width: 26%;">
+    <col style="width: 7%;">
+    <col style="width: 7%;">
+    <col style="width: 7%;">
+    <col style="width: 55%;">
+    <col style="width: 24%;">
   </colgroup>
   <thead>
     <tr>
@@ -293,3 +293,4 @@ layout: splash
 
   </tbody>
 </table>
+

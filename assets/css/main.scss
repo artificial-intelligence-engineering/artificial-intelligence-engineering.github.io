@@ -84,6 +84,24 @@ $page-table-accent: #6f5aa8;
   white-space: nowrap;
 }
 
+/* Tools table – description column (4th child) wider and justified */
+.page__content table.lxm-table.tools-table td:nth-child(4) {
+  text-align: justify;
+  hyphens: auto;
+  white-space: normal;
+  min-width: 320px;
+}
+
+/* Tools table – allow wrapping in Category / Term / Vendor columns */
+.page__content table.lxm-table.tools-table th[scope="row"],
+.page__content table.lxm-table.tools-table td:nth-child(1),
+.page__content table.lxm-table.tools-table td:nth-child(2),
+.page__content table.lxm-table.tools-table td:nth-child(3) {
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
 @media (max-width: 900px) {
   .page__content table {
 	display: block;
@@ -174,4 +192,3 @@ $page-table-accent: #6f5aa8;
 .layout--single {
   max-width: 100%;
 }
-
