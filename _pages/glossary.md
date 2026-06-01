@@ -178,7 +178,10 @@ layout: splash
             infrastructure that surrounds an AI agent or model during execution. A harness manages the lifecycle of 
             long-running agent tasks: orchestrating tool calls, handling retries and failures, enforcing timeouts, 
             capturing intermediate state, and providing observability. Rather than focusing on the model itself, 
-            harness engineering focuses on the reliable, repeatable execution environment in which the model operates.
+            harness engineering focuses on the reliable, repeatable execution environment in which the model operates. In
+            simple words: Harness Engineering is the discipline of designing the execution environment around an 
+            autonomous AI agent. It defines which tools the agent can call, where it gets information, how it validates 
+            its own decisions, and when it should stop. The guardrails of the AI agents.
         </td>
         <td>
             <ul>
