@@ -293,6 +293,22 @@ layout: splash
         <a href="https://www.youtube.com/results?search_query=jetbrains+ai+assistant+tutorial" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Terax AI</td>
+      <td>Crynta (OSS)</td>
+      <td>
+        Lightweight (7 MB), terminal-first AI-native dev workspace built with Tauri and TypeScript.
+        Designed as a portable, self-contained development environment that integrates LLM capabilities
+        directly into a code editor running in the terminal. Perfect for developers who want a minimal,
+        fast, all-in-one workspace without IDE bloat.
+      </td>
+      <td>
+        <a href="https://github.com/crynta/terax-ai" target="_blank">🔗 github.com/crynta/terax-ai</a><br>
+        <a href="https://github.com/crynta/terax-ai#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=terax+ai+terminal+editor" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
 
     <!-- ── Dev Frameworks ──────────────────────────────────── -->
     <tr>
