@@ -569,6 +569,22 @@ layout: splash
         <a href="https://www.youtube.com/results?search_query=pipecat+voice+agent+tutorial" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>NanoBoot</td>
+      <td>HKUDS (OSS)</td>
+      <td>
+        Lightweight, open-source AI agent framework designed for tools, chats, and workflows.
+        Supports multiple LLM providers (OpenAI, Anthropic, Claude, Codex) and is optimised for
+        building minimal-footprint assistants that integrate with external tools and act on user requests
+        without requiring heavy infrastructure or complex orchestration overhead.
+      </td>
+      <td>
+        <a href="https://github.com/HKUDS/nanobot" target="_blank">🔗 github.com/HKUDS/nanobot</a><br>
+        <a href="https://github.com/HKUDS/nanobot#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=nanobot+ai+agent" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
 
     <!-- ── Workflow Automation ─────────────────────────────── -->
     <tr>
