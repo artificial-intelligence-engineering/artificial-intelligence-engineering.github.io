@@ -9,6 +9,7 @@ layout: splash
   <ul>
     <li><a href="#category-code-assistant">Code Assistant Tools</a></li>
     <li><a href="#category-dev-frameworks">Dev Frameworks</a></li>
+    <li><a href="#category-ai-assistants">AI Assistants</a></li>
     <li><a href="#category-workflow-automation">Workflow Automation</a></li>
   </ul>
 </nav>
@@ -420,6 +421,136 @@ layout: splash
         <a href="https://litellm.ai" target="_blank">🔗 litellm.ai</a><br>
         <a href="https://docs.litellm.ai" target="_blank">📄 Official docs</a><br>
         <a href="https://www.youtube.com/results?search_query=litellm+tutorial+llm+proxy" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+
+    <!-- ── AI Assistants ───────────────────────────────────── -->
+    <tr>
+      <th scope="row" id="category-ai-assistants">AI Assistants</th>
+      <td>OpenClaw</td>
+      <td>OpenClaw (OSS)</td>
+      <td>
+        Personal AI assistant platform designed to run on the user's own devices and operate
+        across many messaging channels. It behaves more like a persistent assistant runtime than
+        a workflow builder: the system exposes a gateway, skills, onboarding flows, and multi-channel
+        integrations so one assistant can live across WhatsApp, Telegram, Slack, Discord, and other endpoints.
+      </td>
+      <td>
+        <a href="https://openclaw.ai" target="_blank">🔗 openclaw.ai</a><br>
+        <a href="https://github.com/openclaw/openclaw" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=openclaw+ai+assistant" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>AnythingLLM</td>
+      <td>Mintplex Labs (OSS)</td>
+      <td>
+        Self-hosted AI workspace and assistant platform that combines chat, document ingestion,
+        RAG, agents, and model management in a single application. It is especially useful for
+        building private knowledge assistants on top of local or remote models, with support for
+        multiple vector databases, embedders, and enterprise-style workspace separation.
+      </td>
+      <td>
+        <a href="https://anythingllm.com" target="_blank">🔗 anythingllm.com</a><br>
+        <a href="https://docs.anythingllm.com" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=anythingllm+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Open WebUI</td>
+      <td>Open WebUI (OSS)</td>
+      <td>
+        Open-source self-hosted AI interface for local and remote language models, commonly used
+        as the front-end assistant layer on top of Ollama or OpenAI-compatible APIs. Beyond simple chat,
+        it adds tools, knowledge bases, model switching, image support, and multi-user management,
+        making it a practical general-purpose assistant hub for teams and homelabs.
+      </td>
+      <td>
+        <a href="https://openwebui.com" target="_blank">🔗 openwebui.com</a><br>
+        <a href="https://docs.openwebui.com" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=open+webui+ollama+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>LibreChat</td>
+      <td>LibreChat (OSS)</td>
+      <td>
+        Open-source AI chat and assistant platform supporting multiple providers such as OpenAI,
+        Anthropic, Gemini, Azure OpenAI, and local backends. It has evolved from a chat UI into
+        a configurable assistant environment with tools, MCP integration, conversation management,
+        and self-hosting options for organisations that want a private ChatGPT-style deployment.
+      </td>
+      <td>
+        <a href="https://www.librechat.ai" target="_blank">🔗 librechat.ai</a><br>
+        <a href="https://docs.librechat.ai" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=librechat+self+hosted+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>NotebookLM</td>
+      <td>Google</td>
+      <td>
+        Source-grounded AI research assistant and thinking partner from Google. It is designed to
+        analyse user-provided sources such as PDFs, notes, links, and documents, then generate
+        summaries, study guides, Q&amp;A, briefings, and the popular Audio Overviews. It fits best as
+        an assistant for research and knowledge work rather than as a workflow builder or developer framework.
+      </td>
+      <td>
+        <a href="https://notebooklm.google/" target="_blank">🔗 notebooklm.google</a><br>
+        <a href="https://support.google.com/notebooklm" target="_blank">📄 Help center</a><br>
+        <a href="https://www.youtube.com/results?search_query=notebooklm+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Khoj</td>
+      <td>Khoj, Inc. (OSS)</td>
+      <td>
+        Open-source personal AI assistant focused on searching and reasoning over a user's own
+        notes, documents, conversations, and knowledge sources. It is positioned as a second brain:
+        part semantic search engine, part assistant, with web access, local knowledge grounding,
+        and agent-like capabilities for answering questions in personal context.
+      </td>
+      <td>
+        <a href="https://khoj.dev" target="_blank">🔗 khoj.dev</a><br>
+        <a href="https://docs.khoj.dev" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=khoj+ai+assistant+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Jan</td>
+      <td>Menlo Research (OSS)</td>
+      <td>
+        Open-source desktop AI assistant built for local-first usage. It lets users run local or
+        remote models behind a clean desktop interface, manage model downloads, and keep conversations
+        on-device when desired. Jan is especially relevant as a consumer-friendly assistant shell for
+        people who want ChatGPT-like UX on top of local models.
+      </td>
+      <td>
+        <a href="https://jan.ai" target="_blank">🔗 jan.ai</a><br>
+        <a href="https://github.com/menloresearch/jan" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=jan+ai+local+assistant+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Pipecat Cloud</td>
+      <td>Daily</td>
+      <td>
+        Voice-first AI assistant platform oriented to real-time conversational agents across phone,
+        browser, and multimodal channels. While Pipecat itself is a framework ecosystem, the hosted
+        platform direction and reference stack are highly relevant for teams building always-on voice
+        assistants, call agents, and realtime copilots that need streaming audio and tool invocation.
+      </td>
+      <td>
+        <a href="https://www.pipecat.ai" target="_blank">🔗 pipecat.ai</a><br>
+        <a href="https://docs.pipecat.ai" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=pipecat+voice+agent+tutorial" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
 
