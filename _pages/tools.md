@@ -8,6 +8,8 @@ layout: splash
   <strong>Categories</strong>
   <ul>
     <li><a href="#category-code-assistant">Code Assistant Tools</a></li>
+    <li><a href="#category-dev-frameworks">Dev Frameworks</a></li>
+    <li><a href="#category-workflow-automation">Workflow Automation</a></li>
   </ul>
 </nav>
 
@@ -288,6 +290,268 @@ layout: splash
         <a href="https://www.jetbrains.com/ai/" target="_blank">🔗 jetbrains.com/ai</a><br>
         <a href="https://www.jetbrains.com/help/idea/ai-assistant.html" target="_blank">📄 Official docs</a><br>
         <a href="https://www.youtube.com/results?search_query=jetbrains+ai+assistant+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+
+    <!-- ── Dev Frameworks ──────────────────────────────────── -->
+    <tr>
+      <th scope="row" id="category-dev-frameworks">Dev Frameworks</th>
+      <td>LangChain</td>
+      <td>LangChain, Inc. (OSS)</td>
+      <td>
+        The most widely adopted Python/TypeScript framework for composing LLM-powered applications.
+        Provides chains, agents, memory, and tool-calling abstractions that wire together models,
+        retrievers, vector stores, and external APIs. Acts as the de-facto standard glue layer for
+        RAG pipelines, conversational agents, and multi-step reasoning workflows.
+      </td>
+      <td>
+        <a href="https://www.langchain.com" target="_blank">🔗 langchain.com</a><br>
+        <a href="https://python.langchain.com/docs/" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=langchain+tutorial+rag" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>LlamaIndex</td>
+      <td>LlamaIndex, Inc. (OSS)</td>
+      <td>
+        Framework specialised in data ingestion, indexing, and retrieval for LLM applications.
+        Provides connectors to 160+ data sources, multiple index types (vector, keyword, knowledge
+        graph), and a high-level query engine for RAG. Also ships LlamaAgents for multi-service
+        agentic orchestration and LlamaParse for high-fidelity document parsing.
+      </td>
+      <td>
+        <a href="https://www.llamaindex.ai" target="_blank">🔗 llamaindex.ai</a><br>
+        <a href="https://docs.llamaindex.ai" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=llamaindex+rag+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Haystack</td>
+      <td>deepset (OSS)</td>
+      <td>
+        Production-focused Python framework for building LLM-powered search and RAG systems.
+        Organises components (document stores, retrievers, readers, generators) into declarative
+        pipelines. Ships with native connectors to major vector databases and LLM providers, and
+        includes evaluation tools for measuring retrieval and generation quality end-to-end.
+      </td>
+      <td>
+        <a href="https://haystack.deepset.ai" target="_blank">🔗 haystack.deepset.ai</a><br>
+        <a href="https://docs.haystack.deepset.ai" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=haystack+deepset+rag+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Semantic Kernel</td>
+      <td>Microsoft (OSS)</td>
+      <td>
+        Microsoft's enterprise-grade SDK (Python, C#, Java) for integrating LLMs into applications
+        via plugins and planners. Provides a kernel that routes user intents to functions, manages
+        memory, and chains skills together. Designed for large organisations that need auditability,
+        extensibility, and integration with Azure AI and Microsoft 365 services.
+      </td>
+      <td>
+        <a href="https://learn.microsoft.com/en-us/semantic-kernel/" target="_blank">🔗 microsoft.com/semantic-kernel</a><br>
+        <a href="https://github.com/microsoft/semantic-kernel" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=semantic+kernel+microsoft+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>DSPy</td>
+      <td>Stanford NLP (OSS)</td>
+      <td>
+        Declarative framework from Stanford for programming LLMs using composable modules instead
+        of hand-crafted prompts. Signatures describe what a module does; optimisers (e.g., BootstrapFewShot,
+        MIPRO) automatically tune prompts and few-shot examples to maximise a given metric.
+        Enables reliable, reproducible pipelines where LLM behaviour is optimised, not guessed.
+      </td>
+      <td>
+        <a href="https://dspy.ai" target="_blank">🔗 dspy.ai</a><br>
+        <a href="https://github.com/stanfordnlp/dspy" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=dspy+stanford+llm+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Pydantic AI</td>
+      <td>Pydantic (OSS)</td>
+      <td>
+        Type-safe agent framework from the creators of Pydantic. Defines agents with typed
+        dependencies and structured output schemas validated at runtime, wrapping models from
+        OpenAI, Anthropic, Gemini, Ollama, and others. Integrates with Logfire for tracing and
+        is designed to bring the ergonomics of FastAPI-style development to LLM agent construction.
+      </td>
+      <td>
+        <a href="https://ai.pydantic.dev" target="_blank">🔗 ai.pydantic.dev</a><br>
+        <a href="https://github.com/pydantic/pydantic-ai" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=pydantic+ai+agent+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Smolagents</td>
+      <td>Hugging Face (OSS)</td>
+      <td>
+        Lightweight, minimal-footprint agent library from Hugging Face. Agents write and execute
+        Python code as their action language (CodeAgent) or call tools via JSON (ToolCallingAgent).
+        Supports any model hosted on the Hub or via inference APIs, and is designed to minimise
+        abstraction so that agent behaviour remains transparent and debuggable.
+      </td>
+      <td>
+        <a href="https://huggingface.co/docs/smolagents" target="_blank">🔗 huggingface.co/docs/smolagents</a><br>
+        <a href="https://github.com/huggingface/smolagents" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=smolagents+huggingface+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>LiteLLM</td>
+      <td>BerriAI (OSS)</td>
+      <td>
+        Unified Python SDK and proxy server that translates calls to 100+ LLM provider APIs
+        (OpenAI, Anthropic, Gemini, Mistral, Ollama, Bedrock, etc.) into a single interface.
+        Handles model fallbacks, load balancing, cost tracking, and rate-limit retries, acting
+        as the portability layer underneath almost every framework that needs multi-provider support.
+      </td>
+      <td>
+        <a href="https://litellm.ai" target="_blank">🔗 litellm.ai</a><br>
+        <a href="https://docs.litellm.ai" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=litellm+tutorial+llm+proxy" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+
+    <!-- ── Workflow Automation ─────────────────────────────── -->
+    <tr>
+      <th scope="row" id="category-workflow-automation">Workflow Automation</th>
+      <td>n8n</td>
+      <td>n8n GmbH (OSS)</td>
+      <td>
+        Open-source, self-hostable workflow automation platform with a visual node editor and
+        native AI capabilities. Ships built-in LLM, vector store, and memory nodes that let
+        teams build RAG pipelines, AI agents, and data-enrichment automations without code —
+        while still allowing custom JavaScript/Python nodes for full flexibility. Acts as the
+        open-source alternative to Zapier/Make for AI-centric automation.
+      </td>
+      <td>
+        <a href="https://n8n.io" target="_blank">🔗 n8n.io</a><br>
+        <a href="https://docs.n8n.io" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=n8n+ai+automation+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>LangFlow</td>
+      <td>DataStax (OSS)</td>
+      <td>
+        Low-code visual builder for LLM workflows and agents built on top of LangChain. Provides
+        a drag-and-drop canvas to wire together models, retrievers, tools, and output parsers,
+        then exports flows as REST APIs or Python code. Suitable both as a rapid prototyping
+        environment and as a deployed backend for production AI applications.
+      </td>
+      <td>
+        <a href="https://langflow.org" target="_blank">🔗 langflow.org</a><br>
+        <a href="https://docs.langflow.org" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=langflow+tutorial+rag+agents" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Flowise</td>
+      <td>FlowiseAI (OSS)</td>
+      <td>
+        Open-source drag-and-drop UI for building LLM applications on top of LangChain and
+        LlamaIndex. Allows users to visually compose chatbots, RAG pipelines, and agent flows
+        and expose them instantly as APIs. Particularly popular for rapid prototyping of
+        LangChain-based apps without writing Python, with self-hosting support for data privacy.
+      </td>
+      <td>
+        <a href="https://flowiseai.com" target="_blank">🔗 flowiseai.com</a><br>
+        <a href="https://docs.flowiseai.com" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=flowise+ai+rag+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Dify</td>
+      <td>LangGenius (OSS)</td>
+      <td>
+        Open-source LLM application development platform combining a visual workflow builder,
+        RAG pipeline, model management, and agent capabilities in a single product. Supports
+        dozens of model providers and vector databases, offers an orchestration canvas for
+        multi-step AI workflows, and ships a built-in monitoring dashboard for production apps.
+      </td>
+      <td>
+        <a href="https://dify.ai" target="_blank">🔗 dify.ai</a><br>
+        <a href="https://docs.dify.ai" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=dify+ai+workflow+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Rivet</td>
+      <td>Ironclad (OSS)</td>
+      <td>
+        Visual AI programming environment for building and debugging complex LLM pipelines as
+        interactive node graphs. Designed for teams, it supports subgraphs, input/output type
+        checking, and live graph tracing so engineers can iterate on prompt chains and agent
+        logic visually before embedding them in production applications via the Rivet SDK.
+      </td>
+      <td>
+        <a href="https://rivet.ironcladapp.com" target="_blank">🔗 rivet.ironcladapp.com</a><br>
+        <a href="https://github.com/Ironclad/rivet" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=rivet+ai+visual+programming+llm" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Make</td>
+      <td>Make (formerly Integromat)</td>
+      <td>
+        Cloud-based visual automation platform that connects 1,500+ apps and services through
+        a scenario builder. Includes native AI modules (OpenAI, Anthropic, image generation)
+        allowing teams to embed LLM-powered steps — summarisation, classification, extraction —
+        directly into business workflows without infrastructure management.
+      </td>
+      <td>
+        <a href="https://www.make.com" target="_blank">🔗 make.com</a><br>
+        <a href="https://www.make.com/en/help" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=make+automation+ai+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Zapier</td>
+      <td>Zapier Inc.</td>
+      <td>
+        Widely adopted no-code automation platform connecting 6,000+ apps through trigger-action
+        Zaps. Offers an AI layer (Zapier AI) with chatbot builders, AI Actions for natural language
+        task execution, and direct integrations with ChatGPT and other LLMs, making it the
+        accessible entry point for non-engineers automating AI-enhanced business processes.
+      </td>
+      <td>
+        <a href="https://zapier.com" target="_blank">🔗 zapier.com</a><br>
+        <a href="https://zapier.com/help" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=zapier+ai+automation+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Botpress</td>
+      <td>Botpress Inc. (OSS)</td>
+      <td>
+        Open-source conversational AI platform with a visual flow studio for building chatbots
+        and autonomous agents. Features an LLM-native core with built-in intent understanding,
+        knowledge base Q&amp;A (RAG), and multi-channel deployment (web, WhatsApp, Slack, etc.).
+        Supports custom AI tasks through code cards, making it suitable for both no-code and
+        developer-led bot projects.
+      </td>
+      <td>
+        <a href="https://botpress.com" target="_blank">🔗 botpress.com</a><br>
+        <a href="https://botpress.com/docs" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=botpress+ai+chatbot+tutorial" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
 
