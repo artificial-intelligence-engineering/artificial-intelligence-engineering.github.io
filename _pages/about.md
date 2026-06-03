@@ -10,7 +10,7 @@ AWS Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (Apac
 
 ## Site Map
 
-<table class="lxm-table">
+<table class="about-site-map-table" style="display: inline-table; width: auto; table-layout: auto;">
   <thead>
     <tr>
       <th scope="col">Page</th>
