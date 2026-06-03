@@ -51,6 +51,7 @@ layout: splash
     <tr><th scope="row">2022-06</th><td>Emergent Abilities</td><td>Google</td><td><a href="https://openreview.net/pdf?id=yzkSU5zdwD">Emergent Abilities of Large Language Models</a></td></tr>
     <tr><th scope="row">2022-06</th><td>BIG-bench</td><td>Google</td><td><a href="https://github.com/google/BIG-bench">Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models</a></td></tr>
     <tr><th scope="row">2022-06</th><td>METALM</td><td>Microsoft</td><td><a href="https://arxiv.org/pdf/2206.06336.pdf">Language Models are General-Purpose Interfaces</a></td></tr>
+    <tr><th scope="row">2022-06</th><td>JEPA</td><td>Meta</td><td><a href="https://openreview.net/pdf?id=BZ5a1r-kVsf">A Path Towards Autonomous Machine Intelligence</a></td></tr>
     <tr><th scope="row">2022-09</th><td>Sparrow</td><td>DeepMind</td><td><a href="https://arxiv.org/pdf/2209.14375.pdf">Improving alignment of dialogue agents via targeted human judgements</a></td></tr>
     <tr><th scope="row">2022-10</th><td>Flan-T5/PaLM</td><td>Google</td><td><a href="https://arxiv.org/pdf/2210.11416.pdf">Scaling Instruction-Finetuned Language Models</a></td></tr>
     <tr><th scope="row">2022-10</th><td>GLM-130B</td><td>Tsinghua</td><td><a href="https://arxiv.org/pdf/2210.02414.pdf">GLM-130B: An Open Bilingual Pre-trained Model</a></td></tr>
