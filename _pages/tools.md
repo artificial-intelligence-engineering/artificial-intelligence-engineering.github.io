@@ -585,6 +585,20 @@ layout: splash
         <a href="https://www.youtube.com/results?search_query=nanobot+ai+agent" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Odysseus</td>
+      <td>pewdiepie-archdaemon (OSS)</td>
+      <td>
+        Open-source AI assistant project focused on agentic workflows and practical integration patterns
+        for building helpful assistants.
+      </td>
+      <td>
+        <a href="https://github.com/pewdiepie-archdaemon/odysseus" target="_blank">🔗 github.com/pewdiepie-archdaemon/odysseus</a><br>
+        <a href="https://github.com/pewdiepie-archdaemon/odysseus#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=odysseus+ai+assistant" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
 
     <!-- ── Workflow Automation ─────────────────────────────── -->
     <tr>
@@ -720,4 +734,3 @@ layout: splash
 
   </tbody>
 </table>
-
