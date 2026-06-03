@@ -7,7 +7,7 @@ layout: splash
 <nav class="lxm-toc" aria-label="Tools navigation">
   <strong>Categories</strong>
   <ul>
-    <li><a href="#category-code-assistant">Code Assistant Tools</a></li>
+    <li><a href="#category-code-assistant">Code Assistant</a></li>
     <li><a href="#category-dev-frameworks">Dev Frameworks</a></li>
     <li><a href="#category-ai-assistants">AI Assistants</a></li>
     <li><a href="#category-workflow-automation">Workflow Automation</a></li>
@@ -68,7 +68,7 @@ layout: splash
 
     <!-- ── Code Assistant Tools ─────────────────────────────── -->
     <tr>
-      <th scope="row" id="category-code-assistant">Code Assistant Tools</th>
+      <th scope="row" id="category-code-assistant">Code Assistant</th>
       <td>Claude Code</td>
       <td>Anthropic</td>
       <td>
@@ -307,6 +307,51 @@ layout: splash
         <a href="https://github.com/crynta/terax-ai" target="_blank">🔗 github.com/crynta/terax-ai</a><br>
         <a href="https://github.com/crynta/terax-ai#readme" target="_blank">📄 GitHub README</a><br>
         <a href="https://www.youtube.com/results?search_query=terax+ai+terminal+editor" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Open SWE</td>
+      <td>LangChain (OSS)</td>
+      <td>
+        Open-source software engineering agent stack focused on autonomous issue solving and
+        SWE-style workflows. Designed to run end-to-end coding tasks with repository context,
+        tool usage, and iterative fix-and-test loops.
+      </td>
+      <td>
+        <a href="https://github.com/langchain-ai/open-swe" target="_blank">🔗 github.com/langchain-ai/open-swe</a><br>
+        <a href="https://github.com/langchain-ai/open-swe#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=open+swe+langchain" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>OpenHands</td>
+      <td>OpenHands (OSS)</td>
+      <td>
+        Open-source AI software engineer platform that can inspect codebases, modify files,
+        execute commands, and iterate on development tasks from natural-language instructions.
+        Frequently used for autonomous bug fixing, feature implementation, and agent benchmarks.
+      </td>
+      <td>
+        <a href="https://github.com/OpenHands/OpenHands" target="_blank">🔗 github.com/OpenHands/OpenHands</a><br>
+        <a href="https://github.com/OpenHands/OpenHands#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=openhands+ai+agent" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Mini SWE Agent</td>
+      <td>Mini SWE Agent (OSS)</td>
+      <td>
+        Lightweight SWE-agent style framework for running coding agents with a minimal setup.
+        Aims to provide a simpler, faster environment for software-task automation and agent
+        experimentation compared to heavier full-platform stacks.
+      </td>
+      <td>
+        <a href="https://mini-swe-agent.com/latest/" target="_blank">🔗 mini-swe-agent.com/latest</a><br>
+        <a href="https://mini-swe-agent.com" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=mini+swe+agent+tutorial" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
 
