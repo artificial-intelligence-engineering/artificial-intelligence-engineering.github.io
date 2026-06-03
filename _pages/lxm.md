@@ -18,6 +18,12 @@ layout: splash
     <li><a href="#ecosystem-alibaba">Alibaba (Qwen)</a></li>
     <li><a href="#ecosystem-deepseek">DeepSeek</a></li>
     <li><a href="#ecosystem-aws">AWS</a></li>
+    <li><a href="#ecosystem-ai21">AI21 Labs</a></li>
+    <li><a href="#ecosystem-minimax">MiniMax</a></li>
+    <li><a href="#ecosystem-moonshot">Moonshot AI</a></li>
+    <li><a href="#ecosystem-nvidia">NVIDIA</a></li>
+    <li><a href="#ecosystem-writer">Writer</a></li>
+    <li><a href="#ecosystem-zai">Z.AI</a></li>
   </ul>
 </nav>
 
@@ -417,6 +423,36 @@ layout: splash
         </td>
         <td>
             Latest mini reasoning family focused on strong capability at low cost and latency.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            gpt-oss-20b
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Open-weight OpenAI model listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            gpt-oss-120b
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Larger open-weight OpenAI model listed in Amazon Bedrock model cards.
         </td>
     </tr>
     <tr>
@@ -1442,6 +1478,36 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Opus 4.8
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Newer Opus release listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Mythos Preview
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            Preview Claude model listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
       <th scope="row" id="ecosystem-mistral">Mistral AI</th>
         <td>
             Mistral 7B
@@ -1859,6 +1925,21 @@ layout: splash
         </td>
         <td>
             Latest small model generation in the Mistral product line.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Magistral Small 2509
+        </td>
+        <td>
+            2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Reasoning-focused Mistral release listed in Amazon Bedrock model cards.
         </td>
     </tr>
     <tr>
@@ -2611,6 +2692,231 @@ layout: splash
         <td>
             Newer Amazon Bedrock model family (for example Nova Micro, Lite, Pro, and Premier),
             positioned as the latest AWS generation relative to Titan.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Nova Pro
+        </td>
+        <td>
+            2024
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Nova text/multimodal model variant explicitly listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row" id="ecosystem-ai21">AI21 Labs</th>
+        <td>
+            Jamba 1.5 Mini
+        </td>
+        <td>
+            2024
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            AI21 hybrid model available in Amazon Bedrock.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Jamba 1.5 Large
+        </td>
+        <td>
+            2024
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Larger AI21 Jamba variant listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row" id="ecosystem-minimax">MiniMax</th>
+        <td>
+            MiniMax M2
+        </td>
+        <td>
+            2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            MiniMax model family listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiniMax M2.1
+        </td>
+        <td>
+            2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Incremental MiniMax M2 line release in Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiniMax M2.5
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Latest MiniMax model listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row" id="ecosystem-moonshot">Moonshot AI</th>
+        <td>
+            Kimi K2 Thinking
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Reasoning-focused Kimi model listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Kimi K2.5
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Updated Kimi family release listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row" id="ecosystem-nvidia">NVIDIA</th>
+        <td>
+            NVIDIA Nemotron Nano 9B v2
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Compact Nemotron model listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            NVIDIA Nemotron 3 Super 120B
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Large NVIDIA Nemotron model listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row" id="ecosystem-writer">Writer</th>
+        <td>
+            Palmyra X4
+        </td>
+        <td>
+            2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Writer enterprise model listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Palmyra X5
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Newer Writer Palmyra release listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row" id="ecosystem-zai">Z.AI</th>
+        <td>
+            GLM 4.7
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Z.AI GLM series release listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GLM 4.7 Flash
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Faster GLM variant listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GLM 5
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Latest GLM generation listed in Amazon Bedrock model cards.
         </td>
     </tr>
   </tbody>
