@@ -113,7 +113,22 @@ layout: splash
          </td>
     </tr>
     <tr>
-      <th scope="row"><a href="/prompt-patterns/">Prompt Engineering</a></th>
+      <th scope="row">Agent Skills</th>
+      <td>
+          Agent skills are reusable capabilities that an AI agent can invoke to complete tasks reliably.
+          A skill usually wraps a specific procedure (for example: query a system, transform data,
+          call an API, or execute a workflow) with clear inputs, outputs, and constraints so the
+          agent can compose it with other skills during multi-step reasoning.
+      </td>
+      <td>
+          <ul>
+            <li><a href="https://www.skills.sh/" target="_blank">skills.sh</a></li>
+            <li><a href="https://agentskills.io/home" target="_blank">agentskills.io</a></li>
+          </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Prompt Engineering</th>
         <td>
             It is the art of asking a Generative AI model questions in natural language so that the model responds 
             according to our needs.
