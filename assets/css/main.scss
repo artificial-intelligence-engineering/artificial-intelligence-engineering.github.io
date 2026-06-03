@@ -94,6 +94,12 @@ $page-table-accent: #6f5aa8;
   font-weight: 600;
 }
 
+/* Allow text wrapping in lxm-table first column (about.md sitemap) */
+.page__content table.lxm-table tbody th[scope="row"] {
+  white-space: normal;
+  word-break: normal;
+}
+
 .page__content table.lxm-table td:nth-child(3),
 .page__content table.lxm-table th:nth-child(3) {
   white-space: nowrap;
@@ -124,6 +130,25 @@ $page-table-accent: #6f5aa8;
 	white-space: nowrap;
   }
 }
+
+/* Fixed layout for lxm-table - equal distribution of columns */
+.page__content table.lxm-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* Equal width (33.33% each) for all lxm-table columns */
+.page__content table.lxm-table thead th:nth-child(1) { width: 33.333%; }
+.page__content table.lxm-table thead th:nth-child(2) { width: 33.333%; }
+.page__content table.lxm-table thead th:nth-child(3) { width: 33.334%; }
+
+.page__content table.lxm-table td,
+.page__content table.lxm-table tbody th {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+/* colgroup inline styles override these percentages for lxm.md and tools.md */
 
 /* ---- LxM Ecosystem TOC (horizontal sticky bar) ---- */
 
