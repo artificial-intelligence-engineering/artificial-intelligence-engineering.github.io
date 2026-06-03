@@ -11,5 +11,7 @@ main:
     url: /tools/
   - title: "Research"
     url: /research/
+  - title: "The Best Of"
+    url: /the-best-of/
   - title: "About"
     url: /about/
