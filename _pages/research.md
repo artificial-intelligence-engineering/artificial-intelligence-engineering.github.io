@@ -89,5 +89,13 @@ layout: splash
     <tr><th scope="row">2025-04</th><td>Benchmarks &amp; SOTA</td><td>Meta AI</td><td><a href="https://paperswithcode.com">Papers with Code - seguimiento de papers, benchmarks y estado del arte reproducible</a></td></tr>
     <tr><th scope="row">2025-05</th><td>NLP Proceedings</td><td>ACL</td><td><a href="https://aclanthology.org">ACL Anthology - repositorio oficial de papers de NLP/LLMs de ACL, EMNLP, NAACL, etc.</a></td></tr>
     <tr><th scope="row">2025-06</th><td>Research Discovery</td><td>Allen Institute for AI</td><td><a href="https://www.semanticscholar.org">Semantic Scholar - indexación, descubrimiento y seguimiento de papers relevantes en AI</a></td></tr>
+    <tr><th scope="row">2025-07</th><td>IA Conference</td><td>ICLR</td><td><a href="https://iclr.cc/">ICLR (International Conference on Learning Representations) - una de las conferencias top de ML/LLMs, anual y con alto impacto</a></td></tr>
+    <tr><th scope="row">2025-08</th><td>IA Conference</td><td>ICML</td><td><a href="https://icml.cc/">ICML (International Conference on Machine Learning) - conferencia anual de referencia mundial en ML y modelos fundacionales</a></td></tr>
+    <tr><th scope="row">2025-09</th><td>IA Conference</td><td>NeurIPS Foundation</td><td><a href="https://neurips.cc/">NeurIPS (Conference on Neural Information Processing Systems) - estándar global para avances cutting-edge en AI</a></td></tr>
+    <tr><th scope="row">2025-10</th><td>IA Conference</td><td>AAAI</td><td><a href="https://aaai.org/conference/aaai/">AAAI Conference on Artificial Intelligence - conferencia anual líder en IA a nivel internacional</a></td></tr>
+    <tr><th scope="row">2025-11</th><td>IA Conference</td><td>ACL</td><td><a href="https://www.aclweb.org/">ACL (Annual Meeting of the Association for Computational Linguistics) - conferencia principal para NLP y LLMs</a></td></tr>
+    <tr><th scope="row">2025-12</th><td>IA Conference</td><td>EMNLP</td><td><a href="https://aclanthology.org/venues/emnlp/">EMNLP - conferencia anual top en NLP aplicado y avances recientes de LLMs</a></td></tr>
+    <tr><th scope="row">2026-01</th><td>IA Conference</td><td>NAACL</td><td><a href="https://aclanthology.org/venues/naacl/">NAACL - conferencia periódica de primer nivel en NLP y modelos de lenguaje</a></td></tr>
+    <tr><th scope="row">2026-02</th><td>IA Conference</td><td>IJCAI</td><td><a href="https://ijcai.org/">IJCAI (International Joint Conference on Artificial Intelligence) - conferencia histórica y global de referencia en IA</a></td></tr>
   </tbody>
 </table>
