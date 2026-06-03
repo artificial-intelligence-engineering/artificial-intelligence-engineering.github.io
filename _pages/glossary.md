@@ -128,7 +128,7 @@ layout: splash
       </td>
     </tr>
     <tr>
-      <th scope="row">Prompt Engineering</th>
+      <th scope="row"><a href="/prompt-patterns/">Prompt Engineering</a></th>
         <td>
             It is the art of asking a Generative AI model questions in natural language so that the model responds 
             according to our needs.
