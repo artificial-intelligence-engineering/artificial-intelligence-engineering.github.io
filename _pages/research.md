@@ -20,6 +20,7 @@ layout: splash
     </tr>
   </thead>
   <tbody>
+    <tr><th scope="row">1955-08</th><td>AI Proposal</td><td>Dartmouth College</td><td><a href="https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html">A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence</a></td></tr>
     <tr><th scope="row">2017-06</th><td>Transformers</td><td>Google</td><td><a href="https://arxiv.org/pdf/1706.03762.pdf">Attention Is All You Need</a></td></tr>
     <tr><th scope="row">2018-06</th><td>GPT 1.0</td><td>OpenAI</td><td><a href="https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf">Improving Language Understanding by Generative Pre-Training</a></td></tr>
     <tr><th scope="row">2018-10</th><td>BERT</td><td>Google</td><td><a href="https://aclanthology.org/N19-1423.pdf">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a></td></tr>
