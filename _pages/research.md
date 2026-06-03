@@ -84,5 +84,10 @@ layout: splash
     <tr><th scope="row">2024-12</th><td>Qwen2.5</td><td>Alibaba</td><td><a href="https://arxiv.org/abs/2412.15115">Qwen2.5 Technical Report</a></td></tr>
     <tr><th scope="row">2024-12</th><td>DeepSeek-V3</td><td>DeepSeek</td><td><a href="https://arxiv.org/abs/2412.19437v1">DeepSeek-V3 Technical Report</a></td></tr>
     <tr><th scope="row">2025-01</th><td>DeepSeek-R1</td><td>DeepSeek</td><td><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</a></td></tr>
+    <tr><th scope="row">2025-02</th><td>Research Platform</td><td>OpenReview</td><td><a href="https://openreview.net">OpenReview - estándar y plataforma oficial para publicar y evaluar papers en conferencias top (ICLR, NeurIPS y otras)</a></td></tr>
+    <tr><th scope="row">2025-03</th><td>Preprint Repository</td><td>Cornell University</td><td><a href="https://arxiv.org/list/cs.LG/recent">arXiv (cs.LG/cs.CL) - fuente principal de preprints cutting-edge en AI/LLMs</a></td></tr>
+    <tr><th scope="row">2025-04</th><td>Benchmarks &amp; SOTA</td><td>Meta AI</td><td><a href="https://paperswithcode.com">Papers with Code - seguimiento de papers, benchmarks y estado del arte reproducible</a></td></tr>
+    <tr><th scope="row">2025-05</th><td>NLP Proceedings</td><td>ACL</td><td><a href="https://aclanthology.org">ACL Anthology - repositorio oficial de papers de NLP/LLMs de ACL, EMNLP, NAACL, etc.</a></td></tr>
+    <tr><th scope="row">2025-06</th><td>Research Discovery</td><td>Allen Institute for AI</td><td><a href="https://www.semanticscholar.org">Semantic Scholar - indexación, descubrimiento y seguimiento de papers relevantes en AI</a></td></tr>
   </tbody>
 </table>
