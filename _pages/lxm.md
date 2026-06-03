@@ -17,6 +17,7 @@ layout: splash
     <li><a href="#ecosystem-cohere">Cohere</a></li>
     <li><a href="#ecosystem-alibaba">Alibaba (Qwen)</a></li>
     <li><a href="#ecosystem-deepseek">DeepSeek</a></li>
+    <li><a href="#ecosystem-aws">AWS</a></li>
   </ul>
 </nav>
 
@@ -2580,5 +2581,37 @@ layout: splash
             Faster V4 preview variant released alongside V4-Pro.
         </td>
     </tr>
- </tbody>
+    <tr>
+      <th scope="row" id="ecosystem-aws">AWS</th>
+        <td>
+            Titan
+        </td>
+        <td>
+            April, 2023
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Earlier Amazon Bedrock model family. Titan includes first-generation AWS foundation
+            model lines such as Titan Text, Titan Embeddings, and Titan Image.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Nova
+        </td>
+        <td>
+            December, 2024
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Newer Amazon Bedrock model family (for example Nova Micro, Lite, Pro, and Premier),
+            positioned as the latest AWS generation relative to Titan.
+        </td>
+    </tr>
+  </tbody>
 </table>
