@@ -355,6 +355,34 @@ layout: splash
         <a href="https://www.youtube.com/results?search_query=mini+swe+agent+tutorial" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Webwright</td>
+      <td>Microsoft (OSS)</td>
+      <td>
+        Open-source coding and automation project from Microsoft focused on reliable developer
+        workflows, combining agent-style execution with practical engineering utilities.
+      </td>
+      <td>
+        <a href="https://github.com/microsoft/Webwright" target="_blank">🔗 github.com/microsoft/Webwright</a><br>
+        <a href="https://github.com/microsoft/Webwright#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=microsoft+webwright+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>CodeGraph</td>
+      <td>colbymchenry (OSS)</td>
+      <td>
+        Open-source coding assistant project focused on codebase-aware workflows and developer
+        productivity through graph-oriented code understanding and automation patterns.
+      </td>
+      <td>
+        <a href="https://github.com/colbymchenry/codegraph" target="_blank">🔗 github.com/colbymchenry/codegraph</a><br>
+        <a href="https://github.com/colbymchenry/codegraph#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=codegraph+coding+assistant+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
 
     <!-- ── Dev Frameworks ──────────────────────────────────── -->
     <tr>
@@ -879,6 +907,34 @@ layout: splash
         <a href="https://github.com/NirDiamant/agents-towards-production" target="_blank">🔗 github.com/NirDiamant/agents-towards-production</a><br>
         <a href="https://github.com/NirDiamant/agents-towards-production#readme" target="_blank">📄 GitHub README</a><br>
         <a href="https://www.youtube.com/results?search_query=agents+towards+production+nir+diamant" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>AI Engineering From Scratch</td>
+      <td>rohitg00 (OSS)</td>
+      <td>
+        Open-source learning repository focused on practical AI engineering fundamentals, including
+        end-to-end concepts, implementation patterns, and hands-on examples for building AI systems.
+      </td>
+      <td>
+        <a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank">🔗 github.com/rohitg00/ai-engineering-from-scratch</a><br>
+        <a href="https://github.com/rohitg00/ai-engineering-from-scratch#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=ai+engineering+from+scratch+rohitg00" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>LLMs-from-scratch</td>
+      <td>rasbt (OSS)</td>
+      <td>
+        Open-source educational resource that builds large language models from first principles,
+        combining theory and hands-on implementations for deep understanding of LLM internals.
+      </td>
+      <td>
+        <a href="https://github.com/rasbt/LLMs-from-scratch" target="_blank">🔗 github.com/rasbt/LLMs-from-scratch</a><br>
+        <a href="https://github.com/rasbt/LLMs-from-scratch#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=rasbt+llms+from+scratch" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
 
