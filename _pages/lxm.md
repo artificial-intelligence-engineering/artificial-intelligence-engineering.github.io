@@ -61,7 +61,7 @@ layout: splash
   });
 </script>
 
-<table class="lxm-table">
+<table class="lxm-table lxm-ecosystem-table">
   <colgroup>
     <col style="width: 12%;">
     <col style="width: 24%;">
@@ -80,7 +80,7 @@ layout: splash
   </thead>
   <tbody>
     <tr>
-      <th scope="row" id="ecosystem-openai">OpenAI</th>
+      <th scope="row" id="ecosystem-openai"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128" alt="OpenAI / ChatGPT logo" loading="lazy">OpenAI</span></th>
         <td>
             GPT-1
         </td>
@@ -456,7 +456,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-google">Google</th>
+      <th scope="row" id="ecosystem-google"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/googlegemini" alt="Gemini logo" loading="lazy">Google</span></th>
         <td>
             LaMDA
         </td>
@@ -862,7 +862,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-meta">Meta</th>
+      <th scope="row" id="ecosystem-meta"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/meta" alt="Meta logo" loading="lazy">Meta</span></th>
         <td>
             OPT 
         </td>
@@ -1073,7 +1073,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-microsoft">Microsoft</th>
+      <th scope="row" id="ecosystem-microsoft"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=128" alt="Microsoft logo" loading="lazy">Microsoft</span></th>
         <td>
             Copilot
         </td>
@@ -1223,7 +1223,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-anthropic">Anthropic</th>
+      <th scope="row" id="ecosystem-anthropic"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/anthropic" alt="Anthropic logo" loading="lazy">Anthropic</span></th>
         <td>
             Claude 1
         </td>
@@ -1508,7 +1508,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-mistral">Mistral AI</th>
+      <th scope="row" id="ecosystem-mistral"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/mistralai" alt="Mistral AI logo" loading="lazy">Mistral AI</span></th>
         <td>
             Mistral 7B
         </td>
@@ -1943,7 +1943,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-xai">xAI</th>
+      <th scope="row" id="ecosystem-xai"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=x.ai&sz=64" alt="xAI logo" loading="lazy">xAI</span></th>
         <td>
             Grok-1
         </td>
@@ -2123,7 +2123,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-cohere">Cohere</th>
+      <th scope="row" id="ecosystem-cohere"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=cohere.com&sz=128" alt="Cohere logo" loading="lazy">Cohere</span></th>
         <td>
             Command R
         </td>
@@ -2168,7 +2168,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-alibaba">Alibaba (Qwen)</th>
+      <th scope="row" id="ecosystem-alibaba"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/alibabacloud" alt="Alibaba logo" loading="lazy">Alibaba (Qwen)</span></th>
         <td>
             Qwen 1.5
         </td>
@@ -2438,7 +2438,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-deepseek">DeepSeek</th>
+      <th scope="row" id="ecosystem-deepseek"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=64" alt="DeepSeek logo" loading="lazy">DeepSeek</span></th>
         <td>
             DeepSeek Coder
         </td>
@@ -2663,7 +2663,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-aws">AWS</th>
+      <th scope="row" id="ecosystem-aws"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=128" alt="AWS logo" loading="lazy">AWS</span></th>
         <td>
             Titan
         </td>
@@ -2710,7 +2710,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-ai21">AI21 Labs</th>
+      <th scope="row" id="ecosystem-ai21"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=ai21.com&sz=64" alt="AI21 Labs logo" loading="lazy">AI21 Labs</span></th>
         <td>
             Jamba 1.5 Mini
         </td>
@@ -2740,7 +2740,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-minimax">MiniMax</th>
+      <th scope="row" id="ecosystem-minimax"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=minimax.io&sz=64" alt="MiniMax logo" loading="lazy">MiniMax</span></th>
         <td>
             MiniMax M2
         </td>
@@ -2785,7 +2785,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-moonshot">Moonshot AI</th>
+      <th scope="row" id="ecosystem-moonshot"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=moonshot.ai&sz=64" alt="Moonshot AI logo" loading="lazy">Moonshot AI</span></th>
         <td>
             Kimi K2 Thinking
         </td>
@@ -2815,7 +2815,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-nvidia">NVIDIA</th>
+      <th scope="row" id="ecosystem-nvidia"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/nvidia" alt="NVIDIA logo" loading="lazy">NVIDIA</span></th>
         <td>
             NVIDIA Nemotron Nano 9B v2
         </td>
@@ -2845,7 +2845,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-writer">Writer</th>
+      <th scope="row" id="ecosystem-writer"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=writer.com&sz=64" alt="Writer logo" loading="lazy">Writer</span></th>
         <td>
             Palmyra X4
         </td>
@@ -2875,7 +2875,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row" id="ecosystem-zai">Z.AI</th>
+      <th scope="row" id="ecosystem-zai"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=z.ai&sz=64" alt="Z.AI logo" loading="lazy">Z.AI</span></th>
         <td>
             GLM 4.7
         </td>
