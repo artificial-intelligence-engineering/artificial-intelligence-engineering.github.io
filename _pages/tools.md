@@ -776,6 +776,90 @@ layout: splash
         <a href="https://www.youtube.com/results?search_query=botpress+ai+chatbot+tutorial" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>VoltAgent</td>
+      <td>VoltAgent (OSS)</td>
+      <td>
+        Open-source framework for building and orchestrating AI agent workflows with emphasis on
+        developer experience, modularity, and production-ready integrations for tool-driven agents.
+      </td>
+      <td>
+        <a href="https://voltagent.dev/" target="_blank">🔗 voltagent.dev</a><br>
+        <a href="https://github.com/voltagent/voltagent/" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=voltagent+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>WorkflowBuilder</td>
+      <td>SynergyCodes (OSS)</td>
+      <td>
+        Open-source visual workflow editor component oriented to building automation and process
+        pipelines in web applications, useful as a customizable orchestration layer.
+      </td>
+      <td>
+        <a href="https://github.com/synergycodes/workflowbuilder" target="_blank">🔗 github.com/synergycodes/workflowbuilder</a><br>
+        <a href="https://github.com/synergycodes/workflowbuilder#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=workflowbuilder+synergycodes+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Conductor OSS</td>
+      <td>conductor-oss (OSS)</td>
+      <td>
+        Distributed workflow orchestration engine for microservices and long-running processes.
+        Commonly used to coordinate complex task graphs, retries, and event-driven automations.
+      </td>
+      <td>
+        <a href="https://docs.conductor-oss.org/" target="_blank">🔗 docs.conductor-oss.org</a><br>
+        <a href="https://github.com/conductor-oss/conductor" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=conductor+oss+workflow+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Sim</td>
+      <td>Sim Studio AI (OSS)</td>
+      <td>
+        Open-source platform for AI workflow and agent experimentation focused on composing,
+        running, and iterating multi-step flows with reusable building blocks.
+      </td>
+      <td>
+        <a href="https://github.com/simstudioai/sim" target="_blank">🔗 github.com/simstudioai/sim</a><br>
+        <a href="https://github.com/simstudioai/sim#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=simstudioai+sim+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Windmill</td>
+      <td>Windmill Labs (OSS)</td>
+      <td>
+        Open-source developer platform for internal tools and workflow automation with support for
+        scripts, scheduling, queues, and API-driven orchestration across teams.
+      </td>
+      <td>
+        <a href="https://www.windmill.dev/" target="_blank">🔗 windmill.dev</a><br>
+        <a href="https://github.com/windmill-labs/windmill" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=windmill+dev+workflow+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Ynode</td>
+      <td>iamyureka (OSS)</td>
+      <td>
+        Open-source node-based workflow builder aimed at creating automation pipelines through a
+        visual graph approach, suitable for rapid prototyping and custom process orchestration.
+      </td>
+      <td>
+        <a href="https://github.com/iamyureka/ynode" target="_blank">🔗 github.com/iamyureka/ynode</a><br>
+        <a href="https://github.com/iamyureka/ynode#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=ynode+workflow+builder+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
 
   </tbody>
 </table>
