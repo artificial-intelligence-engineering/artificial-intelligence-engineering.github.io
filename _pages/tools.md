@@ -11,6 +11,7 @@ layout: splash
     <li><a href="#category-dev-frameworks">Dev Frameworks</a></li>
     <li><a href="#category-ai-assistants">AI Assistants</a></li>
     <li><a href="#category-workflow-automation">Workflow Automation</a></li>
+    <li><a href="#category-useful-resources">Useful Resources</a></li>
   </ul>
 </nav>
 
@@ -858,6 +859,26 @@ layout: splash
         <a href="https://github.com/iamyureka/ynode" target="_blank">🔗 github.com/iamyureka/ynode</a><br>
         <a href="https://github.com/iamyureka/ynode#readme" target="_blank">📄 GitHub README</a><br>
         <a href="https://www.youtube.com/results?search_query=ynode+workflow+builder+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+
+    <!-- ── Useful Resources ─────────────────────────────────── -->
+    <tr>
+      <th scope="row" id="category-useful-resources">Useful Resources</th>
+      <td>Agents Towards Production</td>
+      <td>Nir Diamant (OSS)</td>
+      <td>
+        The true value of this repository is not that it teaches you how to build an agent that
+        answers questions. It addresses the four real production pain points:<br><br>
+        🔐 Agent Security (with LlamaFirewall and Apex)<br><br>
+        🧠 Agent Memory (with Redis)<br><br>
+        📊 Observability (with Qualifire)<br>
+        🧪 Evaluation (intelligent).
+      </td>
+      <td>
+        <a href="https://github.com/NirDiamant/agents-towards-production" target="_blank">🔗 github.com/NirDiamant/agents-towards-production</a><br>
+        <a href="https://github.com/NirDiamant/agents-towards-production#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=agents+towards+production+nir+diamant" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
 
