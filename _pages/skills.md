@@ -75,7 +75,7 @@ Result: instead of correcting the AI every time it generates a button that does 
 
 An agent does not load all rules at once, because that would be inefficient and would mix unnecessary information. Instead, it uses a progressive disclosure system split into three steps:
 
-1. **Discovery:** The agent scans titles and descriptions of available skills. It knows what tools it has, but has not read detailed instructions yet.
+1. **Discovery:** The agent scans titles and descriptions of available skills. It knows what tools it has, but has not read detailed instructions yet. The agent searches for files named `SKILL.md` across all directories, although most agents look in common directories such as `/.skills/`, `/agents/`, and `/skills/`.
 2. **Activation:** Only when your request matches one of those descriptions does the agent decide to "open" that folder and read the `SKILL.md` file with all detailed instructions.
 3. **Execution:** If the task requires specific files (for example, a cleanup script), the agent loads them only at that moment.
 
