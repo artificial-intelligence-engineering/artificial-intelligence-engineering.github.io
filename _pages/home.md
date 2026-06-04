@@ -26,23 +26,54 @@ feature_row:
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "fully responsive"
-    title: "Model Development"
+    title: "Model<br>Development"
     excerpt: "Inference Optimization, Dataset Engineering, Fine tuning."
     url: "/model-development/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-free-feature.png
     alt: "100% free"
-    title: "AI Infrastructure"
-    excerpt: "Development Orchestration, Production Delivery, AI Patterns, Monitoring."
+    title: "AI Product<br>Infrastructure"
+    excerpt: "Development Orchestration, Delivery, Patterns, Monitoring"
     url: "/ai-infrastructure/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Learn more"
+  - image_path: /assets/images/mm-governance-feature.png
+    alt: "ai governance"
+    title: "AI Product<br>Governance"
+    excerpt: "Risk Management, Regulatory Compliance, Model Governance."
+    url: "/ai-governance/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
 
 {% include feature_row %}
 
 <style>
+  /* ── 4-column override for feature_row ─────────────────────────── */
+  @media (min-width: 37.5em) {
+    .feature__item {
+      width: 23.7288135594%;
+      font-size: 1em;
+    }
+    /* reset the 3-column clear rule */
+    .feature__item:nth-child(3n+1) {
+      clear: none;
+      margin-inline-start: 1.6949152542%;
+    }
+    /* 4-column rules */
+    .feature__item:nth-child(4n+1) {
+      clear: both;
+      margin-inline-start: 0;
+    }
+    .feature__item:nth-child(4n+2),
+    .feature__item:nth-child(4n+3),
+    .feature__item:nth-child(4n+4) {
+      clear: none;
+      margin-inline-start: 1.6949152542%;
+    }
+  }
+
   .page__hero--overlay {
     position: relative;
     overflow: hidden;
@@ -64,6 +95,26 @@ feature_row:
   .feature__item .archive__item-teaser,
   .feature__item .archive__item-body {
     cursor: pointer;
+  }
+
+  .feature__item .archive__item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .feature__item .archive__item-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .feature__item .archive__item-excerpt {
+    flex-grow: 1;
+  }
+
+  .feature__item .archive__item-body > p:last-child {
+    margin-top: auto;
   }
 
   .feature__item .archive__item-teaser {
@@ -99,6 +150,10 @@ feature_row:
 
   .feature__item:nth-child(3) .archive__item-teaser::after {
     background: linear-gradient(135deg, rgba(255, 140, 66, 0.4), rgba(255, 0, 110, 0.18));
+  }
+
+  .feature__item:nth-child(4) .archive__item-teaser::after {
+    background: linear-gradient(135deg, rgba(130, 80, 255, 0.4), rgba(220, 50, 150, 0.2));
   }
 
   .feature__item:hover .archive__item-teaser img {
