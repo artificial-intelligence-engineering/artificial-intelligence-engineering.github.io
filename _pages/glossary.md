@@ -113,17 +113,14 @@ layout: splash
          </td>
     </tr>
     <tr>
-      <th scope="row">Agent Skills</th>
+      <th scope="row"><a href="/skills/">Agent Skills</a></th>
       <td>
-          Agent skills are reusable capabilities that an AI agent can invoke to complete tasks reliably.
-          A skill usually wraps a specific procedure (for example: query a system, transform data,
-          call an API, or execute a workflow) with clear inputs, outputs, and constraints so the
-          agent can compose it with other skills during multi-step reasoning.
+          Reusable capabilities that an AI agent can invoke to complete tasks reliably.
+          See the dedicated page for a simple explanation, examples, and implementation references.
       </td>
       <td>
           <ul>
-            <li><a href="https://www.skills.sh/" target="_blank">skills.sh</a></li>
-            <li><a href="https://agentskills.io/home" target="_blank">agentskills.io</a></li>
+            <li><a href="/skills/">Agent Skills page</a></li>
           </ul>
       </td>
     </tr>

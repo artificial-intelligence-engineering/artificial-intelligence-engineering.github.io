@@ -70,6 +70,11 @@ AWS Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (Apac
       <td><a href="/research/">/research/</a></td>
     </tr>
     <tr>
+      <th scope="row">Agent Skills</th>
+      <td><code>skills.md</code></td>
+      <td><a href="/skills/">/skills/</a></td>
+    </tr>
+    <tr>
       <th scope="row">Tools Table</th>
       <td><code>tools.md</code></td>
       <td><a href="/tools/">/tools/</a></td>
