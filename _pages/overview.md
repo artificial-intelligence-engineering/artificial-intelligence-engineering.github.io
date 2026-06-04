@@ -5,7 +5,7 @@ layout: single
 author_profile: false
 ---
 
-This section is dedicated to explaining the philosophy of this website focused on AI Engineering. The main approach is to structure AI Engineering around three primary areas: **Application Development**, which is the core focus of AI engineering; **Model Development**, focused on model development technologies, model selection, model adaptation, and related topics; and **AI Infrastructure**, centered on the infrastructure technologies required to build AI applications, including large LLM infrastructures, orchestration, and the different components that enable the creation of complex AI applications.
+This section is dedicated to explaining the philosophy of this website focused on AI Engineering. The main approach is to structure AI Engineering around four primary areas: **Application Development**, which is the product-facing core of AI engineering; **Model Development**, focused on model technologies, selection, adaptation, and evaluation; **AI Infrastructure**, centered on the platform capabilities required to build and run AI systems at scale; and **AI Governance**, focused on risk, compliance, accountability, and responsible AI practices across the full lifecycle.
 
 <div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #e5e5e5; border-radius: 10px; background: linear-gradient(145deg, #f7f8ff 0%, #f9fbff 50%, #f7fff8 100%);">
   <svg viewBox="0 0 960 520" role="img" aria-label="AI Engineering foundations diagram" style="width: 100%; height: auto; display: block;">
@@ -26,6 +26,10 @@ This section is dedicated to explaining the philosophy of this website focused o
         <stop offset="0%" stop-color="#fff7ed" />
         <stop offset="100%" stop-color="#ffe4e6" />
       </linearGradient>
+      <linearGradient id="govGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#f3f0ff" />
+        <stop offset="100%" stop-color="#fce7f3" />
+      </linearGradient>
       <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
         <path d="M0,0 L0,6 L9,3 z" fill="#5b58d6" />
       </marker>
@@ -33,9 +37,10 @@ This section is dedicated to explaining the philosophy of this website focused o
 
     <rect x="12" y="12" width="936" height="496" rx="18" fill="url(#canvasGlow)" stroke="#dbe4ff" />
 
-    <line x1="300" y1="150" x2="660" y2="150" stroke="#5b58d6" stroke-width="3" marker-end="url(#arrow)" />
-    <line x1="700" y1="190" x2="520" y2="350" stroke="#5b58d6" stroke-width="3" marker-end="url(#arrow)" />
-    <line x1="440" y1="350" x2="260" y2="190" stroke="#5b58d6" stroke-width="3" marker-end="url(#arrow)" />
+    <line x1="300" y1="150" x2="640" y2="150" stroke="#5b58d6" stroke-width="3" marker-end="url(#arrow)" />
+    <line x1="740" y1="190" x2="740" y2="300" stroke="#5b58d6" stroke-width="3" marker-end="url(#arrow)" />
+    <line x1="660" y1="370" x2="320" y2="370" stroke="#5b58d6" stroke-width="3" marker-end="url(#arrow)" />
+    <line x1="220" y1="300" x2="220" y2="190" stroke="#5b58d6" stroke-width="3" marker-end="url(#arrow)" />
 
     <rect x="90" y="80" width="260" height="140" rx="14" fill="url(#appGrad)" stroke="#b6ccff" />
     <text x="220" y="118" text-anchor="middle" font-size="22" font-weight="700" fill="#1e2a5a">Application</text>
@@ -47,12 +52,16 @@ This section is dedicated to explaining the philosophy of this website focused o
     <text x="740" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="#11453d">Development</text>
     <text x="740" y="176" text-anchor="middle" font-size="16" fill="#334155">Training, tuning, eval</text>
 
-    <rect x="350" y="300" width="260" height="140" rx="14" fill="url(#infraGrad)" stroke="#ffc9a8" />
-    <text x="480" y="338" text-anchor="middle" font-size="22" font-weight="700" fill="#7c2d12">AI Infrastructure</text>
-    <text x="480" y="368" text-anchor="middle" font-size="16" fill="#334155">Compute, storage, orchestration</text>
+    <rect x="90" y="300" width="260" height="140" rx="14" fill="url(#infraGrad)" stroke="#ffc9a8" />
+    <text x="220" y="338" text-anchor="middle" font-size="22" font-weight="700" fill="#7c2d12">AI Infrastructure</text>
+    <text x="220" y="368" text-anchor="middle" font-size="16" fill="#334155">Compute, storage, orchestration</text>
+
+    <rect x="610" y="300" width="260" height="140" rx="14" fill="url(#govGrad)" stroke="#d7b8ff" />
+    <text x="740" y="338" text-anchor="middle" font-size="22" font-weight="700" fill="#4a2a7a">AI Governance</text>
+    <text x="740" y="368" text-anchor="middle" font-size="16" fill="#334155">Risk, compliance, accountability</text>
 
     <text x="480" y="490" text-anchor="middle" font-size="16" fill="#334155">
-      These foundations are interdependent: each one enables and constrains the others.
+      These domains are interdependent: each one enables and constrains the others.
     </text>
   </svg>
 </div>
@@ -80,3 +89,12 @@ AI infrastructure provides the hardware, networking, and orchestration required 
 - **Compute**: Heavy utilization of GPUs (Graphics Processing Units) and TPUs for parallel processing.
 - **Networking & Storage**: High-bandwidth fabrics such as InfiniBand and specialized, high-throughput storage systems to feed data to processors.
 - **Management**: Platforms such as Kubernetes to orchestrate distributed workloads and manage container scaling.
+
+## AI Governance (The Control Layer)
+
+AI Governance ensures AI systems are trustworthy, compliant, and aligned with organizational goals. It provides the decision framework that balances innovation speed with control, accountability, and risk management.
+
+- **Policy and Controls**: Defining standards for model usage, data handling, security, and acceptable risk.
+- **Compliance and Oversight**: Aligning AI initiatives with regulations, audit requirements, and internal review processes.
+- **Responsible AI Practices**: Embedding fairness, transparency, explainability, and human oversight into delivery workflows.
+
