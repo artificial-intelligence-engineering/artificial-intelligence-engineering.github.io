@@ -1,0 +1,31 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        <li>
+          <a href="{{ link.url }}" rel="nofollow noopener noreferrer">
+            <i class="{{ link.icon | default: 'fas fa-link' }}"></i> {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+</div>
+
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} {{ site.title }}.
+  Powered by <a href="https://javiroman.github.io/" rel="nofollow noopener noreferrer" style="color: #0066cc; text-decoration: underline; font-weight: 600; transition: color 0.2s ease;">Javi Roman</a> using Jekyll &amp; Minimal Mistakes.
+</div>
+
+<style>
+  .page__footer-copyright a {
+    cursor: pointer;
+  }
+  .page__footer-copyright a:hover {
+    color: #0052a3 !important;
+    text-decoration-thickness: 2px;
+  }
+</style>
+
+
+
