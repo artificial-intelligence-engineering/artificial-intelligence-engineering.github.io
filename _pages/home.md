@@ -132,6 +132,11 @@ feature_row:
     transition: transform 0.25s ease, filter 0.25s ease;
   }
 
+  /* Give Governance its own palette while keeping the same visual style */
+  .feature__item:nth-child(4) .archive__item-teaser img {
+    filter: hue-rotate(195deg) saturate(1.45) contrast(1.06) brightness(1.04);
+  }
+
   .feature__item .archive__item-teaser::after {
     content: "";
     position: absolute;
@@ -159,6 +164,10 @@ feature_row:
   .feature__item:hover .archive__item-teaser img {
     transform: scale(1.03);
     filter: saturate(1.5) contrast(1.1) brightness(1.05);
+  }
+
+  .feature__item:nth-child(4):hover .archive__item-teaser img {
+    filter: hue-rotate(195deg) saturate(1.6) contrast(1.1) brightness(1.06);
   }
 </style>
 
