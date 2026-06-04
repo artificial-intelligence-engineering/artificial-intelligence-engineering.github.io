@@ -12,6 +12,12 @@ toc_label: "Table of Contents"
 
 AI Governance encompasses the frameworks, policies, and practices that ensure AI systems are developed and deployed responsibly, ethically, and in compliance with regulations. This section covers risk management, fairness, transparency, accountability, and regulatory compliance for AI systems.
 
+> We are living through a turbulent era of Artificial Intelligence. Every day, week, and month we are bombarded with new tools, concepts, and approaches. We are witnessing the construction of a new IT paradigm that even the creators of the technology are still trying to make sense of.
+>
+> The most effective way to reduce the anxiety caused by this unprecedented speed of change is governance. An AI governance policy is essential to take control of this highly promising technology. We need to bring structure to this conceptual and technological whirlwind, so we can guide our organizations to deliver AI projects with confidence, while staying focused on generating real business value.
+>
+> -- Javi Roman
+
 ## Responsible AI Principles
 
 ### Fairness and Bias
