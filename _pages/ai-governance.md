@@ -12,15 +12,19 @@ toc_label: "Table of Contents"
 
 AI Governance encompasses the frameworks, policies, and practices that ensure AI systems are developed and deployed responsibly, ethically, and in compliance with regulations. This section covers risk management, fairness, transparency, accountability, and regulatory compliance for AI systems.
 
-> We are living through a turbulent era of Artificial Intelligence. Every day, week, and month we are bombarded with new tools, concepts, and approaches. We are witnessing the construction of a new IT paradigm that even the creators of the technology are still trying to make sense of.
->
-> The most effective way to reduce the anxiety caused by this unprecedented speed of change is governance. An AI governance policy is essential to take control of this highly promising technology. We need to bring structure to this conceptual and technological whirlwind, so we can guide our organizations to deliver AI projects with confidence, while staying focused on generating real business value.
->
-> -- Javi Roman
+<div style="padding: 0.9rem 1rem; border-left: 4px solid #5b58d6; background: #f6f7ff; margin-bottom: 1rem;">
+  We are living through a turbulent era of Artificial Intelligence. Every day, week, and month we are bombarded with new tools, concepts, and approaches. We are witnessing the construction of a new IT paradigm that even the creators of the technology are still trying to make sense of.
+  <br><br>
+  The most effective way to reduce the anxiety caused by this unprecedented speed of change is governance. An AI governance policy is essential to take control of this highly promising technology. We need to bring structure to this conceptual and technological whirlwind, so we can guide our organizations to deliver AI projects with confidence, while staying focused on generating real business value.
+  <br><br>
+  -- Javi Roman
+</div>
 
-> Where change is rapid, continuous, and multi-directional, governance can function only when it treats the real object of governance as the information that reveals how the system and its environment are moving 
->
-> -- Shoshana Rosenberg
+<div style="padding: 0.8rem 1rem; border-left: 4px solid #268bd2; background: #f2f9ff; margin-bottom: 1rem;">
+  Where change is rapid, continuous, and multi-directional, governance can function only when it treats the real object of governance as the information that reveals how the system and its environment are moving.
+  <br><br>
+  -- Shoshana Rosenberg
+</div>
 
 ## AI Governance Pillars
 
