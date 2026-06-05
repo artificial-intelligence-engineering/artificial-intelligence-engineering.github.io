@@ -1,8 +1,14 @@
 ---
 title: "Research Table"
 permalink: /research/
-layout: splash
+layout: single
+author_profile: false
+toc: true
+toc_sticky: true
+toc_label: "Table of Contents"
 ---
+
+## Research Papers
 
 <table style="width:100%; table-layout:fixed;">
   <colgroup>
@@ -84,19 +90,70 @@ layout: splash
     <tr><th scope="row">2024-12</th><td>Qwen2.5</td><td>Alibaba</td><td><a href="https://arxiv.org/abs/2412.15115">Qwen2.5 Technical Report</a></td></tr>
     <tr><th scope="row">2024-12</th><td>DeepSeek-V3</td><td>DeepSeek</td><td><a href="https://arxiv.org/abs/2412.19437v1">DeepSeek-V3 Technical Report</a></td></tr>
     <tr><th scope="row">2025-01</th><td>DeepSeek-R1</td><td>DeepSeek</td><td><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</a></td></tr>
-    <tr><th scope="row">2025-02</th><td>Research Platform</td><td>OpenReview</td><td><a href="https://openreview.net">OpenReview - estándar y plataforma oficial para publicar y evaluar papers en conferencias top (ICLR, NeurIPS y otras)</a></td></tr>
-    <tr><th scope="row">2025-03</th><td>Preprint Repository</td><td>Cornell University</td><td><a href="https://arxiv.org/list/cs.LG/recent">arXiv (cs.LG/cs.CL) - fuente principal de preprints cutting-edge en AI/LLMs</a></td></tr>
-    <tr><th scope="row">2025-04</th><td>Benchmarks &amp; SOTA</td><td>Meta AI</td><td><a href="https://paperswithcode.com">Papers with Code - seguimiento de papers, benchmarks y estado del arte reproducible</a></td></tr>
-    <tr><th scope="row">2025-05</th><td>NLP Proceedings</td><td>ACL</td><td><a href="https://aclanthology.org">ACL Anthology - repositorio oficial de papers de NLP/LLMs de ACL, EMNLP, NAACL, etc.</a></td></tr>
-    <tr><th scope="row">2025-06</th><td>Research Discovery</td><td>Allen Institute for AI</td><td><a href="https://www.semanticscholar.org">Semantic Scholar - indexación, descubrimiento y seguimiento de papers relevantes en AI</a></td></tr>
-    <tr><th scope="row">2025-07</th><td>IA Conference</td><td>ICLR</td><td><a href="https://iclr.cc/">ICLR (International Conference on Learning Representations) - una de las conferencias top de ML/LLMs, anual y con alto impacto</a></td></tr>
-    <tr><th scope="row">2025-08</th><td>IA Conference</td><td>ICML</td><td><a href="https://icml.cc/">ICML (International Conference on Machine Learning) - conferencia anual de referencia mundial en ML y modelos fundacionales</a></td></tr>
-    <tr><th scope="row">2025-09</th><td>IA Conference</td><td>NeurIPS Foundation</td><td><a href="https://neurips.cc/">NeurIPS (Conference on Neural Information Processing Systems) - estándar global para avances cutting-edge en AI</a></td></tr>
-    <tr><th scope="row">2025-10</th><td>IA Conference</td><td>AAAI</td><td><a href="https://aaai.org/conference/aaai/">AAAI Conference on Artificial Intelligence - conferencia anual líder en IA a nivel internacional</a></td></tr>
-    <tr><th scope="row">2025-11</th><td>IA Conference</td><td>ACL</td><td><a href="https://www.aclweb.org/">ACL (Annual Meeting of the Association for Computational Linguistics) - conferencia principal para NLP y LLMs</a></td></tr>
-    <tr><th scope="row">2025-12</th><td>IA Conference</td><td>EMNLP</td><td><a href="https://aclanthology.org/venues/emnlp/">EMNLP - conferencia anual top en NLP aplicado y avances recientes de LLMs</a></td></tr>
-    <tr><th scope="row">2026-01</th><td>IA Conference</td><td>NAACL</td><td><a href="https://aclanthology.org/venues/naacl/">NAACL - conferencia periódica de primer nivel en NLP y modelos de lenguaje</a></td></tr>
-    <tr><th scope="row">2026-02</th><td>IA Conference</td><td>IJCAI</td><td><a href="https://ijcai.org/">IJCAI (International Joint Conference on Artificial Intelligence) - conferencia histórica y global de referencia en IA</a></td></tr>
+    <tr><th scope="row">2025-02</th><td>Research Platform</td><td>OpenReview</td><td><a href="https://openreview.net">OpenReview - the standard and official platform for publishing and reviewing papers in top conferences (ICLR, NeurIPS, and others)</a></td></tr>
+    <tr><th scope="row">2025-03</th><td>Preprint Repository</td><td>Cornell University</td><td><a href="https://arxiv.org/list/cs.LG/recent">arXiv (cs.LG/cs.CL) - the primary source of cutting-edge preprints in AI/LLMs</a></td></tr>
+    <tr><th scope="row">2025-04</th><td>Benchmarks &amp; SOTA</td><td>Meta AI</td><td><a href="https://paperswithcode.com">Papers with Code - tracking papers, benchmarks, and reproducible state-of-the-art results</a></td></tr>
+    <tr><th scope="row">2025-05</th><td>NLP Proceedings</td><td>ACL</td><td><a href="https://aclanthology.org">ACL Anthology - official repository of NLP/LLM papers from ACL, EMNLP, NAACL, and more</a></td></tr>
+    <tr><th scope="row">2025-06</th><td>Research Discovery</td><td>Allen Institute for AI</td><td><a href="https://www.semanticscholar.org">Semantic Scholar - indexing, discovery, and tracking of relevant AI research papers</a></td></tr>
+    <tr><th scope="row">2025-07</th><td>AI Conference</td><td>ICLR</td><td><a href="https://iclr.cc/">ICLR (International Conference on Learning Representations) - one of the top annual conferences in ML/LLMs with high impact</a></td></tr>
+    <tr><th scope="row">2025-08</th><td>AI Conference</td><td>ICML</td><td><a href="https://icml.cc/">ICML (International Conference on Machine Learning) - a leading annual global conference in ML and foundation models</a></td></tr>
+    <tr><th scope="row">2025-09</th><td>AI Conference</td><td>NeurIPS Foundation</td><td><a href="https://neurips.cc/">NeurIPS (Conference on Neural Information Processing Systems) - a global benchmark conference for cutting-edge AI advances</a></td></tr>
+    <tr><th scope="row">2025-10</th><td>AI Conference</td><td>AAAI</td><td><a href="https://aaai.org/conference/aaai/">AAAI Conference on Artificial Intelligence - a leading annual international AI conference</a></td></tr>
+    <tr><th scope="row">2025-11</th><td>AI Conference</td><td>ACL</td><td><a href="https://www.aclweb.org/">ACL (Annual Meeting of the Association for Computational Linguistics) - a flagship conference for NLP and LLM research</a></td></tr>
+    <tr><th scope="row">2025-12</th><td>AI Conference</td><td>EMNLP</td><td><a href="https://aclanthology.org/venues/emnlp/">EMNLP - a top annual conference in applied NLP and recent LLM advances</a></td></tr>
+    <tr><th scope="row">2026-01</th><td>AI Conference</td><td>NAACL</td><td><a href="https://aclanthology.org/venues/naacl/">NAACL - a top-tier recurring conference in NLP and language models</a></td></tr>
+    <tr><th scope="row">2026-02</th><td>AI Conference</td><td>IJCAI</td><td><a href="https://ijcai.org/">IJCAI (International Joint Conference on Artificial Intelligence) - a historic and globally recognized reference conference in AI</a></td></tr>
     <tr><th scope="row">2026-06</th><td>Research Post</td><td>Thariq Shihipar (Anthropic)</td><td><a href="https://x.com/trq212/status/2052809885763747935">The Unreasonable Effectiveness of HTML.</a></td></tr>
+  </tbody>
+</table>
+
+## AI Books
+
+<table style="width:100%; table-layout:fixed;">
+  <colgroup>
+    <col style="width: 14%;">
+    <col style="width: 26%;">
+    <col style="width: 46%;">
+    <col style="width: 14%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th scope="col">Cover</th>
+      <th scope="col">Book</th>
+      <th scope="col">Description</th>
+      <th scope="col">Publication Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://covers.openlibrary.org/b/isbn/9780262035613-M.jpg" alt="Deep Learning book cover" style="width:80px; height:auto;"></td>
+      <td>Deep Learning</td>
+      <td>A foundational reference on deep neural networks, optimization, and modern AI applications.</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <td><img src="https://covers.openlibrary.org/b/isbn/9780374257834-M.jpg" alt="Artificial Intelligence: A Guide for Thinking Humans book cover" style="width:80px; height:auto;"></td>
+      <td>Artificial Intelligence: A Guide for Thinking Humans</td>
+      <td>A clear introduction to AI capabilities and limits, with attention to social and technical context.</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <td><img src="https://covers.openlibrary.org/b/isbn/9780465065707-M.jpg" alt="The Master Algorithm book cover" style="width:80px; height:auto;"></td>
+      <td>The Master Algorithm</td>
+      <td>Explains the main machine learning paradigms and the vision of a unified learning approach.</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <td><img src="https://covers.openlibrary.org/b/isbn/9780198739838-M.jpg" alt="Superintelligence book cover" style="width:80px; height:auto;"></td>
+      <td>Superintelligence: Paths, Dangers, Strategies</td>
+      <td>Analyzes advanced AI scenarios, strategic risks, and long-term governance questions.</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <td><img src="https://covers.openlibrary.org/b/isbn/9781098125974-M.jpg" alt="Hands-On Machine Learning book cover" style="width:80px; height:auto;"></td>
+      <td>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow</td>
+      <td>A practical guide to building machine learning and deep learning models with hands-on examples.</td>
+      <td>2022</td>
+    </tr>
   </tbody>
 </table>
