@@ -1,6 +1,6 @@
 ---
-title: "Research Table"
 permalink: /research/
+title: Research Papers & Books
 layout: single
 author_profile: false
 toc: true
@@ -126,34 +126,64 @@ toc_label: "Table of Contents"
   </thead>
   <tbody>
     <tr>
-      <td><img src="https://covers.openlibrary.org/b/isbn/9780262035613-M.jpg" alt="Deep Learning book cover" style="width:80px; height:auto;"></td>
-      <td>Deep Learning</td>
-      <td>A foundational reference on deep neural networks, optimization, and modern AI applications.</td>
-      <td>2016</td>
+      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=LLM+Engineering" alt="The LLM Engineering Handbook cover" style="width:80px; height:auto;"></td>
+      <td><strong>The LLM Engineering Handbook</strong><br><em>Paul Iusztin & Maxime Labonne</em></td>
+      <td>Production-focused guide to RAG, evaluation, deployment, observability, and optimization for real-world AI systems.</td>
+      <td>2024</td>
     </tr>
     <tr>
-      <td><img src="https://covers.openlibrary.org/b/isbn/9780374257834-M.jpg" alt="Artificial Intelligence: A Guide for Thinking Humans book cover" style="width:80px; height:auto;"></td>
-      <td>Artificial Intelligence: A Guide for Thinking Humans</td>
-      <td>A clear introduction to AI capabilities and limits, with attention to social and technical context.</td>
-      <td>2019</td>
+      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=AI+Engineering" alt="AI Engineering cover" style="width:80px; height:auto;"></td>
+      <td><strong>AI Engineering</strong><br><em>Chip Huyen</em></td>
+      <td>Practical book by Chip Huyen on building and shipping reliable applications with foundation models.</td>
+      <td>2025</td>
     </tr>
     <tr>
-      <td><img src="https://covers.openlibrary.org/b/isbn/9780465065707-M.jpg" alt="The Master Algorithm book cover" style="width:80px; height:auto;"></td>
-      <td>The Master Algorithm</td>
-      <td>Explains the main machine learning paradigms and the vision of a unified learning approach.</td>
-      <td>2015</td>
-    </tr>
-    <tr>
-      <td><img src="https://covers.openlibrary.org/b/isbn/9780198739838-M.jpg" alt="Superintelligence book cover" style="width:80px; height:auto;"></td>
-      <td>Superintelligence: Paths, Dangers, Strategies</td>
-      <td>Analyzes advanced AI scenarios, strategic risks, and long-term governance questions.</td>
-      <td>2014</td>
-    </tr>
-    <tr>
-      <td><img src="https://covers.openlibrary.org/b/isbn/9781098125974-M.jpg" alt="Hands-On Machine Learning book cover" style="width:80px; height:auto;"></td>
-      <td>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow</td>
-      <td>A practical guide to building machine learning and deep learning models with hands-on examples.</td>
+      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=ML+Systems" alt="Designing Machine Learning Systems cover" style="width:80px; height:auto;"></td>
+      <td><strong>Designing Machine Learning Systems</strong><br><em>Chip Huyen</em></td>
+      <td>End-to-end treatment of the ML lifecycle, from data and modeling to deployment, monitoring, and scaling.</td>
       <td>2022</td>
+    </tr>
+    <tr>
+      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=LLMs+Production" alt="Building LLMs for Production cover" style="width:80px; height:auto;"></td>
+      <td><strong>Building LLMs for Production</strong><br><em>Louis-François Bouchard & Louie Peters</em></td>
+      <td>Focuses on architecture, evaluation, latency, reliability, and deployment for customer-facing LLM products.</td>
+      <td>2024</td>
+    </tr>
+    <tr>
+      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=LLM+From+Scratch" alt="Build a Large Language Model (From Scratch) cover" style="width:80px; height:auto;"></td>
+      <td><strong>Build a Large Language Model (From Scratch)</strong><br><em>Sebastian Raschka</em></td>
+      <td>Hands-on walkthrough of tokenization, embeddings, transformers, training pipelines, and inference in PyTorch.</td>
+      <td>2024</td>
+    </tr>
+    <tr>
+      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=Hands-On+LLMs" alt="Hands-On Large Language Models cover" style="width:80px; height:auto;"></td>
+      <td><strong>Hands-On Large Language Models</strong><br><em>Jay Alammar & Maarten Grootendorst</em></td>
+      <td>Project-oriented coverage of embeddings, fine-tuning, retrieval, prompt design, evaluation, and deployment.</td>
+      <td>2024</td>
+    </tr>
+    <tr>
+      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=Prompt+for+LLMs" alt="Prompt Engineering for LLMs cover" style="width:80px; height:auto;"></td>
+      <td><strong>Prompt Engineering for LLMs</strong><br><em>John Berryman</em></td>
+      <td>Advanced prompting methods including Chain-of-Thought, ReAct, few-shot prompting, and optimization patterns.</td>
+      <td>2024</td>
+    </tr>
+    <tr>
+      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=Agentic+AI" alt="Building Agentic AI Systems cover" style="width:80px; height:auto;"></td>
+      <td><strong>Building Agentic AI Systems</strong><br><em>Anjanava Anand</em></td>
+      <td>Guide to agent architectures, tool use, memory, planning, orchestration, and multi-agent workflows.</td>
+      <td>2025</td>
+    </tr>
+    <tr>
+      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=Prompt+GenAI" alt="Prompt Engineering for Generative AI cover" style="width:80px; height:auto;"></td>
+      <td><strong>Prompt Engineering for Generative AI</strong><br><em>James Phoenix & Mike Taylor</em></td>
+      <td>Practical frameworks to improve reliability and quality of outputs across modern generative AI applications.</td>
+      <td>2024</td>
+    </tr>
+    <tr>
+      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=AI+Engineering+Bible" alt="The AI Engineering Bible cover" style="width:80px; height:auto;"></td>
+      <td><strong>The AI Engineering Bible</strong><br><em>Comprehensive AI Engineering Reference</em></td>
+      <td>Broad reference on AI engineering workflows, tools, deployment strategies, and production best practices.</td>
+      <td>2025</td>
     </tr>
   </tbody>
 </table>
