@@ -97,5 +97,6 @@ layout: splash
     <tr><th scope="row">2025-12</th><td>IA Conference</td><td>EMNLP</td><td><a href="https://aclanthology.org/venues/emnlp/">EMNLP - conferencia anual top en NLP aplicado y avances recientes de LLMs</a></td></tr>
     <tr><th scope="row">2026-01</th><td>IA Conference</td><td>NAACL</td><td><a href="https://aclanthology.org/venues/naacl/">NAACL - conferencia periódica de primer nivel en NLP y modelos de lenguaje</a></td></tr>
     <tr><th scope="row">2026-02</th><td>IA Conference</td><td>IJCAI</td><td><a href="https://ijcai.org/">IJCAI (International Joint Conference on Artificial Intelligence) - conferencia histórica y global de referencia en IA</a></td></tr>
+    <tr><th scope="row">2026-06</th><td>Research Post</td><td>Thariq Shihipar (Anthropic)</td><td><a href="https://x.com/trq212/status/2052809885763747935">The Unreasonable Effectiveness of HTML.</a></td></tr>
   </tbody>
 </table>
