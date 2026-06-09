@@ -124,6 +124,23 @@ The diagram shows the recursive structure at the heart of the loop. The model re
 
 What makes this powerful is the accumulation of context. Each iteration through the loop adds to the conversation history. The model sees not just the original request, but every tool it has called and every result it has received. This accumulated context enables sophisticated multi-step reasoning.
 
+## Open Source Autonomous Agents
+
+This section lists notable open-source AI agents. OpenClaw stands out as a premier autonomous agent, and while there are several similar projects, many of them provide both a fully-featured autonomous agent and an SDK for building custom agents.
+
+| Agent | Language | Focus | Repository | Key Features |
+| --- | --- | --- | --- | --- |
+| AutoGPT | Python | Task automation & reasoning | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Multi-tool orchestration, long-term memory, goal decomposition |
+| OpenClaw | Multi | Autonomous reasoning | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Advanced reasoning, tool-use, self-correction loops |
+| Hermes Agent | Python | Research & information gathering | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Reasoning backbone, multi-step planning, document retrieval |
+| OpenHands | Python | Software engineering agent | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | Code generation, debugging, IDE integration, environment interaction |
+| CrewAI | Python | Role-based multi-agent system | [crewaiinc/crewai](https://github.com/crewaiinc/crewai) | Agent orchestration, role definition, task sequencing, SDK for custom agents |
+| MetaGPT | Python | Software project planning | [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-role workflows, document generation, SOPs (standard operating procedures) |
+| AutoGen | Python | Multi-agent conversation | [microsoft/autogen](https://github.com/microsoft/autogen) | Conversational AI agents, code execution, agent composition framework |
+| Claude Code | Python | Code-centric development | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Code generation, file I/O, terminal execution, Anthropic integration |
+| Devin | Multi | AI software engineer | [Cognition-AI/Devin](https://github.com/Cognition-AI/Devin) | Full development workflow, debugging, deployment, terminal access |
+| BabyAGI | Python | Simple task automation | [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) | Task decomposition, execution loops, minimalist design |
+
 ## Notes
 
 - [What are AI agents? - AWS](https://aws.amazon.com/what-is/ai-agents/)
