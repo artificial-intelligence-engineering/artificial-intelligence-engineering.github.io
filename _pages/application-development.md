@@ -133,27 +133,27 @@ The Foundation We Built On
 
 Let's run through the familiar set, but not as definitions you could pull from Wikipedia. Let's talk about what they actually meant in practice.
 
-#### Single Responsibility Principle
+**Single Responsibility Principle**
 
 This was the sanity rule. Keep your classes (or other similar code elements) from doing too much. If it has more than one reason to change, it will eventually collapse under its own weight. I learned this one early, often the hard way, cleaning up classes that had taken on the personality of their developer, a little of everything, in one chaotic pile.
 
-#### Open/Closed Principle
+**Open/Closed Principle**
 
 The guiding star of extensibility: extend without modifying. In theory, that meant safety from regression and in many cases if done well it would help with regression and ongoing feature development. In reality, it meant endless debates about whether you were violating OCP every time you opened a file to fix something.
 
-#### Liskov Substitution Principle
+**Liskov Substitution Principle**
 
 The quiet workhorse. Inheritance should make sense. If your subclass breaks expectations, you are not using polymorphism, you are just lying to your codebase.
 
-#### Interface Segregation Principle
+**Interface Segregation Principle**
 
 This was the rebellion against god interfaces. The countless times I've seen an `IThingManager` with thirty methods, half of which every implementation ignores. ISP was the call to split those monsters into sane, digestible contracts.
 
-#### Dependency Inversion Principle
+**Dependency Inversion Principle**
 
 The rise of abstractions over implementations. This principle was both a blessing and a curse, the birthplace of dependency injection frameworks and inversion-of-control containers that we alternately loved and cursed. It gave structure but also a new layer of complexity.
 
-#### When SOLID Worked
+**When SOLID Worked**
 
 Over the years, I have seen SOLID absolutely save teams, including mine, from coding disasters. For example, when a project scaled from three developers to thirty, SOLID acted as the stabilizing force. It created a shared language around what good code meant.
 
@@ -161,7 +161,7 @@ It kept monoliths from turning to spaghetti. It made refactoring survivable. It 
 
 In essence, SOLID made code cooperative. It taught us to think in modules, contracts, and boundaries. Those were lessons worth keeping.
 
-#### When SOLID Became a Problem
+**When SOLID Became a Problem**
 
 But for every clean, modular, testable success story, there is an over-engineered mess hiding behind the same banner. I have walked into codebases where every noun in the business domain had an interface, an abstract class, and two decorators, none of which did anything meaningful. All in the name of being SOLID.
 
@@ -174,7 +174,7 @@ Here is where it tends to go wrong:
 
 SOLID was meant to reduce complexity, but taken too far, it became its own source of it.
 
-#### The Shift: SOLID in the Age of AI-Generated Code
+**The Shift: SOLID in the Age of AI-Generated Code**
 
 The SOLID principles aren't just relevant in AI agent development. They might be essential.
 
@@ -193,7 +193,7 @@ When designing agentic systems, it's far better to have many focused agents than
 D — Dependency Inversion Principle
 This is critical in agent architecture. Your orchestrator should depend on abstractions of agents, not on concrete implementations. If your orchestration logic is tightly coupled to a specific agent that uses a specific model with a specific prompt template, you've made the whole system rigid. Instead, define what an agent looks like in abstract terms — it takes an input, it returns an output, it has a description of what it does — and let the orchestrator depend on that abstraction. The concrete agent (which model it uses, how it prompts, what tools it has access to) is an implementation detail that gets injected. Tomorrow you might want to replace your Claude-powered ResearchAgent with one that calls a specialised fine-tuned model, or even a non-LLM heuristic agent. If your orchestrator depends on the abstraction, that swap is trivial. This is the same principle I was advocating for with InversifyJS years ago, and it's exactly the approach taken by agent frameworks that separate the agent interface from the agent implementation.
 
-#### What Remains Solid?
+**What Remains Solid?**
 
 In the end, SOLID was not just about code. It was about discipline. About having a mental model for systems that grow beyond a single developer's head.
 
