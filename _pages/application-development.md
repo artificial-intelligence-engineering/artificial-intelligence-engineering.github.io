@@ -80,3 +80,27 @@ To go deeper into skills with practical examples and references:
 
 <a href="{% link _pages/skills.md %}" class="btn btn--primary btn--large">Open Skills development Guide</a>
 
+## Basic Tooling
+
+The current minimum setup for AI application development is converging around three core tools. This is the direction most major vendors are pushing (Google, Anthropic, Microsoft, and others):
+
+1. An IDE plugin/extension for in-context coding assistance.
+2. A CLI to drive the agent from terminal workflows and automation.
+3. A standalone chat UI to collaborate with the agent outside the editor.
+
+This three-surface model is quickly becoming the most practical baseline used by AI application developers.
+
+For example, Anthropic's Claude strategy maps clearly to this model: Claude-powered coding flows in the IDE, `claude-code` as CLI-first agent control, and `claude.ai` for general chat and planning. In the Google ecosystem, teams combine Gemini Code Assist in the IDE, Gemini CLI-style terminal workflows, and the Gemini chat UI. Some third-party bundles (including Antigravity-style setups) package these same three interfaces together: editor plugin + Electron chat + CLI.
+
+| Vendor                  | IDE plugin / extension | CLI agent interface | Standalone chat UI | Notes |
+|-------------------------| --- | --- | --- | --- |
+| Anthropic (Claude Code) | [Claude Code IDE integrations](https://docs.anthropic.com/en/docs/claude-code/ide-integrations) | [Claude Code (GitHub)](https://github.com/anthropics/claude-code) | [Claude](https://claude.ai/) | Strong CLI-first agent workflow with coding focus |
+| Google  (Antigravity)   | [Gemini Code Assist](https://developers.google.com/gemini-code-assist) | [Gemini CLI (GitHub)](https://github.com/google-gemini/gemini-cli) | [Gemini](https://gemini.google.com/) | Unified Gemini experience across editor, terminal, and chat |
+| Microsoft / GitHub      | [GitHub Copilot](https://github.com/features/copilot) | [GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli) | [Microsoft Copilot](https://copilot.microsoft.com/) | Enterprise-friendly compliance and Microsoft ecosystem integration |
+| OpenAI (Codex)          | [OpenAI Codex](https://openai.com/codex/) | [OpenAI API platform](https://platform.openai.com/docs) | [ChatGPT](https://chatgpt.com/) | OpenAI coding assistant stack across API and chat workflows |
+| Cursor                  | [Cursor](https://www.cursor.com/) | [Cursor CLI docs](https://docs.cursor.com/) | [Cursor](https://www.cursor.com/) | AI-native IDE with agentic coding workflows |
+| Cognition (Devin)       | [Devin](https://devin.ai/) | [Devin API](https://devin.ai/) | [Devin](https://devin.ai/) | Autonomous software engineer with collaborative web workspace |
+| OpenCode                | [OpenCode](https://opencode.ai/) | [OpenCode CLI (GitHub)](https://github.com/sst/opencode) | [OpenCode](https://opencode.ai/) | Open tooling stack for terminal-first AI coding workflows |
+
+**Practical recommendation:** start with these three surfaces from day one. Even for small teams, this setup reduces context switching, improves reproducibility, and supports both interactive development and automated agent runs.
+
