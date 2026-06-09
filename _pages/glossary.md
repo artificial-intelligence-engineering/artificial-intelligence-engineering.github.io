@@ -149,6 +149,19 @@ layout: splash
          </td>
     </tr>
     <tr>
+      <th scope="row">Vibe Coding</th>
+        <td>
+            Vibe coding is a software development practice assisted by artificial intelligence (AI) where the software developer describes a project or task in a prompt to a large language model (LLM), which generates source code automatically.
+            Básicamente, es crear código usando code assistant agents.
+        </td>
+         <td>
+             <ul>
+               <li><a href="https://www.merriam-webster.com/slang/vibe-coding" target="_blank">Vibe coding – Merriam-Webster</a></li>
+               <li><a href="https://karpathy.ai/" target="_blank">Andrej Karpathy</a></li>
+             </ul>
+         </td>
+    </tr>
+    <tr>
       <th scope="row"><a href="/prompt-patterns/">Prompt Engineering</a></th>
         <td>
             It is the art of asking a Generative AI model questions in natural language so that the model responds 
