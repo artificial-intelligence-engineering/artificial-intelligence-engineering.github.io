@@ -113,6 +113,18 @@ layout: splash
          </td>
     </tr>
     <tr>
+      <th scope="row"><a href="/ai-agent/">AI Agent</a></th>
+        <td>
+            An AI agent is a computer program powered by artificial intelligence (AI) that can perform tasks autonomously to assist human users, even without definite instructions. Unlike other AI-powered software, such as chatbots, AI agents can operate outside of a specific prompt-based context. They can go outside of their training data and take a look around at the world, so to speak, to find information. Then they can, on their own, take actions based on that information in pursuit of a larger goal.
+        </td>
+         <td>
+             <ul>
+               <li><a href="https://aws.amazon.com/what-is/ai-agents/" target="_blank">What are AI agents? - AWS</a></li>
+               <li><a href="https://news.microsoft.com/source/features/ai/ai-agents-what-they-are-and-how-theyll-change-the-way-we-work/" target="_blank">AI agents: What they are and how they'll change the way we work - Microsoft Source</a></li>
+             </ul>
+         </td>
+    </tr>
+    <tr>
       <th scope="row"><a href="/skills/">Agent Skills</a></th>
       <td>
           Reusable capabilities that an AI agent can invoke to complete tasks reliably.
