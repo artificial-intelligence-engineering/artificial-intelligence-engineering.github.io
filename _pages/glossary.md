@@ -137,6 +137,18 @@ layout: splash
       </td>
     </tr>
     <tr>
+      <th scope="row">Agentic Workflow</th>
+        <td>
+            An agentic workflow is an AI-driven process where autonomous agents plan, make decisions, and execute tasks using tools and feedback loops. Rather than relying on rigid step-by-step instructions or simply answering questions, an agentic workflow is goal-oriented. The AI assesses context, self-corrects errors, and adapts to changes in real time.
+        </td>
+         <td>
+              <ul>
+                <li><a href="https://www.anthropic.com/research/agentic-design-patterns" target="_blank">Agentic Design Patterns – Anthropic</a></li>
+                <li><a href="https://www.ibm.com/think/topics/agentic-workflows" target="_blank">What are agentic workflows? – IBM</a></li>
+              </ul>
+         </td>
+    </tr>
+    <tr>
       <th scope="row"><a href="/prompt-patterns/">Prompt Engineering</a></th>
         <td>
             It is the art of asking a Generative AI model questions in natural language so that the model responds 
