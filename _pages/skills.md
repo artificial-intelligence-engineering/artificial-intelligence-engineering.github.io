@@ -108,4 +108,9 @@ This way, AI does not "guess" how to work with Azure; it consults expert knowled
 - Agent Skills format and ecosystem: [agentskills.io](https://agentskills.io/)
 - Microsoft Agent Skills for Azure: [azure-ai-agents-skills](https://github.com/Azure/azure-ai-agents-skills)
 - Anthropic engineering perspective on long-running agents: [Effective Harnesses for Long-Running Agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
+- Open-source Agent Skills collection by Addy Osmani: [agent-skills](https://github.com/addyosmani/agent-skills)
+- Anthropic engineering article on practical agent skills: [Equipping Agents for the Real World with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
+- Google Developers Blog on bridging agent knowledge gaps: [Closing the knowledge gap with agent skills](https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/)
+- Agent Skills standard home: [skills.sh](https://www.skills.sh/)
+- NVIDIA skills repository: [skills](https://github.com/NVIDIA/skills)
 

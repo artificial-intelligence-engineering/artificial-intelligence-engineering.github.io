@@ -103,6 +103,8 @@ toc_label: "Table of Contents"
     <tr><th scope="row">2025-12</th><td>AI Conference</td><td>EMNLP</td><td><a href="https://aclanthology.org/venues/emnlp/">EMNLP - a top annual conference in applied NLP and recent LLM advances</a></td></tr>
     <tr><th scope="row">2026-01</th><td>AI Conference</td><td>NAACL</td><td><a href="https://aclanthology.org/venues/naacl/">NAACL - a top-tier recurring conference in NLP and language models</a></td></tr>
     <tr><th scope="row">2026-02</th><td>AI Conference</td><td>IJCAI</td><td><a href="https://ijcai.org/">IJCAI (International Joint Conference on Artificial Intelligence) - a historic and globally recognized reference conference in AI</a></td></tr>
+    <tr><th scope="row">2026-02</th><td>Agent Skills</td><td>Anthropic</td><td><a href="https://arxiv.org/abs/2602.08004">Agent Skills: A Data-Driven Analysis of Claude Skills for Extending Large Language Model Functionality</a></td></tr>
+    <tr><th scope="row">2026-05</th><td>Agentic Search</td><td>Zhuofeng Li</td><td><a href="https://arxiv.org/abs/2605.05242">Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction</a></td></tr>
     <tr><th scope="row">2026-06</th><td>Research Post</td><td>Thariq Shihipar (Anthropic)</td><td><a href="https://x.com/trq212/status/2052809885763747935">The Unreasonable Effectiveness of HTML.</a></td></tr>
   </tbody>
 </table>
