@@ -57,3 +57,26 @@ to apply each one based on the goal. We name prompting techniques or prompting p
 To go deeper into each technique with practical examples:
 
 <a href="{% link _pages/prompt-patterns.md %}" class="btn btn--primary btn--large">Open the Prompt Patterns Guide</a>
+
+### Prompting evolution: Skills
+
+The AI prompting landscape has shifted away from writing ephemeral instructions for single interactions to building persistent, reusable Skills. Instead of typing a quick prompt, a skill acts as a version-controlled document that compounds expertise (often saved as a `SKILL.md` file).
+
+This evolution splits the prompting process into four core disciplines:
+
+- **Prompt Craft:** Writing clear, structured instructions and constraints.
+- **Context Engineering:** Curing and maintaining the optimal tokens, message history, and documents.
+- **Intent Engineering:** Encoding goals, values, and decision boundaries into the AI.
+- **Specification Engineering:** Writing comprehensive documents that autonomous agents can execute against.
+
+Building skills instead of writing isolated prompts is transforming development workflows and organizational AI. The following best practices can help approach and refine this skill:
+
+- **Treat Prompts as Assets:** Shift from typing driving directions (a prompt) to providing a map (a skill).
+- **Define Acceptance Criteria:** Clearly outline exactly what "done" looks like so the model understands when a task is completed successfully.
+- **Establish Context:** Provide background information, constraints, and relevant documents so the AI does not have to guess.
+- **Assign Explicit Roles:** Assign a specific expert persona (e.g., strategist, editor, or developer) to narrow the AI's focus.
+
+To go deeper into skills with practical examples and references:
+
+<a href="{% link _pages/skills.md %}" class="btn btn--primary btn--large">Open Skills development Guide</a>
+
