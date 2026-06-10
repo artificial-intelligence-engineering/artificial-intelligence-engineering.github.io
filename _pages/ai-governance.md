@@ -150,3 +150,4 @@ The organization learns to steer because the people adjusting the boundaries are
 - [Google Responsible AI Practices](https://ai.google/responsibility/responsible-ai-practices/)
 - [Microsoft Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai)
 - [Partnership on AI](https://partnershiponai.org/)
+- [Tokenomics Foundation](https://www.tokeneconomics.com/)
