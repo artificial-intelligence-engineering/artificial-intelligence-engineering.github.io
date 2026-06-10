@@ -30,6 +30,8 @@ It is the main way to direct how the model behaves, clarify the task, and establ
 Because prompt wording strongly influences output quality and relevance, selecting the appropriate prompt style for 
 each use case is critical. 
 
+Prompt engineering is the easiest and most common model adaptation technique. Unlike finetuning, prompt engineering guides a model's behavior. You can think of prompt engineering as human-to-AI communication: you communicate with AI models to get them to do what you want. Anyone can communicate, but not everyone can communicate effectively. Similarly, it's easy to write prompts but not easy to construct effective prompts. Some people argue that "prompt engineering" lacks the rigor to qualify as an engineering discipline. However, this doesn't have to be the case. Prompt experiments should be conducted with the same rigor as any ML experiment, with systematic experimentation and evaluation.
+
 To get the most reliable results from AI models, it is important to understand the different prompt structures and when 
 to apply each one based on the goal. We name prompting techniques or prompting patterns this structures. 
 
