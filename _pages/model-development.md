@@ -12,6 +12,8 @@ toc_label: "Table of Contents"
 
 Model Development encompasses the techniques and practices for creating, training, and optimizing machine learning models. This section covers inference optimization, dataset engineering, fine-tuning, and other critical aspects of model development for AI applications.
 
+This layer provides tooling for developing models, including frameworks for modeling, training, finetuning, and inference optimization. Because data is central to model development, this layer also contains dataset engineering. Model development also requires rigorous evaluation.
+
 ## Inference Optimization
 
 ### Quantization
@@ -227,4 +229,3 @@ Reducing model size and improving inference speed:
 - [Stanford CS224N: NLP](http://web.stanford.edu/class/cs224n/)
 - [FastAI Course](https://course.fast.ai/)
 - [Papers with Code](https://paperswithcode.com/)
-

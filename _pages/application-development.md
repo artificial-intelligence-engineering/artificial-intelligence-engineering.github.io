@@ -17,6 +17,8 @@ AI-powered applications.
 The main task of the software engineer working with LLMs is not to train an LLM, or even to fine-tune one (usually), 
 but rather to take an existing LLM and work out how to get it to accomplish the task you need for your application.
 
+Application development involves providing a model with good prompts and necessary context. This layer requires rigorous evaluation. Good applications also demand good interfaces.
+
 ## Key Concepts
 
 ### Prompt Engineering
@@ -206,4 +208,3 @@ Further reading:
 - [Reflection on SOLID Decades](https://compositecode.blog/2025/10/30/reflection-on-solid-decades/)
 - [SOLID principles (Wikipedia)](https://en.wikipedia.org/wiki/SOLID)
 - [Clean Architecture resources - Robert C. Martin](https://blog.cleancoder.com/)
-
