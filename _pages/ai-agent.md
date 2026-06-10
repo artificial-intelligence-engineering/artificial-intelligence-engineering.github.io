@@ -14,6 +14,8 @@ An AI agent is a computer program powered by artificial intelligence (AI) that c
 
 Unlike other AI-powered software, such as chatbots, AI agents can operate outside of a specific prompt-based context. They can go outside of their training data and take a look around at the world, so to speak, to find information. Then they can, on their own, take actions based on that information in pursuit of a larger goal.
 
+AI engineers often encounter tasks that are too complex for a foundational model to perform all at once, so a common tactic is to break the complex task into smaller components that can be accomplished by foundational models. Such small software components that provide capabilities with the help of foundational models are called **agents**. Agents become increasingly autonomous as they use GenAI models to plan out a sequence of operations, identify the backend tools that they can invoke for each operation, determine how to recover from errors, and/or evaluate whether the task is complete. Applications that are built by orchestrating agents are called **agentic**.
+
 ## Key Characteristics
 
 - **Autonomy:** Can execute tasks with limited or no step-by-step human direction.
@@ -146,5 +148,3 @@ This section lists notable open-source AI agents. OpenClaw stands out as a premi
 - [What are AI agents? - AWS](https://aws.amazon.com/what-is/ai-agents/)
 - [AI agents: What they are and how they'll change the way we work - Microsoft Source](https://news.microsoft.com/source/features/ai/ai-agents-what-they-are-and-how-theyll-change-the-way-we-work/)
 - [AAIF - Agentic AI Foundation](https://aaif.io/)
-
-
