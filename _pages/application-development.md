@@ -84,6 +84,10 @@ To go deeper into skills with practical examples and references:
 
 <a href="{% link _pages/skills.md %}" class="btn btn--primary btn--large">Open Skills development Guide</a>
 
+### System Prompt and User Prompt
+
+Many model APIs give you the option to split a prompt into a system prompt and a user prompt. You can think of the system prompt as the task description and the user prompt as the task.
+
 ## Basic Development Environment
 
 The current minimum setup for AI application development is converging around three core tools. This is the direction most major vendors are pushing (Google, Anthropic, Microsoft, and others):
