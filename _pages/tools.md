@@ -673,6 +673,18 @@ layout: splash
         <a href="https://www.youtube.com/results?search_query=odysseus+ai+assistant" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>OpenNotebook</td>
+      <td><a href="https://github.com/lfnovo" target="_blank">@lfnovo (OSS)</a></td>
+      <td>
+        An Open Source implementation of Notebook LM with more flexibility and features.
+      </td>
+      <td>
+        <a href="https://github.com/lfnovo/open-notebook" target="_blank">🔗 github.com/lfnovo/open-notebook</a><br>
+        <a href="https://www.open-notebook.ai/" target="_blank">🔗 open-notebook.ai</a>
+      </td>
+    </tr>
 
     <!-- ── Workflow Automation ─────────────────────────────── -->
     <tr>
