@@ -175,6 +175,16 @@ layout: splash
         <a href="https://arxiv.org/abs/2211.09110" target="_blank">Paper</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row">LMArena</th>
+      <td>
+        LMArena (formerly known as Chatbot Arena) is a popular, crowdsourced AI evaluation platform where users compare
+        different artificial intelligence models through blind, head-to-head battles.
+      </td>
+      <td>
+        <a href="https://lmarena.ai/" target="_blank">Website</a><br>
+        <a href="https://www.youtube.com/results?search_query=lmarena+chatbot+arena" target="_blank">YouTube tutorials</a>
+      </td>
+    </tr>
   </tbody>
 </table>
-

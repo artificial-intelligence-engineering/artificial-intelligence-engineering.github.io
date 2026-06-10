@@ -1508,6 +1508,36 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Fable 5
+        </td>
+        <td>
+            9 June 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            A Mythos-class model that we've made safe for general use.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Mythos 5 (preview)
+        </td>
+        <td>
+            9 June 2026
+        </td>
+        <td>
+            Limited availability
+        </td>
+        <td>
+            Ready for a small group of cyberdefenders and infrastructure providers. It's the same underlying model as Fable 5, but with the safeguards lifted in some areas.
+        </td>
+    </tr>
+    <tr>
       <th scope="row" id="ecosystem-mistral"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/mistralai" alt="Mistral AI logo" loading="lazy">Mistral AI</span></th>
         <td>
             Mistral 7B

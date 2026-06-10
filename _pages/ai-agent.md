@@ -18,10 +18,10 @@ AI engineers often encounter tasks that are too complex for a foundational model
 
 ## Key Characteristics
 
-- **Autonomy:** Can execute tasks with limited or no step-by-step human direction.
+- **Autonomy:** Can execute tasks with limited or no step-by-step human direction. In other words, it means the ability to operate independently without constant human guidance or being explicitly programmed to do so.
 - **Goal orientation:** Works toward an objective instead of only answering one isolated prompt.
 - **Environment interaction:** Can gather external information before deciding what to do next.
-- **Action capability:** Can take actions (for example, calling tools or services) based on observed context.
+- **Action capability:** Can take actions (for example, calling tools or services) based on observed context. Agents can gather the data they need (“perceive”) and act on their environment. You can usually give them this ability by enabling them to call external functions (such as searching the web, invoking calculators, and writing to databases) through Tool Calling.
 
 ## AI Agent Types (IBM Classification)
 

@@ -937,6 +937,18 @@ layout: splash
         <a href="https://www.youtube.com/results?search_query=rasbt+llms+from+scratch" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>SkillSpector</td>
+      <td>NVIDIA (OSS)</td>
+      <td>
+        Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.
+      </td>
+      <td>
+        <a href="https://github.com/nvidia/skillspector" target="_blank">🔗 github.com/nvidia/skillspector</a><br>
+        <a href="https://github.com/nvidia/skillspector#readme" target="_blank">📄 GitHub README</a>
+      </td>
+    </tr>
 
   </tbody>
 </table>
