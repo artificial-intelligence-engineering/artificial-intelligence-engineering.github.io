@@ -62,6 +62,10 @@ To go deeper into each technique with practical examples:
 
 <a href="{% link _pages/prompt-patterns.md %}" class="btn btn--primary btn--large">Open the Prompt Patterns Guide</a>
 
+### System Prompt and User Prompt
+
+Many model APIs give you the option to split a prompt into a system prompt and a user prompt. You can think of the system prompt as the task description and the user prompt as the task.
+
 ### Prompting evolution: Skills
 
 The AI prompting landscape has shifted away from writing ephemeral instructions for single interactions to building persistent, reusable Skills. Instead of typing a quick prompt, a skill acts as a version-controlled document that compounds expertise (often saved as a `SKILL.md` file).
@@ -84,9 +88,6 @@ To go deeper into skills with practical examples and references:
 
 <a href="{% link _pages/skills.md %}" class="btn btn--primary btn--large">Open Skills development Guide</a>
 
-### System Prompt and User Prompt
-
-Many model APIs give you the option to split a prompt into a system prompt and a user prompt. You can think of the system prompt as the task description and the user prompt as the task.
 
 ## Basic Development Environment
 
