@@ -50,6 +50,11 @@ AWS Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (Apac
       <td><a href="/glossary/">/glossary/</a></td>
     </tr>
     <tr>
+      <th scope="row">Harness Engineering</th>
+      <td><code>harness.md</code></td>
+      <td><a href="/harness/">/harness/</a></td>
+    </tr>
+    <tr>
       <th scope="row">LxM Ecosystem Table</th>
       <td><code>lxm.md</code></td>
       <td><a href="/lxm/">/lxm/</a></td>
