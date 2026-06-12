@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Prompt, Context, Harness</title>
+  <desc id="desc">Three nested layers showing prompt inside context inside harness.</desc>
+  <rect width="1200" height="700" fill="#f8fafc"/>
+
+  <rect x="120" y="90" width="960" height="520" rx="26" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="160" y="140" font-family="Arial, sans-serif" font-size="34" fill="#1e3a8a" font-weight="bold">Harness Engineering</text>
+  <text x="160" y="178" font-family="Arial, sans-serif" font-size="22" fill="#1e3a8a">System design: tools, constraints, feedback, observability</text>
+
+  <rect x="230" y="190" width="740" height="320" rx="20" fill="#e0f2fe" stroke="#0369a1" stroke-width="3"/>
+  <text x="270" y="235" font-family="Arial, sans-serif" font-size="30" fill="#0c4a6e" font-weight="bold">Context Engineering</text>
+  <text x="270" y="270" font-family="Arial, sans-serif" font-size="20" fill="#0c4a6e">Information design: retrieved docs, memory, state, examples</text>
+
+  <rect x="390" y="310" width="420" height="140" rx="16" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+  <text x="420" y="360" font-family="Arial, sans-serif" font-size="30" fill="#7c2d12" font-weight="bold">Prompt Engineering</text>
+  <text x="420" y="392" font-family="Arial, sans-serif" font-size="20" fill="#7c2d12">Instruction wording and task framing</text>
+
+  <text x="120" y="650" font-family="Arial, sans-serif" font-size="18" fill="#334155">Nested relationship: prompt is part of context, and context is part of harness.</text>
+</svg>
+

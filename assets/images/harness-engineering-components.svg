@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Harness Components</title>
+  <desc id="desc">Diagram of core harness engineering components around an AI agent runtime.</desc>
+  <rect width="1200" height="780" fill="#f8fafc"/>
+
+  <rect x="430" y="310" width="340" height="160" rx="20" fill="#ede9fe" stroke="#6d28d9" stroke-width="3"/>
+  <text x="500" y="370" font-family="Arial, sans-serif" font-size="32" fill="#4c1d95" font-weight="bold">AI Agent</text>
+  <text x="475" y="405" font-family="Arial, sans-serif" font-size="22" fill="#4c1d95">Runtime Core</text>
+
+  <rect x="90" y="80" width="300" height="130" rx="14" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="118" y="130" font-family="Arial, sans-serif" font-size="24" fill="#1e3a8a" font-weight="bold">Context Files</text>
+  <text x="118" y="162" font-family="Arial, sans-serif" font-size="18" fill="#1e3a8a">AGENTS.md, docs, rules</text>
+
+  <rect x="810" y="80" width="300" height="130" rx="14" fill="#cffafe" stroke="#0e7490" stroke-width="3"/>
+  <text x="838" y="130" font-family="Arial, sans-serif" font-size="24" fill="#155e75" font-weight="bold">Tooling / MCP</text>
+  <text x="838" y="162" font-family="Arial, sans-serif" font-size="18" fill="#155e75">Selective integrations</text>
+
+  <rect x="90" y="560" width="300" height="130" rx="14" fill="#fee2e2" stroke="#b91c1c" stroke-width="3"/>
+  <text x="118" y="610" font-family="Arial, sans-serif" font-size="24" fill="#7f1d1d" font-weight="bold">Mechanical Checks</text>
+  <text x="118" y="642" font-family="Arial, sans-serif" font-size="18" fill="#7f1d1d">CI, lint, policy gates</text>
+
+  <rect x="810" y="560" width="300" height="130" rx="14" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+  <text x="838" y="610" font-family="Arial, sans-serif" font-size="24" fill="#14532d" font-weight="bold">Observability</text>
+  <text x="838" y="642" font-family="Arial, sans-serif" font-size="18" fill="#14532d">Logs, traces, metrics</text>
+
+  <line x1="390" y1="180" x2="500" y2="310" stroke="#475569" stroke-width="3"/>
+  <line x1="810" y1="180" x2="700" y2="310" stroke="#475569" stroke-width="3"/>
+  <line x1="390" y1="620" x2="500" y2="470" stroke="#475569" stroke-width="3"/>
+  <line x1="810" y1="620" x2="700" y2="470" stroke="#475569" stroke-width="3"/>
+
+  <polygon points="500,310 489,314 495,303" fill="#475569"/>
+  <polygon points="700,310 705,303 711,314" fill="#475569"/>
+  <polygon points="500,470 495,477 489,466" fill="#475569"/>
+  <polygon points="700,470 711,466 705,477" fill="#475569"/>
+
+  <text x="320" y="742" font-family="Arial, sans-serif" font-size="20" fill="#334155">Harness engineering integrates documentation, tooling, validation, and telemetry.</text>
+</svg>
+

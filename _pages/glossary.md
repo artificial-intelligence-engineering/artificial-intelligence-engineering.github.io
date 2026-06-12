@@ -221,7 +221,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">Harness Engineering</th>
+      <th scope="row"><a href="/harness/">Harness Engineering</a></th>
         <td>
             Harness engineering refers to the practice of designing and building the scaffolding, tooling, and control 
             infrastructure that surrounds an AI agent or model during execution. A harness manages the lifecycle of 
