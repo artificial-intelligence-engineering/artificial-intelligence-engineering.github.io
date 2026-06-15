@@ -30,15 +30,19 @@ layout: splash
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     var toc = document.querySelector(".lxm-toc");
-    if (!toc) return;
+    if (!toc) {
+      return;
+    }
 
     var links = toc.querySelectorAll("a[href^='#ecosystem-']");
 
-    links.forEach(function (link) {
+    Array.prototype.forEach.call(links, function (link) {
       link.addEventListener("click", function (event) {
         var hash = link.getAttribute("href");
         var target = document.querySelector(hash);
-        if (!target) return;
+        if (!target) {
+          return;
+        }
 
         event.preventDefault();
 
@@ -46,10 +50,7 @@ layout: splash
         var stickyOffset = toc.offsetHeight + 12;
         var targetTop = target.getBoundingClientRect().top + window.pageYOffset;
 
-        window.scrollTo({
-          top: Math.max(0, targetTop - stickyOffset),
-          behavior: "smooth"
-        });
+        window.scrollTo(0, Math.max(0, targetTop - stickyOffset));
 
         if (history.pushState) {
           history.pushState(null, "", hash);
@@ -1220,6 +1221,111 @@ layout: splash
         </td>
         <td>
             Reasoning-focused Phi-4 variant optimized for multi-step analytical tasks.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MAI-Thinking-1
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Microsoft AI flagship reasoning model. Medium-sized model that ranks among the strongest in its weight class, matching leading models on key software engineering benchmarks, showing advanced mathematical reasoning, and preferred over Claude Sonnet 4.6 in blind side-by-side human evaluations. Trained from the ground up on clean data without distillation from third-party models.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MAI-Code-1-Flash
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Inference-efficient agentic coding model tailored for and deeply integrated into GitHub Copilot, VS Code and the Microsoft stack. With 5 billion active parameters, it is positioned as comparable to Claude Haiku-class models at lower cost.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MAI-Image-2.5
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Image generation and editing model supporting world-class text-to-image and image editing tasks. Microsoft states it surpasses the Arena score of Nano Banana Pro.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MAI-Image-2.5-Flash
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Ultra-efficient Flash variant of MAI-Image-2.5 for lower-cost text-to-image and image editing workloads.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MAI-Transcribe-1.5
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Speech-to-text model described by Microsoft as state-of-the-art in transcription accuracy, five times faster than competing models, with built-in support for domain-specific terminology across 43 languages.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MAI-Voice-2
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            High-quality multilingual speech generation model across 15 languages, capable of adapting to a voice from a short sample and including safeguards against misuse.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MAI-Voice-2-Flash
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Announced
+        </td>
+        <td>
+            Lower-cost, ultra-efficient upcoming variant of MAI-Voice-2 announced as coming soon.
         </td>
     </tr>
     <tr>
