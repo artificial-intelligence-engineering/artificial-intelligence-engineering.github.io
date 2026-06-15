@@ -36,6 +36,21 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row">Frontier Model</th>
+        <td>
+            A frontier model is an artificial intelligence system that represents the absolute cutting edge of capability at any given time.
+            These highly advanced, general-purpose models push the boundaries of technology in areas like reasoning,
+            multimodal understanding, and autonomous task execution.
+        </td>
+        <td>
+            External references explaining the concept.
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=BPQnd5n5Ya4" target="_blank">Frontier Models: The New Frontier of AI – Gen AI Summit EU - Valencia</a></li>
+              <li><a href="https://www.youtube.com/watch?v=AVQzG2MY858" target="_blank">LLM vs. SLM vs. FM: Choosing the Right AI Model – IBM Technology</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
       <th scope="row">LLM</th>
         <td>
             Large Language Model (LLM) is the technical term and conceptually the beginning of the named Foundation Models.
