@@ -74,12 +74,22 @@ CPU / GPU / NPU on your hardware
 | Model | Creator | Strengths | Typical Size |
 |---|---|---|---|
 | **Llama 3 / 3.1 / 3.2** | Meta | General purpose, strong reasoning | 8B – 70B |
+| **Llama 4 Scout** | Meta | First natively multimodal open-weight model | 8B – 70B |
 | **Mistral / Mixtral** | Mistral AI | Fast, efficient, great for coding | 7B – 8x7B |
+| **Mistral Small 3.1** | Mistral AI | VLM with long context, fits on consumer laptop | 8B |
 | **Gemma 2 / 3** | Google | Compact, instruction-tuned | 2B – 27B |
-| **Phi-3 / Phi-4** | Microsoft | Small but surprisingly capable | 3.8B – 14B |
+| **Gemma 4** | Google | Widest language coverage, Apache 2.0 | 2B – 27B |
+| **Phi-3 / Phi-4** | Microsoft | Small but surprisingly capable, optimized for edge/on-device | 3.8B – 14B |
 | **Qwen 2.5** | Alibaba | Multilingual, coding-focused | 0.5B – 72B |
+| **Qwen3** | Alibaba | Flagship with switchable thinking/non-thinking modes, Apache 2.0 | 8B – 72B |
 | **DeepSeek-R1 (distilled)** | DeepSeek | Reasoning-optimised | 7B – 70B |
-| **CodeLlama / StarCoder2** | Meta / BigCode | Code generation specialist | 7B – 34B |
+| **DeepSeek V4** | DeepSeek | Mixture-of-Experts, million-token context, MIT license, near-frontier performance | 7B – 70B |
+| **Nemotron 3 Super** | NVIDIA | Hybrid MoE with million-token context, strong agentic coding | 8B – 70B |
+| **GLM 5.1** | Zhipu | First open model to top SWE-Bench Pro, MIT license | 10B – 130B |
+| **Kimi K2.6** | Moonshot AI | Competitive on coding, far less costly per token, Modified MIT | 8B – 70B |
+| **CodeLlama / StarCoder2** | Meta / BigCode | Code generation specialist, transparent models | 7B – 34B |
+| **OLMo 2** | AI2 | Most complete open-source reproducibility, Apache 2.0 | 7B – 13B |
+| **Falcon 3** | TII UAE | Lightweight family built for single GPU | 1B – 12B |
 | **GPT-OSS 20B** | OpenAI | Optimized for edge devices. | 20B |
 | **GPT-OSS 120B** | OpenAI | Designed for powerful desktops, laptops, and data centers. | 120B |
 

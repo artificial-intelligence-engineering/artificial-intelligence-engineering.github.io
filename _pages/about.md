@@ -54,13 +54,18 @@ AWS Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (Apac
       <td><code>harness.md</code></td>
       <td><a href="/harness/">/harness/</a></td>
     </tr>
-    <tr>
-      <th scope="row">LxM Ecosystem Table</th>
-      <td><code>lxm.md</code></td>
-      <td><a href="/lxm/">/lxm/</a></td>
-    </tr>
-    <tr>
-      <th scope="row">Model Development</th>
+     <tr>
+       <th scope="row">LxM Ecosystem Table</th>
+       <td><code>lxm.md</code></td>
+       <td><a href="/lxm/">/lxm/</a></td>
+     </tr>
+     <tr>
+       <th scope="row">Local Model</th>
+       <td><code>local-model.md</code></td>
+       <td><a href="/local-model/">/local-model/</a></td>
+     </tr>
+     <tr>
+       <th scope="row">Model Development</th>
       <td><code>model-development.md</code></td>
       <td><a href="/model-development/">/model-development/</a></td>
     </tr>
