@@ -961,6 +961,30 @@ layout: splash
         <a href="https://github.com/nvidia/skillspector#readme" target="_blank">📄 GitHub README</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Codex-LB</td>
+      <td>Slawomir Baran Johansen (OSS)</td>
+      <td>
+        Load balancer for ChatGPT accounts with usage tracking, dashboard, and OpenAI-compatible endpoints.
+      </td>
+      <td>
+        <a href="https://soju06-codex-lb-43.mintlify.app/introduction" target="_blank">🔗 https://soju06-codex-lb-43.mintlify.app/introduction</a><br>
+        <a href="https://github.com/Soju06/codex-lb" target="_blank">📄 https://github.com/Soju06/codex-lb</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Ponytail</td>
+      <td></td>
+      <td>
+        Ponytail is an open-source AI coding tool and plugin that programs the AI to "think like a lazy senior developer." It enforces a "less code is more" philosophy to prevent technical debt, saving time and API costs by urging the AI to reuse existing functions rather than writing new code.
+      </td>
+      <td>
+        <a href="https://github.com/DietrichGebert/ponytail" target="_blank">🔗 https://github.com/DietrichGebert/ponytail</a><br>
+        <a href="https://www.linkedin.com/in/dietrich-gebert-b3a314a9/" target="_blank">📄 https://www.linkedin.com/in/dietrich-gebert-b3a314a9/</a>
+      </td>
+    </tr>
 
   </tbody>
 </table>

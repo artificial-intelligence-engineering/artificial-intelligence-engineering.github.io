@@ -272,6 +272,31 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row">LLM Temperature</th>
+        <td>
+            LLM temperature is a hyperparameter that controls the randomness and creativity of a model's responses by scaling the probability distribution of the predicted next word
+        </td>
+        <td>
+            <ul>
+              <li><a href="https://arxiv.org/html/2506.07295v1" target="_blank">https://arxiv.org/html/2506.07295v1</a></li>
+              <li><a href="https://www.ibm.com/think/topics/llm-temperature" target="_blank">https://www.ibm.com/think/topics/llm-temperature</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+      <th scope="row">KV Cache</th>
+        <td>
+            A Key-Value (KV) cache is a fundamental optimization technique used during Large Language Model (LLM) inference. It stores the intermediate Key (K) and Value (V) vectors of past tokens in the model's attention layers, preventing the model from recomputing them from scratch for every newly generated token
+        </td>
+        <td>
+            <ul>
+              <li><a href="https://huggingface.co/blog/not-lain/kv-caching" target="_blank">https://huggingface.co/blog/not-lain/kv-caching</a></li>
+              <li><a href="https://arxiv.org/html/2603.20397v1" target="_blank">https://arxiv.org/html/2603.20397v1</a></li>
+              <li><a href="https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms" target="_blank">https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
         <th scope="row">TODO</th>
         <td>
             TODO
