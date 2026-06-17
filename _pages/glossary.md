@@ -284,6 +284,18 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row"><a href="/local-model/">Local Model</a></th>
+        <td>
+            A local Model or LLM (Large Language Model) is an AI model that you download and run directly on your own hardware (PC or local server). Unlike cloud-based AI assistants (like ChatGPT or Claude), a local LLM operates entirely offline—your data stays on your device, and no internet connection is required to process requests.
+        </td>
+        <td>
+            <ul>
+              <li><a href="https://ollama.com/" target="_blank">https://ollama.com/</a></li>
+              <li><a href="https://tengine.ai/blog/a-guide-to-running-ai-models-locally-what-local-really-means" target="_blank">https://tengine.ai/blog/a-guide-to-running-ai-models-locally-what-local-really-means</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
       <th scope="row">KV Cache</th>
         <td>
             A Key-Value (KV) cache is a fundamental optimization technique used during Large Language Model (LLM) inference. It stores the intermediate Key (K) and Value (V) vectors of past tokens in the model's attention layers, preventing the model from recomputing them from scratch for every newly generated token
