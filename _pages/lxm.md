@@ -24,6 +24,7 @@ layout: splash
     <li><a href="#ecosystem-nvidia">NVIDIA</a></li>
     <li><a href="#ecosystem-writer">Writer</a></li>
     <li><a href="#ecosystem-zai">Z.AI</a></li>
+    <li><a href="#ecosystem-opencode">Opencode</a></li>
   </ul>
 </nav>
 
@@ -2921,6 +2922,21 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row"></th>
+        <td>
+            MiniMax M3
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            New MiniMax M3 generation listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
       <th scope="row" id="ecosystem-moonshot"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=moonshot.ai&sz=64" alt="Moonshot AI logo" loading="lazy">Moonshot AI</span></th>
         <td>
             Kimi K2 Thinking
@@ -2948,6 +2964,21 @@ layout: splash
         </td>
         <td>
             Updated Kimi family release listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Kimi K2.7 Code
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Coding-specialized Kimi release listed in the Moonshot model timeline.
         </td>
     </tr>
     <tr>
@@ -3053,6 +3084,51 @@ layout: splash
         </td>
         <td>
             Latest GLM generation listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GLM 5.2
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Incremental GLM 5 update listed in the Z.AI model timeline.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row" id="ecosystem-opencode"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=opencode.ai&sz=64" alt="Opencode logo" loading="lazy">Opencode</span></th>
+        <td>
+            Go
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Umbrella routing model that centralizes API access to external LLM providers (Includes models like Kimi, GLM, Qwen, DeepSeek, ...)
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Zen
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Umbrella routing model that centralizes API access to external LLM providers (Includes premium models such as Claude (Sonnet, Opus), GPT (OpenAI), Gemini, ...)
         </td>
     </tr>
   </tbody>
