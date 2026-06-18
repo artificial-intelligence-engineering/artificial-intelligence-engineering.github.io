@@ -88,6 +88,13 @@ To go deeper into skills with practical examples and references:
 
 <a href="{% link _pages/skills.md %}" class="btn btn--primary btn--large">Open Skills development Guide</a>
 
+### Prompting evolution: Spec Driven
+
+Prompt evolution in a spec-driven workflow is the maturation of AI-assisted engineering from unstructured prompting ("vibe coding") to structured, specification-first development. Instead of relying on a single, massive prompt to generate an entire feature, developers first define a rigorous engineering spec, and then allow AI agents to execute parallel tasks governed by that spec.
+
+### Prompting evolution: Loop
+
+La frase clave para entender Loop development es "design loops that prompt your agents". A loop is a small program that prompts the agent, evaluates the response, decides whether the goal is met, and, if not, prompts again with what it has learned. It runs on a schedule rather than on human attention. Loops dispatch other loops.
 
 ## Basic Development Environment
 
