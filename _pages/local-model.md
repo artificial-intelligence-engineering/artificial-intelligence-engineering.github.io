@@ -80,6 +80,7 @@ CPU / GPU / NPU on your hardware
 | **Mistral Small 3.1** | Mistral AI | VLM with long context, fits on consumer laptop | 8B |
 | **Gemma 2 / 3** | Google | Compact, instruction-tuned | 2B – 27B |
 | **Gemma 4** | Google | Widest language coverage, Apache 2.0 | 2B – 27B |
+| **TimesFM** | Google | Open-weights, decoder-only transformer for zero-shot time-series forecasting with uncertainty estimation | 200M – 500M |
 | **Phi-3 / Phi-4** | Microsoft | Small but surprisingly capable, optimized for edge/on-device | 3.8B – 14B |
 | **Qwen 2.5** | Alibaba | Multilingual, coding-focused | 0.5B – 72B |
 | **Qwen3** | Alibaba | Flagship with switchable thinking/non-thinking modes, Apache 2.0 | 8B – 72B |

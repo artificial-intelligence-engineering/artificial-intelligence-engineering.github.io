@@ -269,6 +269,98 @@ Orchestrating complex AI development pipelines:
 - **Optimization recommendations** - vendor tools
 - **Third-party solutions** - independent platforms
 
+## Cloud Hyperscalers Proposals
+
+### AWS Proposal
+
+These are resources from AWS experts to help accelerate Agentic AI adoption.
+
+Here are the 3 sections to help you get started:
+
+1) Preparing
+
+Goes over how to get your organization ready before building or deploying AI agents.
+
+- [Foundations of agentic AI on AWS](https://lnkd.in/eE7VAuT2)
+- [Economics for agentic AI on AWS](https://lnkd.in/eYmctUNq)
+- [Operationalizing agentic AI on AWS](https://lnkd.in/e3KY2rmH)
+
+2) Designing
+
+Covers frameworks, security, and reusable patterns for how agents should be structured.
+
+- [Agentic AI patterns and workflows on AWS](https://lnkd.in/ezz8-hNT)
+- [Agentic AI frameworks, protocols, and tools on AWS](https://lnkd.in/ejjvtivt)
+- [Security for agentic AI on AWS](https://lnkd.in/eyYcWPQh)
+- [Governing and architecting agentic AI on AWS](https://lnkd.in/eGUpsK3g)
+
+3) Building
+
+Includes guidance for deploying agents on serverless and multi-tenant architectures.
+
+- [Building serverless architectures for agentic AI on AWS](https://lnkd.in/eWK2a_S7)
+- [Building multi-tenant architectures for agentic AI on AWS](https://lnkd.in/e5h7ai5s)
+
+### Google Cloud Proposal
+
+These are starter resources from Google Cloud to support Agentic AI adoption.
+
+Suggested sections to organize the proposal:
+
+1) Preparing
+
+Covers readiness, operating model, platform setup, and governance baseline.
+
+- [Google Cloud Generative AI documentation](https://cloud.google.com/ai/generative-ai/docs)
+- [Vertex AI documentation](https://cloud.google.com/vertex-ai/docs)
+- [Google Cloud Architecture Center](https://cloud.google.com/architecture)
+
+2) Designing
+
+Focuses on architectures, agent patterns, security controls, and platform guardrails.
+
+- [Generative AI architecture patterns](https://cloud.google.com/architecture/gen-ai)
+- [Responsible AI on Google Cloud](https://cloud.google.com/responsible-ai)
+- [Security best practices on Google Cloud](https://cloud.google.com/security/best-practices)
+
+3) Building
+
+Includes deployment guidance, scaling, and production operations for agent systems.
+
+- [Build with Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder)
+- [Cloud Run documentation](https://cloud.google.com/run/docs)
+- [GKE documentation](https://cloud.google.com/kubernetes-engine/docs)
+
+### Azure Proposal
+
+These are starter resources from Microsoft Azure to support Agentic AI adoption.
+
+Suggested sections to organize the proposal:
+
+1) Preparing
+
+Covers readiness, landing zones, governance, and enterprise controls.
+
+- [Azure AI Foundry documentation](https://learn.microsoft.com/azure/ai-foundry/)
+- [Azure Well-Architected Framework](https://learn.microsoft.com/azure/well-architected/)
+- [Cloud Adoption Framework for Azure](https://learn.microsoft.com/azure/cloud-adoption-framework/)
+
+2) Designing
+
+Focuses on reference architectures, agent design, security, and compliance.
+
+- [Azure Architecture Center](https://learn.microsoft.com/azure/architecture/)
+- [Azure AI services documentation](https://learn.microsoft.com/azure/ai-services/)
+- [Security in Azure](https://learn.microsoft.com/azure/security/)
+
+3) Building
+
+Includes implementation guidance for production-grade, scalable agentic solutions.
+
+- [Azure OpenAI documentation](https://learn.microsoft.com/azure/ai-services/openai/)
+- [Azure Kubernetes Service (AKS) documentation](https://learn.microsoft.com/azure/aks/)
+- [Azure Functions documentation](https://learn.microsoft.com/azure/azure-functions/)
+
 ## References and Resources
 
 - [Kubernetes Documentation](https://kubernetes.io/docs/)
@@ -276,4 +368,3 @@ Orchestrating complex AI development pipelines:
 - [AWS ML Stack](https://aws.amazon.com/machine-learning/)
 - [Google Cloud AI Solutions](https://cloud.google.com/solutions/ai)
 - [Azure AI Services](https://azure.microsoft.com/en-us/solutions/ai/)
-

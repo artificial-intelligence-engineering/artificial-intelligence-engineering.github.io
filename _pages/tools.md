@@ -937,6 +937,19 @@ layout: splash
     </tr>
     <tr>
       <th scope="row"></th>
+      <td>Web Quality Skills</td>
+      <td>Addy Osmani (Google)</td>
+      <td>
+        Curated roadmap of practical web engineering skills for building high-quality web products,
+        covering performance, accessibility, testing, and reliability best practices.
+      </td>
+      <td>
+        <a href="https://github.com/addyosmani/web-quality-skills" target="_blank">🔗 github.com/addyosmani/web-quality-skills</a><br>
+        <a href="https://github.com/addyosmani/web-quality-skills#readme" target="_blank">📄 GitHub README</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
       <td>LLMs-from-scratch</td>
       <td>rasbt (OSS)</td>
       <td>
