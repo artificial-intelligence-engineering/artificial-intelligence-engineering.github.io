@@ -963,6 +963,20 @@ layout: splash
     </tr>
     <tr>
       <th scope="row"></th>
+      <td>llm-checker</td>
+      <td>Pavelevich (OSS)</td>
+      <td>
+        Advanced CLI tool that scans your hardware and estimates which LLM or sLLM models are viable to run locally.
+        Useful for quickly determining resource fit (RAM/VRAM) and selecting the most realistic local model options,
+        with built-in Ollama integration.
+      </td>
+      <td>
+        <a href="https://github.com/Pavelevich/llm-checker" target="_blank">🔗 github.com/Pavelevich/llm-checker</a><br>
+        <a href="https://github.com/Pavelevich/llm-checker#readme" target="_blank">📄 GitHub README</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
       <td>Codex-LB</td>
       <td>Slawomir Baran Johansen (OSS)</td>
       <td>

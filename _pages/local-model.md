@@ -66,6 +66,7 @@ CPU / GPU / NPU on your hardware
 | **Jan** | Open-source, offline-first ChatGPT alternative with local model management. | [jan.ai](https://jan.ai/) |
 | **Tengine** | Privacy-first local AI assistant with a clean UI. | [tengine.ai](https://tengine.ai/) |
 | **GPT4All** | Curated collection of models optimised for consumer hardware, with chat UI. | [gpt4all.io](https://gpt4all.io/) |
+| **llm-checker** | Advanced CLI scanner that inspects your hardware and estimates which LLM/sLLM models are realistically runnable locally, with Ollama integration. | [github.com/Pavelevich/llm-checker](https://github.com/Pavelevich/llm-checker) |
 
 ---
 
@@ -112,6 +113,13 @@ The main constraint is memory. A rule of thumb:
 | Production server (70B+) | Multi-GPU or high-RAM CPU server |
 
 Apple Silicon Macs (M1/M2/M3/M4) are a popular choice for local models because they share memory between CPU and GPU, making 32–128 GB configurations viable.
+
+### Hardware viability check before choosing a model
+
+Before pulling large models, run a hardware viability check with a tool such as `llm-checker` to estimate what your current machine can sustain in practice (VRAM/RAM fit, realistic model families, and likely best options for local use). This helps avoid trial-and-error downloads and quickly identifies the most viable local models for your setup.
+
+- Tool: [llm-checker](https://github.com/Pavelevich/llm-checker)
+- Focus: hardware scan + model viability ranking + Ollama-friendly recommendations
 
 ---
 
@@ -466,7 +474,7 @@ Your App (FastAPI / Node.js)
 ```yaml
 Costs:
   - Cost per request (target: <$0.01 local, <$0.05 online)
-  - % requests served locally (target: 70–80%)
+  - "% requests served locally (target: 70–80%)"
   - ROI: hardware vs. API savings
 
 Quality:
