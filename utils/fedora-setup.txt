@@ -1,3 +1,6 @@
+sudo dnf install @development-tools
+sudo dnf install libffi libffi-devel libyaml-devel gcc-c++ -y
+
  curl -fsSL https://rbenv.org/install.sh | bash
  rbenv install 3.4.7
  rbenv global 3.4.7
