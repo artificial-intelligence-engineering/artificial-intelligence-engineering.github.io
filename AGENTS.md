@@ -6,7 +6,8 @@
 - Use `_pages/overview.md` to understand the site’s organizing model: **Application Development**, **Model Development**, **AI Infrastructure**, and **AI Governance**.
 
 ## Actions coding agents must never take
-- Do **not** run destructive or state-changing `git` commands, including `git add`, `git commit`, and `git push`, or any command that modifies the local or remote repository state.
+- Do **not** run destructive or state-changing `git` commands, including `git add`, `git commit`, and `git push`, or any command that modifies the local or remote repository state. Never create new branches (git bracn), never create worktrees. All of this git
+operations are resposibility of the human (developer).
 - Do **not** run `bundle install` or `bundle exec jekyll serve`; these tasks are reserved for the human operator.
 - If a task would normally require installing dependencies, serving the site locally, or writing repository state, stop after preparing file changes and hand execution back to the human.
 
