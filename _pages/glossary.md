@@ -309,6 +309,21 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row">LLM Distillation</th>
+        <td>
+            LLM Distillation is a specialized form of Knowledge Distillation (KD) that compresses large-scale LLMs into
+            smaller, faster and more efficient models while preserving a significant portion of the performance. It enables
+            lightweight models to approximate the capabilities of massive LLMs making them deployable on a broader range
+            of applications and devices.
+        </td>
+        <td>
+            <ul>
+              <li><a href="https://arxiv.org/abs/2306.08543" target="_blank">Knowledge Distillation of Large Language Models – arXiv (2023)</a></li>
+              <li><a href="https://huggingface.co/docs/transformers/model_doc/distilbert" target="_blank">DistilBERT: a distilled version of BERT – Hugging Face</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
         <th scope="row">TODO</th>
         <td>
             TODO
