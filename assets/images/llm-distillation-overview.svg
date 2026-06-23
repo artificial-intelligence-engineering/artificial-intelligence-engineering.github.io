@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="svgtitle svgdesc">
+  <title id="svgtitle">LLM Distillation Overview</title>
+  <desc id="svgdesc">Diagram showing knowledge distillation from a large Teacher LLM to a smaller Student LLM through soft labels, hidden-state matching and attention transfer.</desc>
+
+  <!-- Background -->
+  <rect width="1100" height="560" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="550" y="46" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e293b" text-anchor="middle">LLM Distillation: Teacher → Student</text>
+
+  <!-- ── TEACHER BOX ── -->
+  <rect x="40" y="80" width="300" height="400" rx="18" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="190" y="118" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Teacher LLM</text>
+  <text x="190" y="142" font-family="Arial, sans-serif" font-size="13" fill="#1e40af" text-anchor="middle">(Large · Expensive · Accurate)</text>
+
+  <!-- Teacher layers (stacked) -->
+  <rect x="65"  y="162" width="250" height="34" rx="6" fill="#1d4ed8" opacity="0.85"/>
+  <text x="190" y="184" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Transformer Block N</text>
+  <rect x="65"  y="204" width="250" height="34" rx="6" fill="#1d4ed8" opacity="0.72"/>
+  <text x="190" y="226" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Transformer Block …</text>
+  <rect x="65"  y="246" width="250" height="34" rx="6" fill="#1d4ed8" opacity="0.60"/>
+  <text x="190" y="268" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Transformer Block 2</text>
+  <rect x="65"  y="288" width="250" height="34" rx="6" fill="#1d4ed8" opacity="0.50"/>
+  <text x="190" y="310" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Transformer Block 1</text>
+  <rect x="65"  y="330" width="250" height="34" rx="6" fill="#2563eb" opacity="0.85"/>
+  <text x="190" y="352" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Embedding Layer</text>
+
+  <!-- Teacher stats -->
+  <rect x="65" y="380" width="250" height="75" rx="8" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="190" y="401" font-family="Arial, sans-serif" font-size="12" fill="#1e3a8a" text-anchor="middle" font-weight="bold">e.g. 70B parameters</text>
+  <text x="190" y="419" font-family="Arial, sans-serif" font-size="12" fill="#1e40af" text-anchor="middle">High inference cost</text>
+  <text x="190" y="437" font-family="Arial, sans-serif" font-size="12" fill="#1e40af" text-anchor="middle">Requires GPU cluster</text>
+
+  <!-- ── TRANSFER COLUMN ── -->
+  <text x="550" y="112" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#475569" text-anchor="middle">Knowledge Transfer</text>
+
+  <!-- Signal 1: Soft Labels -->
+  <rect x="425" y="130" width="250" height="66" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="550" y="152" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#854d0e" text-anchor="middle">① Soft Labels</text>
+  <text x="550" y="170" font-family="Arial, sans-serif" font-size="11" fill="#92400e" text-anchor="middle">Full token probability distribution</text>
+  <text x="550" y="187" font-family="Arial, sans-serif" font-size="11" fill="#92400e" text-anchor="middle">at temperature T (logit matching)</text>
+
+  <!-- Signal 2: Hidden States -->
+  <rect x="425" y="218" width="250" height="66" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="550" y="240" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14532d" text-anchor="middle">② Hidden-State Matching</text>
+  <text x="550" y="258" font-family="Arial, sans-serif" font-size="11" fill="#166534" text-anchor="middle">Intermediate layer representations</text>
+  <text x="550" y="275" font-family="Arial, sans-serif" font-size="11" fill="#166534" text-anchor="middle">aligned via cosine / MSE loss</text>
+
+  <!-- Signal 3: Attention -->
+  <rect x="425" y="306" width="250" height="66" rx="10" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+  <text x="550" y="328" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#831843" text-anchor="middle">③ Attention Transfer</text>
+  <text x="550" y="346" font-family="Arial, sans-serif" font-size="11" fill="#9d174d" text-anchor="middle">Teacher attention maps guide</text>
+  <text x="550" y="363" font-family="Arial, sans-serif" font-size="11" fill="#9d174d" text-anchor="middle">student attention heads</text>
+
+  <!-- Loss formula box -->
+  <rect x="425" y="394" width="250" height="70" rx="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="550" y="415" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#334155" text-anchor="middle">Distillation Loss</text>
+  <text x="550" y="434" font-family="Arial, sans-serif" font-size="11" fill="#475569" text-anchor="middle">L = α·L_CE + (1-α)·L_KD(T)</text>
+  <text x="550" y="452" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">α balances ground-truth vs teacher signal</text>
+
+  <!-- Arrows Teacher → Transfer (horizontal) -->
+  <line x1="342" y1="163" x2="423" y2="163" stroke="#ca8a04" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrYellow)"/>
+  <line x1="342" y1="251" x2="423" y2="251" stroke="#16a34a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrGreen)"/>
+  <line x1="342" y1="339" x2="423" y2="339" stroke="#db2777" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrPink)"/>
+
+  <!-- Arrows Transfer → Student (horizontal) -->
+  <line x1="677" y1="163" x2="757" y2="163" stroke="#ca8a04" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrYellow)"/>
+  <line x1="677" y1="251" x2="757" y2="251" stroke="#16a34a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrGreen)"/>
+  <line x1="677" y1="339" x2="757" y2="339" stroke="#db2777" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrPink)"/>
+
+  <!-- ── STUDENT BOX ── -->
+  <rect x="760" y="80" width="300" height="400" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <text x="910" y="118" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#14532d" text-anchor="middle">Student LLM</text>
+  <text x="910" y="142" font-family="Arial, sans-serif" font-size="13" fill="#15803d" text-anchor="middle">(Small · Efficient · Deployable)</text>
+
+  <!-- Student layers (fewer, smaller) -->
+  <rect x="800" y="162" width="220" height="30" rx="6" fill="#16a34a" opacity="0.85"/>
+  <text x="910" y="182" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Transformer Block N'</text>
+  <rect x="800" y="200" width="220" height="30" rx="6" fill="#16a34a" opacity="0.65"/>
+  <text x="910" y="220" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Transformer Block 2</text>
+  <rect x="800" y="238" width="220" height="30" rx="6" fill="#16a34a" opacity="0.50"/>
+  <text x="910" y="258" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Transformer Block 1</text>
+  <rect x="800" y="276" width="220" height="30" rx="6" fill="#15803d" opacity="0.85"/>
+  <text x="910" y="296" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Embedding Layer</text>
+
+  <!-- Student stats -->
+  <rect x="785" y="326" width="250" height="130" rx="8" fill="#bbf7d0" stroke="#86efac" stroke-width="1.5"/>
+  <text x="910" y="350" font-family="Arial, sans-serif" font-size="12" fill="#14532d" text-anchor="middle" font-weight="bold">e.g. 7B parameters (10× smaller)</text>
+  <text x="910" y="370" font-family="Arial, sans-serif" font-size="12" fill="#166534" text-anchor="middle">Low inference cost</text>
+  <text x="910" y="388" font-family="Arial, sans-serif" font-size="12" fill="#166534" text-anchor="middle">Runs on a single GPU / CPU</text>
+  <text x="910" y="410" font-family="Arial, sans-serif" font-size="12" fill="#166534" text-anchor="middle" font-weight="bold">Retains ~90–97% of teacher</text>
+  <text x="910" y="428" font-family="Arial, sans-serif" font-size="12" fill="#166534" text-anchor="middle" font-weight="bold">accuracy on benchmarks</text>
+
+  <!-- ── BOTTOM LEGEND ── -->
+  <rect x="40" y="505" width="1020" height="40" rx="8" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+  <circle cx="80"  cy="525" r="6" fill="#ca8a04"/>
+  <text x="92"  y="530" font-family="Arial, sans-serif" font-size="12" fill="#334155">Soft labels</text>
+  <circle cx="210" cy="525" r="6" fill="#16a34a"/>
+  <text x="222" y="530" font-family="Arial, sans-serif" font-size="12" fill="#334155">Hidden-state matching</text>
+  <circle cx="400" cy="525" r="6" fill="#db2777"/>
+  <text x="412" y="530" font-family="Arial, sans-serif" font-size="12" fill="#334155">Attention transfer</text>
+  <text x="700" y="530" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-style="italic">N' &lt; N (fewer layers) · White-box distillation shown</text>
+
+  <!-- ── ARROW MARKERS ── -->
+  <defs>
+    <marker id="arrYellow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#ca8a04"/>
+    </marker>
+    <marker id="arrGreen" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#16a34a"/>
+    </marker>
+    <marker id="arrPink" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#db2777"/>
+    </marker>
+  </defs>
+</svg>

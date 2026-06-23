@@ -11,7 +11,9 @@ toc_icon: "compress-alt"
 
 ## What is LLM Distillation?
 
-**LLM Distillation** is a specialized form of **Knowledge Distillation (KD)** applied to large language models. The goal is to transfer the knowledge encoded in a large, expensive model (the **teacher**) into a smaller, faster model (the **student**) while preserving as much of its performance as possible.
+![LLM Distillation — Teacher to Student knowledge transfer diagram](/assets/images/llm-distillation-overview.svg){: .align-center}
+
+**LLM Distillation** is a specialized form of **Knowledge Distillation (KD)** applied to large language models.The goal is to transfer the knowledge encoded in a large, expensive model (the **teacher**) into a smaller, faster model (the **student**) while preserving as much of its performance as possible.
 
 The technique makes it feasible to deploy powerful language capabilities in resource-constrained environments — edge devices, latency-sensitive APIs, or cost-sensitive production systems — without retraining from scratch on raw data.
 
