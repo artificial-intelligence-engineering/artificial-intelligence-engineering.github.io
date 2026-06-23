@@ -20,7 +20,7 @@ The technique makes it feasible to deploy powerful language capabilities in reso
 Training frontier LLMs requires enormous compute budgets and specialized infrastructure. Deploying them at scale can be even more expensive. Distillation addresses this with a favorable trade-off:
 
 | Concern | Large Teacher | Distilled Student |
-|---|---|---|
+| --- | --- | --- |
 | Inference cost | High | Low |
 | Latency | High | Low |
 | Accuracy | Baseline | Near-baseline |
@@ -47,7 +47,7 @@ The teacher provides richer training signals than plain ground-truth labels:
 
 The distillation objective combines two terms:
 
-```
+```bash
 L_total = α · L_CE(student, ground_truth) + (1 - α) · L_KD(student_logits, teacher_logits, T)
 ```
 
@@ -77,7 +77,7 @@ Full access to the teacher's **weights, logits, and activations** is available. 
 ### Task-Specific vs. General Distillation
 
 | Type | Description | Example |
-|---|---|---|
+| --- | --- | --- |
 | Task-specific | Distill on a labeled dataset for a downstream task | Fine-tuned BERT → DistilBERT for NLI |
 | General | Distill on large unlabeled corpora to preserve general capabilities | LLaMA 70B → TinyLLaMA on raw text |
 
@@ -108,7 +108,7 @@ DeepSeek released distilled versions of their R1 reasoning model (ranging from 1
 Distillation is one of several model compression strategies. They are often combined:
 
 | Technique | Description |
-|---|---|
+| --- | --- |
 | **Distillation** | Transfer soft knowledge from teacher to student |
 | **Pruning** | Remove redundant weights or attention heads |
 | **Quantization** | Reduce numerical precision (e.g., FP16 → INT4) |
