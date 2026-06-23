@@ -60,6 +60,11 @@ AWS Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (Apac
        <td><a href="/lxm/">/lxm/</a></td>
      </tr>
      <tr>
+       <th scope="row">LLM Distillation</th>
+       <td><code>llm-distillation.md</code></td>
+       <td><a href="/llm-distillation/">/llm-distillation/</a></td>
+     </tr>
+     <tr>
        <th scope="row">Local Model</th>
        <td><code>local-model.md</code></td>
        <td><a href="/local-model/">/local-model/</a></td>

@@ -309,7 +309,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">LLM Distillation</th>
+      <th scope="row"><a href="/llm-distillation/">LLM Distillation</a></th>
         <td>
             LLM Distillation is a specialized form of Knowledge Distillation (KD) that compresses large-scale LLMs into
             smaller, faster and more efficient models while preserving a significant portion of the performance. It enables
