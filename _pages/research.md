@@ -61,6 +61,7 @@ toc_label: "Table of Contents"
     <tr><th scope="row">2022-09</th><td>Sparrow</td><td>DeepMind</td><td><a href="https://arxiv.org/pdf/2209.14375.pdf">Improving alignment of dialogue agents via targeted human judgements</a></td></tr>
     <tr><th scope="row">2022-10</th><td>Flan-T5/PaLM</td><td>Google</td><td><a href="https://arxiv.org/pdf/2210.11416.pdf">Scaling Instruction-Finetuned Language Models</a></td></tr>
     <tr><th scope="row">2022-10</th><td>GLM-130B</td><td>Tsinghua</td><td><a href="https://arxiv.org/pdf/2210.02414.pdf">GLM-130B: An Open Bilingual Pre-trained Model</a></td></tr>
+    <tr><th scope="row">2022-10</th><td>ReAct</td><td>Princeton&amp;Google</td><td><a href="https://arxiv.org/abs/2210.03629">ReAct: Synergizing Reasoning and Acting in Language Models</a></td></tr>
     <tr><th scope="row">2022-11</th><td>HELM</td><td>Stanford</td><td><a href="https://arxiv.org/pdf/2211.09110.pdf">Holistic Evaluation of Language Models</a></td></tr>
     <tr><th scope="row">2022-11</th><td>BLOOM</td><td>BigScience</td><td><a href="https://arxiv.org/pdf/2211.05100.pdf">BLOOM: A 176B-Parameter Open-Access Multilingual Language Model</a></td></tr>
     <tr><th scope="row">2022-11</th><td>Galactica</td><td>Meta</td><td><a href="https://arxiv.org/pdf/2211.09085.pdf">Galactica: A Large Language Model for Science</a></td></tr>
@@ -105,6 +106,7 @@ toc_label: "Table of Contents"
     <tr><th scope="row">2026-01</th><td>AI Conference</td><td>NAACL</td><td><a href="https://aclanthology.org/venues/naacl/">NAACL - a top-tier recurring conference in NLP and language models</a></td></tr>
     <tr><th scope="row">2026-02</th><td>AI Conference</td><td>IJCAI</td><td><a href="https://ijcai.org/">IJCAI (International Joint Conference on Artificial Intelligence) - a historic and globally recognized reference conference in AI</a></td></tr>
     <tr><th scope="row">2026-02</th><td>Agent Skills</td><td>Anthropic</td><td><a href="https://arxiv.org/abs/2602.08004">Agent Skills: A Data-Driven Analysis of Claude Skills for Extending Large Language Model Functionality</a></td></tr>
+    <tr><th scope="row">2026-03</th><td>Codebase-Memory</td><td>DeusData</td><td><a href="https://arxiv.org/abs/2603.27277">Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP</a></td></tr>
     <tr><th scope="row">2026-03</th><td>LeWorldModel</td><td>Yann LeCun</td><td><a href="https://le-wm.github.io/">LeWorldModel: Stable End-to-End JEPA from Pixels</a></td></tr>
     <tr><th scope="row">2026-05</th><td>Agentic Search</td><td>Zhuofeng Li</td><td><a href="https://arxiv.org/abs/2605.05242">Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction</a></td></tr>
     <tr><th scope="row">2026-06</th><td>Research post</td><td>OpenAI</td><td><a href="https://openai.com/index/chatgpt-memory-dreaming/">Dreaming: Better memory for a more helpful ChatGPT</a></td></tr>

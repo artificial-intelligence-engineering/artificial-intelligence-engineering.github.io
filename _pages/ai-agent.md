@@ -126,6 +126,21 @@ The diagram shows the recursive structure at the heart of the loop. The model re
 
 What makes this powerful is the accumulation of context. Each iteration through the loop adds to the conversation history. The model sees not just the original request, but every tool it has called and every result it has received. This accumulated context enables sophisticated multi-step reasoning.
 
+## ReAct (Reasoning and Acting) Framework
+
+The ReAct (Reasoning and Acting) technique is an AI framework that allows models to interleave verbal reasoning traces with dynamic tool execution. Instead of guessing blindly, the AI thinks out loud, uses external tools (like search engines or calculators) to verify facts, and refines its next steps based on real-world results
+
+![ReAct framework diagram](/assets/images/react-framework-diagram.png)
+
+ReAct combines two capabilities that were often treated separately in LLM systems: reasoning (for example, chain-of-thought style planning) and acting (calling tools or interacting with environments). In ReAct trajectories, the model alternates between thoughts, actions, and observations, so each new step is grounded in feedback from the outside world.
+
+According to the project page and paper results, this pattern improves factuality and interpretability in knowledge-intensive tasks such as HotpotQA and FEVER, where external lookup helps reduce hallucination and error propagation. It also shows strong few-shot performance in interactive decision-making benchmarks like ALFWorld and WebShop, where interleaving reasoning with actions helps the model adapt while solving multi-step tasks.
+
+The same framework is flexible across prompting and finetuning settings: prompts can be designed as few-shot reasoning-action trajectories, and early finetuning experiments reported that ReAct-format training can outperform larger prompted models in some scenarios.
+
+Reference:
+- [ReAct Project Page](https://react-lm.github.io/)
+
 ## Open Source Autonomous Agents
 
 This section lists notable open-source AI agents. OpenClaw stands out as a premier autonomous agent, and while there are several similar projects, many of them provide both a fully-featured autonomous agent and an SDK for building custom agents.

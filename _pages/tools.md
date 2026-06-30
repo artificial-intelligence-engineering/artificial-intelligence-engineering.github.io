@@ -905,6 +905,22 @@ layout: splash
     <!-- ── Useful Resources ─────────────────────────────────── -->
     <tr>
       <th scope="row" id="category-useful-resources">Useful Resources</th>
+      <td>codebase-memory-mcp</td>
+      <td>DeusData (OSS)</td>
+      <td>
+        High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph
+        — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static
+        binary, zero dependencies.
+      </td>
+      <td>
+        <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">🔗 github.com/DeusData/codebase-memory-mcp</a><br>
+        <a href="https://github.com/DeusData/codebase-memory-mcp#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://arxiv.org/abs/2603.27277" target="_blank">📄 Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP</a><br>
+        <a href="https://deusdata.github.io/codebase-memory-mcp/" target="_blank">📘 Quick Start / usage guide</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
       <td>Agents Towards Production</td>
       <td>Nir Diamant (OSS)</td>
       <td>
@@ -1003,13 +1019,26 @@ layout: splash
     <tr>
       <th scope="row"></th>
       <td>Ponytail</td>
-      <td></td>
+      <td>Dietrich Gebert (OSS)</td>
       <td>
         Ponytail is an open-source AI coding tool and plugin that programs the AI to "think like a lazy senior developer." It enforces a "less code is more" philosophy to prevent technical debt, saving time and API costs by urging the AI to reuse existing functions rather than writing new code.
       </td>
       <td>
-        <a href="https://github.com/DietrichGebert/ponytail" target="_blank">🔗 https://github.com/DietrichGebert/ponytail</a><br>
-        <a href="https://www.linkedin.com/in/dietrich-gebert-b3a314a9/" target="_blank">📄 https://www.linkedin.com/in/dietrich-gebert-b3a314a9/</a>
+        <a href="https://github.com/DietrichGebert/ponytail" target="_blank">🔗 github.com/DietrichGebert/ponytail</a><br>
+        <a href="https://github.com/DietrichGebert/ponytail#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.linkedin.com/in/dietrich-gebert-b3a314a9/" target="_blank">👤 Author profile</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>gentleman-ai</td>
+      <td>Gentleman Programming (OSS)</td>
+      <td>
+        Gentle-AI (part of the Gentleman Programming ecosystem) is an open-source CLI/TUI configurator that upgrades existing AI coding agents (like Claude Code, OpenCode, Cursor, and Windsurf) into full-fledged, disciplined engineering environments.
+      </td>
+      <td>
+        <a href="https://github.com/Gentleman-Programming/gentle-ai" target="_blank">🔗 github.com/Gentleman-Programming/gentle-ai</a><br>
+        <a href="https://github.com/Gentleman-Programming/gentle-ai#readme" target="_blank">📄 GitHub README</a>
       </td>
     </tr>
 
