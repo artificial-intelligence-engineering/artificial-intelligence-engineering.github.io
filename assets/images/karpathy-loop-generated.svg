@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Karpathy Method Loop</title>
+  <desc id="desc">Flow diagram showing Collect, Compile, Query and Refine, and Knowledge Wiki in a continuous loop.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f4ee; }
+      .title { font: 700 42px Georgia, 'Times New Roman', serif; fill: #1f2a37; }
+      .subtitle { font: 400 20px Georgia, 'Times New Roman', serif; fill: #334155; }
+      .box-title { font: 700 28px Georgia, 'Times New Roman', serif; fill: #0f172a; }
+      .box-text { font: 400 18px Georgia, 'Times New Roman', serif; fill: #1e293b; }
+      .small { font: 400 16px Georgia, 'Times New Roman', serif; fill: #334155; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="700"/>
+
+  <text class="title" x="600" y="70" text-anchor="middle">The Karpathy Method</text>
+  <text class="subtitle" x="600" y="105" text-anchor="middle">A self-evolving second brain built with local markdown and an LLM compiler</text>
+
+  <rect x="70" y="190" rx="18" ry="18" width="280" height="170" fill="#fef3c7" stroke="#d97706" stroke-width="2" filter="url(#shadow)"/>
+  <text class="box-title" x="210" y="240" text-anchor="middle">1. Collect</text>
+  <text class="box-text" x="210" y="275" text-anchor="middle">Raw sources</text>
+  <text class="small" x="210" y="305" text-anchor="middle">papers, videos, notes</text>
+
+  <rect x="460" y="190" rx="18" ry="18" width="280" height="170" fill="#dbeafe" stroke="#2563eb" stroke-width="2" filter="url(#shadow)"/>
+  <text class="box-title" x="600" y="240" text-anchor="middle">2. Compile</text>
+  <text class="box-text" x="600" y="275" text-anchor="middle">LLM agent reads</text>
+  <text class="small" x="600" y="305" text-anchor="middle">synthesizes + links knowledge</text>
+
+  <rect x="850" y="190" rx="18" ry="18" width="280" height="170" fill="#dcfce7" stroke="#16a34a" stroke-width="2" filter="url(#shadow)"/>
+  <text class="box-title" x="990" y="240" text-anchor="middle">3. Query &amp; Refine</text>
+  <text class="box-text" x="990" y="275" text-anchor="middle">Ask, lint, detect gaps</text>
+  <text class="small" x="990" y="305" text-anchor="middle">and resolve contradictions</text>
+
+  <rect x="360" y="450" rx="20" ry="20" width="480" height="160" fill="#ede9fe" stroke="#6d28d9" stroke-width="2" filter="url(#shadow)"/>
+  <text class="box-title" x="600" y="505" text-anchor="middle">Interlinked Markdown Wiki</text>
+  <text class="box-text" x="600" y="540" text-anchor="middle">Portable, local, cumulative knowledge base</text>
+  <text class="small" x="600" y="570" text-anchor="middle">(.md files on your drive)</text>
+
+  <path d="M350 275 L450 275" stroke="#1f2937" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M740 275 L840 275" stroke="#1f2937" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M990 360 C990 430, 840 460, 760 480" stroke="#1f2937" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M440 480 C300 460, 170 420, 140 340" stroke="#1f2937" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M130 250 C160 180, 260 150, 360 150 L860 150 C950 150, 1030 170, 1060 220" stroke="#64748b" stroke-width="3" stroke-dasharray="10 8" fill="none" marker-end="url(#arrow)"/>
+
+  <text class="small" x="600" y="665" text-anchor="middle">Continuous compounding loop: new information enters, structure improves, insights increase.</text>
+</svg>

@@ -128,6 +128,8 @@ In this section, we study different approaches for building AI products, includi
 
 The "Karpathy method," popularized by AI pioneer Andrej Karpathy, is a workflow for building a self-evolving, AI-powered "Second Brain." It uses an LLM (such as Claude Code, Gemini, and so forth) as an automated researcher that reads, synthesizes, and continuously structures raw information into a personal, interlinked markdown wiki. Traditional AI chats operate ephemerally—once a conversation ends, the context and accumulated knowledge disappear. The Karpathy method bypasses traditional Retrieval-Augmented Generation (RAG) constraints, resulting in a permanent, customized knowledge base that actually remembers everything you feed it. Because the wiki lives in plain text (.md files) on your local drive, it remains completely portable, secure, and future-proof.
 
+![The Karpathy method workflow loop](/assets/images/karpathy-loop-generated.svg)
+
 Karpathy's approach treats raw information as "source code" and the LLM as the "compiler" that turns it into a structured knowledge base, allowing your information to compound over time instead of getting lost in chat histories.
 
 1. **Collect:** You gather raw sources—such as YouTube transcripts, articles, research papers, and notes—and drop them into a local directory. Many users rely on the Obsidian Web Clipper to easily save content.
