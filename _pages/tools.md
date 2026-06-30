@@ -1019,13 +1019,14 @@ layout: splash
     <tr>
       <th scope="row"></th>
       <td>Ponytail</td>
-      <td></td>
+      <td>Dietrich Gebert (OSS)</td>
       <td>
         Ponytail is an open-source AI coding tool and plugin that programs the AI to "think like a lazy senior developer." It enforces a "less code is more" philosophy to prevent technical debt, saving time and API costs by urging the AI to reuse existing functions rather than writing new code.
       </td>
       <td>
-        <a href="https://github.com/DietrichGebert/ponytail" target="_blank">🔗 https://github.com/DietrichGebert/ponytail</a><br>
-        <a href="https://www.linkedin.com/in/dietrich-gebert-b3a314a9/" target="_blank">📄 https://www.linkedin.com/in/dietrich-gebert-b3a314a9/</a>
+        <a href="https://github.com/DietrichGebert/ponytail" target="_blank">🔗 github.com/DietrichGebert/ponytail</a><br>
+        <a href="https://github.com/DietrichGebert/ponytail#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.linkedin.com/in/dietrich-gebert-b3a314a9/" target="_blank">👤 Author profile</a>
       </td>
     </tr>
     <tr>
