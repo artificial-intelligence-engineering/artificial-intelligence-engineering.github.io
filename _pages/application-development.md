@@ -96,6 +96,148 @@ Prompt evolution in a spec-driven workflow is the maturation of AI-assisted engi
 
 La frase clave para entender Loop development es "design loops that prompt your agents". A loop is a small program that prompts the agent, evaluates the response, decides whether the goal is met, and, if not, prompts again with what it has learned. It runs on a schedule rather than on human attention. Loops dispatch other loops.
 
+### AGENTS.md & SKILL.md
+
+Summary: AI agents use certain markdown files for discovery and behavior instructions, but there is no universal standard. AGENTS.md usually acts as the general guide for a repository or project, while SKILL.md usually defines reusable capabilities for specific platforms such as GitHub Copilot. If you want something portable across agents, the most common approach today is to combine a root-level AGENTS.md with regular human documentation (README.md, docs/, runbooks) and treat agent-specific files as an optional layer.
+
+**1. Role of these markdown files**
+
+**AGENTS.md**
+
+It is usually used for:
+
+- instructions for agents working in a repository
+- editing conventions
+- test, lint, and build commands
+- quick architecture notes
+- safety rules and operational limits
+- expectations for pull requests, formatting, migrations, and related changes
+
+In practice, it is similar to:
+
+- an agent-oriented CONTRIBUTING.md
+- a short operational manual to automate repository changes
+
+Not every agent supports it officially, but several ecosystems adopt it or emulate it.
+
+**SKILL.md**
+
+It is usually used for:
+
+- defining a specialized skill or capability
+- reusable instructions for specific task types
+- context, workflows, checklists, tools, and limits
+
+It is more specific than AGENTS.md. It is usually not the repository guide, but rather a guide for executing one task type well.
+
+Examples:
+
+- a skill for SQL migrations
+- a skill for releases
+- a skill for payment debugging
+- a skill for updating test snapshots
+
+**2. Typical locations**
+
+**AGENTS.md**
+
+The most common approach is placing it at the repository root:
+
+- /AGENTS.md
+
+Some teams also use per-subdirectory variants, but that depends heavily on the tool.
+
+**SKILL.md**
+
+In GitHub Copilot skills, it usually lives inside a skill folder:
+
+- .github/skills/<skill-name>/SKILL.md
+
+Alternative locations exist depending on ecosystem or tooling, for example:
+
+- .claude/skills/<skill-name>/SKILL.md
+- .agents/skills/<skill-name>/SKILL.md
+- ~/.copilot/skills/<skill-name>/SKILL.md
+
+General pattern:
+
+- one folder per skill
+- SKILL.md inside that folder
+- optional supporting resources in the same folder
+
+**3. Differences between agents**
+
+Yes, there are many.
+
+- **Discovery:** not all agents look for the same files or paths. Some load AGENTS.md, others ignore it. Some support formal skills with SKILL.md, others rely only on system prompts or proprietary configuration.
+- **When files are used:** some agents read instructions at startup, some reread files when changing folders, some load skills only when they detect relevance, and none can guarantee 100% compliance with those files.
+- **Priority hierarchy:** these files do not usually have absolute priority. They are typically below the system prompt, product policies, explicit user instructions, and available permissions or tools.
+- **Granularity:** AGENTS.md is usually repository or project level, SKILL.md is usually task or capability level, and other agents prefer YAML, JSON, or proprietary config instead of markdown.
+
+**4. Most common approach today**
+
+The most practical approach is layered:
+
+- **Layer 1: Standard human documentation**
+Keep these up to date: README.md, CONTRIBUTING.md, docs/architecture.md, docs/runbooks/, and reproducible scripts such as make test or npm run lint.
+- **Layer 2: Root AGENTS.md**
+Add a short operational AGENTS.md covering how to start, how to validate changes, restrictions, expected change style, sensitive code areas, and what must not be changed without review.
+- **Layer 3: Platform-specific skills**
+If your platform supports skills, add task-specific files such as .github/skills/<skill>/SKILL.md for repetitive specialized work.
+
+**5. Least agent-dependent approach**
+
+If you want maximum portability:
+
+- put your primary source of truth in standard documentation: README.md, CONTRIBUTING.md, and docs/
+- use AGENTS.md as a short operational summary
+- use SKILL.md only as an extension, not as the only place for critical information
+
+Why:
+
+- README.md and docs/ are human-readable
+- any file-access-capable agent can read them
+- they are not vendor-specific
+- they survive tooling changes better over time
+
+SKILL.md can be very useful, but it is generally more ecosystem-dependent.
+
+**6. Practical design rule**
+
+Think about these files this way:
+
+- README.md = what this is and how to use it
+- CONTRIBUTING.md = how to contribute correctly
+- AGENTS.md = how an agent should operate here
+- SKILL.md = how to execute one specialized task very well
+
+**7. What to include in each file**
+
+Good content for AGENTS.md:
+
+- setup commands
+- test, lint, and build commands
+- branch and pull request conventions
+- minimal-change policy
+- rules for migrations, secrets, and generated files
+- sensitive modules
+- verification checklist before finishing
+
+Good content for SKILL.md:
+
+- when to use the skill
+- expected inputs
+- procedure
+- validations
+- common errors
+- completion criteria
+
+**8. Important practical differences**
+
+- **AGENTS.md is often more portable:** even when not officially supported, agents with repository access can still read it as useful documentation.
+- **SKILL.md is often more structured but less portable:** it depends more on whether a platform provides a formal skill discovery system.
+- **Markdown wins on simplicity:** most tools prefer markdown because it is easy to edit, versions well, is human-readable, and works both as prompt material and documentation.
+
 ## Basic Development Environment
 
 The current minimum setup for AI application development is converging around three core tools. This is the direction most major vendors are pushing (Google, Anthropic, Microsoft, and others):

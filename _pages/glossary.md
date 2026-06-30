@@ -164,6 +164,18 @@ layout: splash
          </td>
     </tr>
     <tr>
+      <th scope="row">Agent Loop</th>
+        <td>
+            A year ago, Simon Willison wrote one of the cleanest definitions of an agent that has stuck around: An LLM agent runs tools in a loop to achieve a goal.
+        </td>
+        <td>
+            <ul>
+              <li><a href="https://strandsagents.com/docs/user-guide/concepts/agents/agent-loop/" target="_blank">Agent Loop – Strands Agents</a></li>
+              <li><a href="https://simonwillison.net/2023/Apr/25/dual-llm-pattern/" target="_blank">The Dual LLM Pattern for building AI agents – Simon Willison</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
       <th scope="row">Vibe Coding</th>
         <td>
             Vibe coding is a software development practice assisted by artificial intelligence (AI) where the software developer describes a project or task in a prompt to a large language model (LLM), which generates source code automatically.
