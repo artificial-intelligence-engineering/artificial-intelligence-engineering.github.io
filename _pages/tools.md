@@ -1028,6 +1028,18 @@ layout: splash
         <a href="https://www.linkedin.com/in/dietrich-gebert-b3a314a9/" target="_blank">📄 https://www.linkedin.com/in/dietrich-gebert-b3a314a9/</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>gentleman-ai</td>
+      <td>Gentleman Programming (OSS)</td>
+      <td>
+        Gentle-AI (part of the Gentleman Programming ecosystem) is an open-source CLI/TUI configurator that upgrades existing AI coding agents (like Claude Code, OpenCode, Cursor, and Windsurf) into full-fledged, disciplined engineering environments.
+      </td>
+      <td>
+        <a href="https://github.com/Gentleman-Programming/gentle-ai" target="_blank">🔗 github.com/Gentleman-Programming/gentle-ai</a><br>
+        <a href="https://github.com/Gentleman-Programming/gentle-ai#readme" target="_blank">📄 GitHub README</a>
+      </td>
+    </tr>
 
   </tbody>
 </table>
