@@ -124,6 +124,16 @@ For example, Anthropic's Claude strategy maps clearly to this model: Claude-powe
 
 In this section, we study different approaches for building AI products, including development models, tooling integration patterns, and quality-control workflows for human plus agent collaboration.
 
+### The Karpathy method
+
+The "Karpathy method," popularized by AI pioneer Andrej Karpathy, is a workflow for building a self-evolving, AI-powered "Second Brain." It uses an LLM (such as Claude Code, Gemini, and so forth) as an automated researcher that reads, synthesizes, and continuously structures raw information into a personal, interlinked markdown wiki. Traditional AI chats operate ephemerally—once a conversation ends, the context and accumulated knowledge disappear. The Karpathy method bypasses traditional Retrieval-Augmented Generation (RAG) constraints, resulting in a permanent, customized knowledge base that actually remembers everything you feed it. Because the wiki lives in plain text (.md files) on your local drive, it remains completely portable, secure, and future-proof.
+
+Karpathy's approach treats raw information as "source code" and the LLM as the "compiler" that turns it into a structured knowledge base, allowing your information to compound over time instead of getting lost in chat histories.
+
+1. **Collect:** You gather raw sources—such as YouTube transcripts, articles, research papers, and notes—and drop them into a local directory. Many users rely on the Obsidian Web Clipper to easily save content.
+2. **Compile:** You prompt a terminal-based LLM agent (like Claude Code) pointing it at your raw data. The agent reads the text, extracts key concepts, synthesizes them, and builds or updates an interconnected web of markdown pages.
+3. **Query & Refine:** Rather than browsing manually, you query the AI directly about your wiki. You can ask it to identify contradictions, highlight knowledge gaps, or perform "linting" (health checks) to ensure your data stays organized and up to date.
+
 ### Robert C. Martin (Uncle Bob) AI Development Approach
 
 Robert C. Martin (Uncle Bob) approaches AI development by treating language models like Claude Code or GitHub Copilot as junior developers. His process emphasizes strict, language-independent specification through ATDD (Acceptance Test-Driven Development) to keep the AI focused and prevent implementation details from leaking into the design.
