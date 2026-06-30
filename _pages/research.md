@@ -61,6 +61,7 @@ toc_label: "Table of Contents"
     <tr><th scope="row">2022-09</th><td>Sparrow</td><td>DeepMind</td><td><a href="https://arxiv.org/pdf/2209.14375.pdf">Improving alignment of dialogue agents via targeted human judgements</a></td></tr>
     <tr><th scope="row">2022-10</th><td>Flan-T5/PaLM</td><td>Google</td><td><a href="https://arxiv.org/pdf/2210.11416.pdf">Scaling Instruction-Finetuned Language Models</a></td></tr>
     <tr><th scope="row">2022-10</th><td>GLM-130B</td><td>Tsinghua</td><td><a href="https://arxiv.org/pdf/2210.02414.pdf">GLM-130B: An Open Bilingual Pre-trained Model</a></td></tr>
+    <tr><th scope="row">2022-10</th><td>ReAct</td><td>Princeton&amp;Google</td><td><a href="https://arxiv.org/abs/2210.03629">ReAct: Synergizing Reasoning and Acting in Language Models</a></td></tr>
     <tr><th scope="row">2022-11</th><td>HELM</td><td>Stanford</td><td><a href="https://arxiv.org/pdf/2211.09110.pdf">Holistic Evaluation of Language Models</a></td></tr>
     <tr><th scope="row">2022-11</th><td>BLOOM</td><td>BigScience</td><td><a href="https://arxiv.org/pdf/2211.05100.pdf">BLOOM: A 176B-Parameter Open-Access Multilingual Language Model</a></td></tr>
     <tr><th scope="row">2022-11</th><td>Galactica</td><td>Meta</td><td><a href="https://arxiv.org/pdf/2211.09085.pdf">Galactica: A Large Language Model for Science</a></td></tr>
