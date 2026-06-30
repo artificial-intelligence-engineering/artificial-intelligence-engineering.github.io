@@ -905,6 +905,22 @@ layout: splash
     <!-- ── Useful Resources ─────────────────────────────────── -->
     <tr>
       <th scope="row" id="category-useful-resources">Useful Resources</th>
+      <td>codebase-memory-mcp</td>
+      <td>DeusData (OSS)</td>
+      <td>
+        High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph
+        — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static
+        binary, zero dependencies.
+      </td>
+      <td>
+        <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">🔗 github.com/DeusData/codebase-memory-mcp</a><br>
+        <a href="https://github.com/DeusData/codebase-memory-mcp#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://arxiv.org/abs/2603.27277" target="_blank">📄 Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP</a><br>
+        <a href="https://deusdata.github.io/codebase-memory-mcp/" target="_blank">📘 Quick Start / usage guide</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
       <td>Agents Towards Production</td>
       <td>Nir Diamant (OSS)</td>
       <td>
