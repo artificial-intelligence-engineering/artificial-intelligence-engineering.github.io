@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 980" role="img" aria-labelledby="title desc">
+  <title id="title">OpenCode provider and gateway architecture</title>
+  <desc id="desc">Diagram showing OpenCode clients routing to OpenCode Zen, OpenCode Go, or direct providers, with gateways and link.com wallet infrastructure.</desc>
+
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .box { fill: #ffffff; stroke: #0f172a; stroke-width: 2; rx: 14; ry: 14; }
+      .top { fill: #e0f2fe; }
+      .mid { fill: #eef2ff; }
+      .wallet { fill: #ecfeff; }
+      .account { fill: #fef9c3; }
+      .txt { font-family: "Segoe UI", Tahoma, Arial, sans-serif; fill: #0f172a; font-size: 22px; }
+      .small { font-size: 19px; }
+      .tiny { font-size: 17px; fill: #334155; }
+      .center { text-anchor: middle; }
+      .arrow { stroke: #334155; stroke-width: 3; fill: none; marker-end: url(#m); }
+      .label { font-family: "Segoe UI", Tahoma, Arial, sans-serif; fill: #475569; font-size: 16px; }
+    </style>
+    <marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1500" height="980"/>
+
+  <rect class="box top" x="540" y="30" width="420" height="100"/>
+  <text class="txt center" x="750" y="72">OpenCode</text>
+  <text class="txt small center" x="750" y="105">CLI / TUI / Web</text>
+
+  <text class="label center" x="750" y="165">choose provider + model in OpenCode</text>
+
+  <rect class="box mid" x="120" y="230" width="350" height="95"/>
+  <text class="txt center" x="295" y="268">OpenCode Zen</text>
+  <text class="txt small center" x="295" y="300">opencode/&lt;id&gt;</text>
+
+  <rect class="box mid" x="575" y="230" width="350" height="95"/>
+  <text class="txt center" x="750" y="268">OpenCode Go</text>
+  <text class="txt small center" x="750" y="300">opencode-go/&lt;id&gt;</text>
+
+  <rect class="box mid" x="1030" y="230" width="350" height="95"/>
+  <text class="txt center" x="1205" y="268">Direct provider</text>
+  <text class="txt small center" x="1205" y="300">BYOK</text>
+
+  <rect class="box" x="120" y="395" width="350" height="130"/>
+  <text class="txt center" x="295" y="435">Gateway Zen</text>
+  <text class="txt tiny center" x="295" y="468">curated catalog</text>
+  <text class="txt tiny center" x="295" y="494">premium + open</text>
+
+  <rect class="box" x="575" y="395" width="350" height="130"/>
+  <text class="txt center" x="750" y="435">Gateway Go</text>
+  <text class="txt tiny center" x="750" y="468">curated open subset</text>
+  <text class="txt tiny center" x="750" y="494">subscription limits</text>
+
+  <rect class="box" x="1030" y="395" width="350" height="130"/>
+  <text class="txt center" x="1205" y="435">OpenAI / Anthropic</text>
+  <text class="txt tiny center" x="1205" y="468">Gemini / xAI / etc</text>
+
+  <rect class="box wallet" x="455" y="615" width="590" height="135"/>
+  <text class="txt center" x="750" y="656">link.com</text>
+  <text class="txt small center" x="750" y="687">"The wallet for the AI economy"</text>
+  <text class="txt tiny center" x="750" y="714">credits gateway and wallet layer</text>
+
+  <rect class="box account" x="530" y="830" width="190" height="90"/>
+  <text class="txt center" x="625" y="870">Zen</text>
+  <text class="txt small center" x="625" y="898">balance</text>
+
+  <rect class="box account" x="780" y="830" width="190" height="90"/>
+  <text class="txt center" x="875" y="870">Go</text>
+  <text class="txt small center" x="875" y="898">credits</text>
+
+  <line class="arrow" x1="750" y1="130" x2="750" y2="210"/>
+  <line class="arrow" x1="750" y1="210" x2="295" y2="230"/>
+  <line class="arrow" x1="750" y1="210" x2="750" y2="230"/>
+  <line class="arrow" x1="750" y1="210" x2="1205" y2="230"/>
+
+  <text class="label center" x="295" y="356">API / models</text>
+  <line class="arrow" x1="295" y1="325" x2="295" y2="395"/>
+
+  <text class="label center" x="750" y="356">API / models</text>
+  <line class="arrow" x1="750" y1="325" x2="750" y2="395"/>
+
+  <text class="label center" x="1205" y="356">direct API</text>
+  <line class="arrow" x1="1205" y1="325" x2="1205" y2="395"/>
+
+  <text class="label center" x="525" y="565">uses OpenCode infrastructure</text>
+  <line class="arrow" x1="295" y1="525" x2="625" y2="615"/>
+
+  <text class="label center" x="975" y="565">uses OpenCode infrastructure</text>
+  <line class="arrow" x1="750" y1="525" x2="875" y2="615"/>
+
+  <line class="arrow" x1="750" y1="750" x2="625" y2="830"/>
+  <line class="arrow" x1="750" y1="750" x2="875" y2="830"/>
+
+  <text class="label center" x="565" y="795">credits / reloads</text>
+  <text class="label center" x="930" y="795">subscription / balance / top-up</text>
+</svg>

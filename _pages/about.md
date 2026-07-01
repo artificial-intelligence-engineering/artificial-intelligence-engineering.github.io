@@ -75,6 +75,11 @@ AWS AI Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (A
       <td><a href="/model-development/">/model-development/</a></td>
     </tr>
     <tr>
+      <th scope="row">OpenCode Architecture</th>
+      <td><code>opencode.md</code></td>
+      <td><a href="/opencode/">/opencode/</a></td>
+    </tr>
+    <tr>
       <th scope="row">Overview</th>
       <td><code>overview.md</code></td>
       <td><a href="/overview/">/overview/</a></td>
