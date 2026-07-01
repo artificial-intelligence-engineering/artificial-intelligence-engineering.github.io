@@ -836,6 +836,21 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Gemini 3.5 Flash
+        </td>
+        <td>
+            May, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            First Gemini 3.5 family release; frontier-speed model for agentic workflows and coding.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Gemini Robotics
         </td>
         <td>
@@ -1072,6 +1087,21 @@ layout: splash
         </td>
         <td>
             Announced by Meta but not publicly released at the time Scout and Maverick shipped.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Muse Spark
+        </td>
+        <td>
+            April, 2026
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            New Meta Superintelligence Labs model reported as a successor direction beyond the Llama line.
         </td>
     </tr>
     <tr>
@@ -2272,6 +2302,21 @@ layout: splash
         </td>
         <td>
             Latest stable track listed in Wikipedia infobox timeline.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Grok 4.5 Beta
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            Private beta reported in late June 2026 as the next Grok 4-series iteration.
         </td>
     </tr>
     <tr>
