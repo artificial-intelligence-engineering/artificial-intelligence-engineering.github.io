@@ -152,6 +152,19 @@ layout: splash
       </td>
     </tr>
     <tr>
+      <th scope="row">AI Gateway</th>
+        <td>
+            An AI Gateway or AI Router is a middleware layer between an application and one or more AI models/services. In general terms, it sits between your app and the underlying model providers, and helps decide how, where, and under what rules each AI request should be executed.
+        </td>
+         <td>
+             <ul>
+               <li><a href="https://github.com/BerriAI/litellm" target="_blank">LiteLLM – AI Gateway and model router</a></li>
+               <li><a href="https://docs.konghq.com/hub/kong-inc/ai-proxy/" target="_blank">Kong AI Gateway / AI Proxy</a></li>
+               <li><a href="https://portkey.ai/docs/gateway/overview" target="_blank">Portkey AI Gateway Overview</a></li>
+             </ul>
+         </td>
+    </tr>
+    <tr>
       <th scope="row">Agentic Workflow</th>
         <td>
             An agentic workflow is an AI-driven process where autonomous agents plan, make decisions, and execute tasks using tools and feedback loops. Rather than relying on rigid step-by-step instructions or simply answering questions, an agentic workflow is goal-oriented. The AI assesses context, self-corrects errors, and adapts to changes in real time.
