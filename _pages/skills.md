@@ -79,6 +79,8 @@ An agent does not load all rules at once, because that would be inefficient and 
 2. **Activation:** Only when your request matches one of those descriptions does the agent decide to "open" that folder and read the `SKILL.md` file with all detailed instructions.
 3. **Execution:** If the task requires specific files (for example, a cleanup script), the agent loads them only at that moment.
 
+Note: in addition to `AGENTS.md`, the use of `SKILL.md` is still not fully standardized for discovery behavior across agent clients. At [agentskills.io/clients](https://agentskills.io/clients), you can see the different configuration combinations supported by the most popular agents. More information: [AGENTS.md + SKILL.md](/application-development/#agentsmd--skillmd).
+
 ## Why Does This Change the Game?
 
 The most relevant part of this system is that it is not a closed solution. The `SKILL.md` format (maintained at `agentskills.io`) was created to establish a common standard for packaged knowledge.
