@@ -65,10 +65,13 @@ toc_label: "Table of Contents"
     <tr><th scope="row">2022-11</th><td>HELM</td><td>Stanford</td><td><a href="https://arxiv.org/pdf/2211.09110.pdf">Holistic Evaluation of Language Models</a></td></tr>
     <tr><th scope="row">2022-11</th><td>BLOOM</td><td>BigScience</td><td><a href="https://arxiv.org/pdf/2211.05100.pdf">BLOOM: A 176B-Parameter Open-Access Multilingual Language Model</a></td></tr>
     <tr><th scope="row">2022-11</th><td>Galactica</td><td>Meta</td><td><a href="https://arxiv.org/pdf/2211.09085.pdf">Galactica: A Large Language Model for Science</a></td></tr>
+    <tr><th scope="row">2022-12</th><td>Constitutional AI</td><td>Anthropic</td><td><a href="https://arxiv.org/abs/2212.08073">Constitutional AI: Harmlessness from AI Feedback</a></td></tr>
+    <tr><th scope="row">2022-12</th><td>Self-Instruct</td><td>UW&amp;Ai2</td><td><a href="https://arxiv.org/abs/2212.10560">Self-Instruct: Aligning Language Models with Self-Generated Instructions</a></td></tr>
     <tr><th scope="row">2022-12</th><td>OPT-IML</td><td>Meta</td><td><a href="https://arxiv.org/pdf/2212.12017">OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization</a></td></tr>
     <tr><th scope="row">2023-01</th><td>Flan 2022 Collection</td><td>Google</td><td><a href="https://arxiv.org/pdf/2301.13688.pdf">The Flan Collection: Designing Data and Methods for Effective Instruction Tuning</a></td></tr>
     <tr><th scope="row">2023-02</th><td>LLaMA</td><td>Meta</td><td><a href="https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/">LLaMA: Open and Efficient Foundation Language Models</a></td></tr>
     <tr><th scope="row">2023-02</th><td>Kosmos-1</td><td>Microsoft</td><td><a href="https://arxiv.org/abs/2302.14045">Language Is Not All You Need: Aligning Perception with Language Models</a></td></tr>
+    <tr><th scope="row">2023-02</th><td>Toolformer</td><td>Meta</td><td><a href="https://arxiv.org/abs/2302.04761">Toolformer: Language Models Can Teach Themselves to Use Tools</a></td></tr>
     <tr><th scope="row">2023-03</th><td>LRU</td><td>DeepMind</td><td><a href="https://arxiv.org/abs/2303.06349">Resurrecting Recurrent Neural Networks for Long Sequences</a></td></tr>
     <tr><th scope="row">2023-03</th><td>PaLM-E</td><td>Google</td><td><a href="https://palm-e.github.io">PaLM-E: An Embodied Multimodal Language Model</a></td></tr>
     <tr><th scope="row">2023-03</th><td>GPT 4</td><td>OpenAI</td><td><a href="https://openai.com/research/gpt-4">GPT-4 Technical Report</a></td></tr>
@@ -79,6 +82,7 @@ toc_label: "Table of Contents"
     <tr><th scope="row">2023-05</th><td>RWKV</td><td>Bo Peng</td><td><a href="https://arxiv.org/abs/2305.13048">RWKV: Reinventing RNNs for the Transformer Era</a></td></tr>
     <tr><th scope="row">2023-05</th><td>DPO</td><td>Stanford</td><td><a href="https://arxiv.org/pdf/2305.18290.pdf">Direct Preference Optimization: Your Language Model is Secretly a Reward Model</a></td></tr>
     <tr><th scope="row">2023-05</th><td>ToT</td><td>Google&amp;Princeton</td><td><a href="https://arxiv.org/pdf/2305.10601.pdf">Tree of Thoughts: Deliberate Problem Solving with Large Language Models</a></td></tr>
+    <tr><th scope="row">2023-05</th><td>QLoRA</td><td>UW</td><td><a href="https://arxiv.org/abs/2305.14314">QLoRA: Efficient Finetuning of Quantized LLMs</a></td></tr>
     <tr><th scope="row">2023-07</th><td>LLaMA2</td><td>Meta</td><td><a href="https://arxiv.org/pdf/2307.09288.pdf">Llama 2: Open Foundation and Fine-Tuned Chat Models</a></td></tr>
     <tr><th scope="row">2023-10</th><td>Mistral 7B</td><td>Mistral</td><td><a href="https://arxiv.org/pdf/2310.06825.pdf">Mistral 7B</a></td></tr>
     <tr><th scope="row">2023-12</th><td>Mamba</td><td>CMU&amp;Princeton</td><td><a href="https://arxiv.org/pdf/2312.00752">Mamba: Linear-Time Sequence Modeling with Selective State Spaces</a></td></tr>
