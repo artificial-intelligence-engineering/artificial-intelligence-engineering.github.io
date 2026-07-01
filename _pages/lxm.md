@@ -3113,7 +3113,8 @@ layout: splash
             Active
         </td>
         <td>
-            Umbrella routing model that centralizes API access to external LLM providers (Includes models like Kimi, GLM, Qwen, DeepSeek, ...)
+           AI Gateway that provides a curated list of models from the OpenCode team. It acts as a provider hub for tested coding agents. Entry
+           level subscription. 
         </td>
     </tr>
     <tr>
@@ -3128,7 +3129,8 @@ layout: splash
             Active
         </td>
         <td>
-            Umbrella routing model that centralizes API access to external LLM providers (Includes premium models such as Claude (Sonnet, Opus), GPT (OpenAI), Gemini, ...)
+           AI Gateway that provides a curated list of models from the OpenCode team. It acts as a provider hub for tested coding agents. Expert
+           level subscription. 
         </td>
     </tr>
   </tbody>
