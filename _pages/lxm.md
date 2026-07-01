@@ -1557,6 +1557,21 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Claude Sonnet 5
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Most agentic Sonnet generation, with major improvements in planning, tool use, and coding at lower cost than Opus 4.8.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Claude Opus 4.6
         </td>
         <td>
