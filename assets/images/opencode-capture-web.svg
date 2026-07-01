@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">OpenCode Web presence - illustrative capture</title>
+  <desc id="desc">Illustrative capture of OpenCode website/docs presence generated for documentation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <style>
+      .title{font:700 34px 'Segoe UI',Arial,sans-serif; fill:#f8fafc}
+      .sub{font:500 18px 'Segoe UI',Arial,sans-serif; fill:#cbd5e1}
+      .txt{font:500 16px 'Segoe UI',Arial,sans-serif; fill:#e2e8f0}
+      .note{font:500 15px 'Segoe UI',Arial,sans-serif; fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="1280" height="760" fill="url(#bg)"/>
+  <rect x="90" y="70" width="1100" height="620" rx="14" fill="#0b1220" stroke="#334155"/>
+  <rect x="90" y="70" width="1100" height="44" rx="14" fill="#111827"/>
+  <text x="640" y="99" text-anchor="middle" class="txt">Browser view (illustrative)</text>
+
+  <text x="150" y="180" class="title">OpenCode</text>
+  <text x="150" y="218" class="sub">The open source AI coding agent.</text>
+  <text x="150" y="268" class="txt">- install: curl -fsSL https://opencode.ai/install | bash</text>
+  <text x="150" y="300" class="txt">- docs: opencode.ai/docs</text>
+  <text x="150" y="332" class="txt">- desktop download: opencode.ai/download</text>
+  <text x="150" y="364" class="txt">- extension: VS Code marketplace (sst-dev.opencode)</text>
+
+  <rect x="150" y="412" width="980" height="170" rx="12" fill="#111827" stroke="#334155"/>
+  <text x="180" y="448" class="sub">Web mode note</text>
+  <text x="180" y="480" class="txt">Official docs describe OpenCode usage as terminal interface, desktop app, and IDE extension.</text>
+  <text x="180" y="510" class="txt">The web presence is used for documentation, downloads, and project pages.</text>
+  <text x="180" y="540" class="note">Generated illustrative capture for documentation.</text>
+</svg>
