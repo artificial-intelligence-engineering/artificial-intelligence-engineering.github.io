@@ -15,6 +15,7 @@
       .tiny { font-size: 17px; fill: #334155; }
       .center { text-anchor: middle; }
       .arrow { stroke: #334155; stroke-width: 3; fill: none; marker-end: url(#m); }
+      .arrow-soft { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#m); stroke-dasharray: 8 6; opacity: 0.9; }
       .label { font-family: "Segoe UI", Tahoma, Arial, sans-serif; fill: #475569; font-size: 16px; }
     </style>
     <marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
@@ -92,8 +93,11 @@
   <line class="arrow" x1="750" y1="750" x2="625" y2="830"/>
   <line class="arrow" x1="750" y1="750" x2="875" y2="830"/>
 
-  <polyline class="arrow" points="625,920 625,950 1145,950 1145,525"/>
-  <polyline class="arrow" points="875,920 875,950 1265,950 1265,525"/>
+  <polyline class="arrow-soft" points="625,920 625,950 1145,950 1145,525"/>
+  <polyline class="arrow-soft" points="875,920 875,950 1265,950 1265,525"/>
+
+  <text class="label center" x="980" y="942">provider spend path</text>
+  <text class="label center" x="1225" y="612">to OpenAI / Anthropic</text>
 
   <text class="label center" x="565" y="795">credits / reloads</text>
   <text class="label center" x="930" y="795">subscription / balance / top-up</text>
