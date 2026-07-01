@@ -92,6 +92,9 @@
   <line class="arrow" x1="750" y1="750" x2="625" y2="830"/>
   <line class="arrow" x1="750" y1="750" x2="875" y2="830"/>
 
+  <polyline class="arrow" points="625,920 625,950 1145,950 1145,525"/>
+  <polyline class="arrow" points="875,920 875,950 1265,950 1265,525"/>
+
   <text class="label center" x="565" y="795">credits / reloads</text>
   <text class="label center" x="930" y="795">subscription / balance / top-up</text>
 </svg>
