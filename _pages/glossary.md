@@ -114,6 +114,23 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row">Open-Weight<br>vs Open-Source Models</th>
+        <td>
+            Most models commonly referred to as "open source" are actually open-weight. While you can download their
+            parameters to use them locally without paying per API call, their developers restrict full openness to
+            protect intellectual property.
+        </td>
+        <td>
+            The distinction matters because open weights do not necessarily include the training code, dataset details,
+            or the legal freedoms needed to study, modify, and fully reproduce the model.
+            <ul>
+              <li><a href="https://opensource.org/ai/open-source-ai-definition" target="_blank">Open Source AI Definition 1.0 – Open Source Initiative</a></li>
+              <li><a href="https://opensource.org/ai/open-weights" target="_blank">What are Open Weights? – Open Source Initiative</a></li>
+              <li><a href="https://github.com/Open-Weights/Definition" target="_blank">Open Weights Definition – Heather Meeker et al.</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
       <th scope="row">AI Engineering</th>
         <td>
             Refers to the process of building applications on top of foundation models. Many terms are being used to 
