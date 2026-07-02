@@ -65,6 +65,11 @@ AWS AI Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (A
        <td><a href="/llm-distillation/">/llm-distillation/</a></td>
      </tr>
      <tr>
+       <th scope="row">LLM from scratch</th>
+       <td><code>llm-from-scratch.md</code></td>
+       <td><a href="/llm-from-scratch/">/llm-from-scratch/</a></td>
+     </tr>
+     <tr>
        <th scope="row">Local Model</th>
        <td><code>local-model.md</code></td>
        <td><a href="/local-model/">/local-model/</a></td>

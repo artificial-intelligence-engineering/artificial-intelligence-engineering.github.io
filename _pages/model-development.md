@@ -14,6 +14,8 @@ Model Development encompasses the techniques and practices for creating, trainin
 
 This layer provides tooling for developing models, including frameworks for modeling, training, finetuning, and inference optimization. Because data is central to model development, this layer also contains dataset engineering. Model development also requires rigorous evaluation.
 
+<a href="{% link _pages/llm-from-scratch.md %}" class="btn btn--primary btn--large">LLM from scratch theory</a>
+
 ## Inference Optimization
 
 ### Quantization
