@@ -80,6 +80,11 @@ AWS AI Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (A
       <td><a href="/opencode/">/opencode/</a></td>
     </tr>
     <tr>
+      <th scope="row">Open-Weight Models</th>
+      <td><code>open-weight.md</code></td>
+      <td><a href="/open-weight/">/open-weight/</a></td>
+    </tr>
+    <tr>
       <th scope="row">Overview</th>
       <td><code>overview.md</code></td>
       <td><a href="/overview/">/overview/</a></td>

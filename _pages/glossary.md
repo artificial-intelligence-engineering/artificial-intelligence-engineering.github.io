@@ -114,7 +114,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">Open-Weight<br>vs Open-Source Models</th>
+      <th scope="row"><a href="/open-weight/">Open-Weight<br>vs Open-Source Models</a></th>
         <td>
             Most models commonly referred to as "open source" are actually open-weight. While you can download their
             parameters to use them locally without paying per API call, their developers restrict full openness to
