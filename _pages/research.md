@@ -34,7 +34,7 @@ toc_label: "Table of Contents"
     <tr><th scope="row">2019-09</th><td>Megatron-LM</td><td>NVIDIA</td><td><a href="https://arxiv.org/pdf/1909.08053.pdf">Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism</a></td></tr>
     <tr><th scope="row">2019-10</th><td>T5</td><td>Google</td><td><a href="https://jmlr.org/papers/v21/20-074.html">Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer</a></td></tr>
     <tr><th scope="row">2019-10</th><td>ZeRO</td><td>Microsoft</td><td><a href="https://arxiv.org/pdf/1910.02054.pdf">ZeRO: Memory Optimizations Toward Training Trillion Parameter Models</a></td></tr>
-    <tr><th scope="row">2020-01</th><td>Scaling Law</td><td>OpenAI</td><td><a href="https://arxiv.org/pdf/2001.08361.pdf">Scaling Laws for Neural Language Models</a></td></tr>
+    <tr><th scope="row">2020-01</th><td>Dario Amodei</td><td>OpenAI</td><td><a href="https://arxiv.org/pdf/2001.08361.pdf">Scaling Laws for Neural Language Models</a></td></tr>
     <tr><th scope="row">2020-05</th><td>GPT 3.0</td><td>OpenAI</td><td><a href="https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf">Language models are few-shot learners</a></td></tr>
     <tr><th scope="row">2021-01</th><td>Switch Transformers</td><td>Google</td><td><a href="https://arxiv.org/pdf/2101.03961.pdf">Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity</a></td></tr>
     <tr><th scope="row">2021-08</th><td>Codex</td><td>OpenAI</td><td><a href="https://arxiv.org/pdf/2107.03374.pdf">Evaluating Large Language Models Trained on Code</a></td></tr>
