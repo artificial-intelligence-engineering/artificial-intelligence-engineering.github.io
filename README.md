@@ -9,4 +9,3 @@ bundle exec jekyll serve
 https://mmistakes.github.io/minimal-mistakes/
 
 https://github.com/mmistakes/minimal-mistakes/tree/master/_sass
-
