@@ -381,6 +381,30 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row">System Cards</th>
+      <td>
+        System cards are transparency documents published by artificial intelligence developers that explain how an AI model works, detailing its design, capabilities, usage limitations, and safety evaluations.
+      </td>
+      <td>
+        <ul>
+          <li><a href="https://openai.com/research/gpt-4v-system-card" target="_blank">GPT-4V(ision) System Card – OpenAI</a></li>
+          <li><a href="https://cdn.openai.com/papers/gpt-4-system-card.pdf" target="_blank">GPT-4 System Card (PDF) – OpenAI</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Model Cards</th>
+      <td>
+        A Model Card is a short, standardized document accompanying a trained machine learning model that provides benchmarked evaluation across different groups and environments, clarifying the model's intended use and performance characteristics.
+      </td>
+      <td>
+        <ul>
+          <li><a href="https://arxiv.org/abs/1810.03993" target="_blank">Model Cards for Model Reporting – Mitchell et al. (Google Research)</a></li>
+          <li><a href="https://huggingface.co/docs/hub/model-cards" target="_blank">Model Cards – Hugging Face Docs</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
         <th scope="row">TODO</th>
         <td>
             TODO
