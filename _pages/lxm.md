@@ -310,6 +310,66 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            GPT-5.6 Series
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            New three-tier GPT-5.6 family composed of Sol, Terra, and Luna.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-5.6 Sol
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            Flagship GPT-5.6 tier with the highest capability ceiling, including max reasoning effort and ultra mode.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-5.6 Terra
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            Balanced GPT-5.6 default tier positioned near GPT-5.5-level quality at lower cost.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-5.6 Luna
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            Fast, budget-oriented GPT-5.6 tier for high-volume and latency-sensitive workloads.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             GPT-4 Turbo
         </td>
         <td>
@@ -1687,6 +1747,36 @@ layout: splash
         </td>
         <td>
             Ready for a small group of cyberdefenders and infrastructure providers. It's the same underlying model as Fable 5, but with the safeguards lifted in some areas.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Fable 5 (redeployed)
+        </td>
+        <td>
+            July, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Access was restored globally after redeployment with updated safeguards, including a new classifier blocking the reported bypass in over 99% of cases.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Mythos 5 (redeployed)
+        </td>
+        <td>
+            July, 2026
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            Access was restored for a set of approved US organizations, with expansion coordinated through Project Glasswing partners.
         </td>
     </tr>
     <tr>
