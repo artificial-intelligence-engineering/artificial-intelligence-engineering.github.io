@@ -94,7 +94,11 @@ Prompt evolution in a spec-driven workflow is the maturation of AI-assisted engi
 
 ### Prompting evolution: Loop
 
-La frase clave para entender Loop development es "design loops that prompt your agents". A loop is a small program that prompts the agent, evaluates the response, decides whether the goal is met, and, if not, prompts again with what it has learned. It runs on a schedule rather than on human attention. Loops dispatch other loops.
+The key sentence for understanding a agent loop is: "design loops that prompt your agents". A loop is a small program that prompts the agent, evaluates the response, decides whether the goal is met, and, if not, prompts again with what it has learned. It runs on a schedule rather than on human attention. Loops dispatch other loops.
+
+To go deeper into loop engineering:
+
+<a href="{% link _pages/agent-loop.md %}" class="btn btn--primary btn--large">Open Loop Engineering Guide</a>
 
 ### AGENTS.md & SKILL.md
 
