@@ -137,61 +137,61 @@ toc_label: "Table of Contents"
   </thead>
   <tbody>
     <tr>
-      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=LLM+Engineering" alt="The LLM Engineering Handbook cover" style="width:80px; height:auto;"></td>
+      <td><img src="/assets/images/book-the-llm-engineering-handbook.png" alt="The LLM Engineering Handbook cover" style="width:80px; height:auto;"></td>
       <td><strong>The LLM Engineering Handbook</strong><br><em>Paul Iusztin & Maxime Labonne</em></td>
       <td>Production-focused guide to RAG, evaluation, deployment, observability, and optimization for real-world AI systems.</td>
       <td>2024</td>
     </tr>
     <tr>
-      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=AI+Engineering" alt="AI Engineering cover" style="width:80px; height:auto;"></td>
+      <td><img src="/assets/images/book-ai-engineering-chip-huyen.png" alt="AI Engineering cover" style="width:80px; height:auto;"></td>
       <td><strong>AI Engineering</strong><br><em>Chip Huyen</em></td>
       <td>Practical book by Chip Huyen on building and shipping reliable applications with foundation models.</td>
       <td>2025</td>
     </tr>
     <tr>
-      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=ML+Systems" alt="Designing Machine Learning Systems cover" style="width:80px; height:auto;"></td>
+      <td><img src="/assets/images/book-designing-machine-learning-systems.png" alt="Designing Machine Learning Systems cover" style="width:80px; height:auto;"></td>
       <td><strong>Designing Machine Learning Systems</strong><br><em>Chip Huyen</em></td>
       <td>End-to-end treatment of the ML lifecycle, from data and modeling to deployment, monitoring, and scaling.</td>
       <td>2022</td>
     </tr>
     <tr>
-      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=LLMs+Production" alt="Building LLMs for Production cover" style="width:80px; height:auto;"></td>
+      <td><img src="/assets/images/book-building-llms-for-production.png" alt="Building LLMs for Production cover" style="width:80px; height:auto;"></td>
       <td><strong>Building LLMs for Production</strong><br><em>Louis-François Bouchard & Louie Peters</em></td>
       <td>Focuses on architecture, evaluation, latency, reliability, and deployment for customer-facing LLM products.</td>
       <td>2024</td>
     </tr>
     <tr>
-      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=LLM+From+Scratch" alt="Build a Large Language Model (From Scratch) cover" style="width:80px; height:auto;"></td>
+      <td><img src="/assets/images/book-build-a-large-language-model-from-scratch.png" alt="Build a Large Language Model (From Scratch) cover" style="width:80px; height:auto;"></td>
       <td><strong>Build a Large Language Model (From Scratch)</strong><br><em>Sebastian Raschka</em></td>
       <td>Hands-on walkthrough of tokenization, embeddings, transformers, training pipelines, and inference in PyTorch.</td>
       <td>2024</td>
     </tr>
     <tr>
-      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=Hands-On+LLMs" alt="Hands-On Large Language Models cover" style="width:80px; height:auto;"></td>
+      <td><img src="/assets/images/book-hands-on-large-language-models.png" alt="Hands-On Large Language Models cover" style="width:80px; height:auto;"></td>
       <td><strong>Hands-On Large Language Models</strong><br><em>Jay Alammar & Maarten Grootendorst</em></td>
       <td>Project-oriented coverage of embeddings, fine-tuning, retrieval, prompt design, evaluation, and deployment.</td>
       <td>2024</td>
     </tr>
     <tr>
-      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=Prompt+for+LLMs" alt="Prompt Engineering for LLMs cover" style="width:80px; height:auto;"></td>
+      <td><img src="/assets/images/book-prompt-engineering-for-llms.png" alt="Prompt Engineering for LLMs cover" style="width:80px; height:auto;"></td>
       <td><strong>Prompt Engineering for LLMs</strong><br><em>John Berryman</em></td>
       <td>Advanced prompting methods including Chain-of-Thought, ReAct, few-shot prompting, and optimization patterns.</td>
       <td>2024</td>
     </tr>
     <tr>
-      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=Agentic+AI" alt="Building Agentic AI Systems cover" style="width:80px; height:auto;"></td>
+      <td><img src="/assets/images/book-building-agentic-ai-systems.png" alt="Building Agentic AI Systems cover" style="width:80px; height:auto;"></td>
       <td><strong>Building Agentic AI Systems</strong><br><em>Anjanava Anand</em></td>
       <td>Guide to agent architectures, tool use, memory, planning, orchestration, and multi-agent workflows.</td>
       <td>2025</td>
     </tr>
     <tr>
-      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=Prompt+GenAI" alt="Prompt Engineering for Generative AI cover" style="width:80px; height:auto;"></td>
+      <td><img src="/assets/images/book-prompt-engineering-for-generative-ai.png" alt="Prompt Engineering for Generative AI cover" style="width:80px; height:auto;"></td>
       <td><strong>Prompt Engineering for Generative AI</strong><br><em>James Phoenix & Mike Taylor</em></td>
       <td>Practical frameworks to improve reliability and quality of outputs across modern generative AI applications.</td>
       <td>2024</td>
     </tr>
     <tr>
-      <td><img src="https://dummyimage.com/80x120/e8eef5/1f2937.png&text=AI+Engineering+Bible" alt="The AI Engineering Bible cover" style="width:80px; height:auto;"></td>
+      <td><img src="/assets/images/book-the-ai-engineering-bible.png" alt="The AI Engineering Bible cover" style="width:80px; height:auto;"></td>
       <td><strong>The AI Engineering Bible</strong><br><em>Comprehensive AI Engineering Reference</em></td>
       <td>Broad reference on AI engineering workflows, tools, deployment strategies, and production best practices.</td>
       <td>2025</td>
