@@ -196,5 +196,11 @@ toc_label: "Table of Contents"
       <td>Broad reference on AI engineering workflows, tools, deployment strategies, and production best practices.</td>
       <td>2025</td>
     </tr>
+    <tr>
+      <td><img src="/assets/images/book-beyond-vibe-coding.png" alt="Beyond Vibe Coding cover" style="width:80px; height:auto;"></td>
+      <td><strong>Beyond Vibe Coding</strong><br><em>Written by Addy Osmani</em></td>
+      <td>Book focused on moving from ad-hoc prompt-driven development to disciplined, repeatable AI engineering workflows.</td>
+      <td>2025</td>
+    </tr>
   </tbody>
 </table>
