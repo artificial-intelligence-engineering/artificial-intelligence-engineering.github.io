@@ -37,6 +37,14 @@ As an example of this proposal, two of the major AI vendors are already implemen
 | Sub-agents | Ideate and verify | Sub-agents defined as TOML in `.codex/agents/` | Task sub-agents in `.claude/agents/`, agent teams |
 | State | Track what's done | Markdown or Linear via a connector | Markdown (`AGENTS.md`, progress files) or Linear via MCP |
 
+What distinguishes this concept from its immediate predecessors, such as **context engineering** and **harness engineering**, is the scope of the transfer. Earlier terms improved what the human did inside the sequence. Loop engineering removes the human from the operational sequence. The result is a system that discovers work, assigns it, verifies it, records it, and decides what to do next without anyone actively watching it.
+
+## Why It Emerged Now and Not Before
+
+Three conditions aligned at the same time. Language models reached a sufficient level of reliability to finish tasks of moderate complexity without constant supervision. Agent interfaces matured to the point of including programming primitives, such as triggering a task at a specific time without keeping a terminal open. And the cost per execution dropped enough that repeating a task on a timer no longer felt wasteful.
+
+When all the pieces are present, the combination becomes obvious to several people at once. That is how technical paradigm shifts work: the practice comes first, and the name comes later. Osmani makes this point precisely in his foundational essay: teams were already writing loops before anyone started calling it loop engineering.
+
 
 ## References
 
