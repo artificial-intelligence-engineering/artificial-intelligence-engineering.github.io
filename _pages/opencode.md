@@ -212,6 +212,8 @@ Many teams start by creating `AGENTS.md` and `SKILL.md` files independently in e
 
 The second brain approach proposes a central knowledge repository (for example, `my-second-brain.git`) that acts like an Obsidian-style vault for AI agent instructions. Instead of rewriting the same guidance repeatedly, teams maintain shared agent rules, reusable skills, playbooks, and templates in one place, then combine that with lightweight project-local instructions.
 
+![Illustrated example of the Second Brain Approach Proposal](/assets/images/opencode-second-brain-proposal.svg)
+
 ### Problem statement
 
 If each repository owns a full instruction stack, teams usually hit these issues:

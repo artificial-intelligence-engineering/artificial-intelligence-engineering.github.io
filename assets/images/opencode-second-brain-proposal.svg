@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">The Second Brain Approach Proposal</title>
+  <desc id="desc">Illustrated diagram showing a central second-brain repository with shared agent rules and skills, connected to multiple project repositories that keep lightweight local adapters.</desc>
+
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .panel { fill: #ffffff; stroke: #0f172a; stroke-width: 2; rx: 18; ry: 18; }
+      .vault { fill: #dbeafe; }
+      .repo { fill: #ecfccb; }
+      .adapter { fill: #fef3c7; }
+      .skill { fill: #ede9fe; }
+      .callout { fill: #ecfeff; }
+      .text { font-family: "Segoe UI", Tahoma, Arial, sans-serif; fill: #0f172a; font-size: 24px; }
+      .small { font-size: 19px; }
+      .tiny { font-size: 16px; fill: #334155; }
+      .label { font-family: "Segoe UI", Tahoma, Arial, sans-serif; fill: #475569; font-size: 17px; }
+      .center { text-anchor: middle; }
+      .left { text-anchor: start; }
+      .arrow { stroke: #334155; stroke-width: 3; fill: none; marker-end: url(#m); }
+      .arrow-soft { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#m); stroke-dasharray: 8 6; }
+      .divider { stroke: #cbd5e1; stroke-width: 2; }
+    </style>
+    <marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="980"/>
+
+  <text class="text center" x="800" y="54">The Second Brain Approach Proposal</text>
+  <text class="label center" x="800" y="84">Centralize reusable AI guidance, keep project context local</text>
+
+  <rect class="panel vault" x="70" y="130" width="560" height="620"/>
+  <text class="text center" x="350" y="176">my-second-brain.git</text>
+  <text class="small center" x="350" y="206">central knowledge vault</text>
+
+  <line class="divider" x1="110" y1="228" x2="590" y2="228"/>
+
+  <rect class="panel" x="110" y="258" width="220" height="130"/>
+  <text class="small center" x="220" y="300">agents/global</text>
+  <text class="tiny center" x="220" y="330">AGENTS.md</text>
+  <text class="tiny center" x="220" y="354">shared rules</text>
+
+  <rect class="panel" x="370" y="258" width="220" height="130"/>
+  <text class="small center" x="480" y="300">skills/shared</text>
+  <text class="tiny center" x="480" y="330">code-review</text>
+  <text class="tiny center" x="480" y="354">docs-authoring</text>
+
+  <rect class="panel" x="110" y="426" width="220" height="130"/>
+  <text class="small center" x="220" y="468">skills/stacks</text>
+  <text class="tiny center" x="220" y="498">python-fastapi</text>
+  <text class="tiny center" x="220" y="522">node-nextjs</text>
+
+  <rect class="panel" x="370" y="426" width="220" height="130"/>
+  <text class="small center" x="480" y="468">playbooks</text>
+  <text class="tiny center" x="480" y="498">sev1-triage</text>
+  <text class="tiny center" x="480" y="522">release-day</text>
+
+  <rect class="panel" x="110" y="594" width="480" height="116"/>
+  <text class="small center" x="350" y="636">versioned governance</text>
+  <text class="tiny center" x="350" y="666">VERSION + CHANGELOG + owners + validation scripts</text>
+
+  <rect class="panel repo" x="785" y="140" width="340" height="220"/>
+  <text class="text center" x="955" y="182">Repo A</text>
+  <text class="small center" x="955" y="212">payments-api</text>
+  <rect class="panel adapter" x="825" y="242" width="130" height="88"/>
+  <text class="tiny center" x="890" y="276">AGENTS.md</text>
+  <text class="tiny center" x="890" y="300">adapter</text>
+  <rect class="panel skill" x="975" y="242" width="110" height="88"/>
+  <text class="tiny center" x="1030" y="276">SKILL.md</text>
+  <text class="tiny center" x="1030" y="300">PCI</text>
+
+  <rect class="panel repo" x="1185" y="140" width="340" height="220"/>
+  <text class="text center" x="1355" y="182">Repo B</text>
+  <text class="small center" x="1355" y="212">ai-engineering</text>
+  <rect class="panel adapter" x="1225" y="242" width="130" height="88"/>
+  <text class="tiny center" x="1290" y="276">AGENTS.md</text>
+  <text class="tiny center" x="1290" y="300">adapter</text>
+  <rect class="panel skill" x="1375" y="242" width="110" height="88"/>
+  <text class="tiny center" x="1430" y="276">SKILL.md</text>
+  <text class="tiny center" x="1430" y="300">Jekyll</text>
+
+  <rect class="panel repo" x="785" y="430" width="340" height="220"/>
+  <text class="text center" x="955" y="472">Repo C</text>
+  <text class="small center" x="955" y="502">data-platform</text>
+  <rect class="panel adapter" x="825" y="532" width="130" height="88"/>
+  <text class="tiny center" x="890" y="566">AGENTS.md</text>
+  <text class="tiny center" x="890" y="590">adapter</text>
+  <rect class="panel skill" x="975" y="532" width="110" height="88"/>
+  <text class="tiny center" x="1030" y="566">SKILL.md</text>
+  <text class="tiny center" x="1030" y="590">ETL</text>
+
+  <rect class="panel callout" x="1185" y="430" width="340" height="220"/>
+  <text class="text center" x="1355" y="472">OpenCode session</text>
+  <text class="tiny center" x="1355" y="514">1. Load local adapter</text>
+  <text class="tiny center" x="1355" y="544">2. Discover skill catalog</text>
+  <text class="tiny center" x="1355" y="574">3. Pull only matching SKILL.md</text>
+  <text class="tiny center" x="1355" y="604">4. Merge shared guidance + local context</text>
+
+  <line class="arrow" x1="630" y1="310" x2="785" y2="250"/>
+  <line class="arrow" x1="630" y1="310" x2="1185" y2="250"/>
+  <line class="arrow" x1="630" y1="500" x2="785" y2="540"/>
+  <line class="arrow" x1="630" y1="500" x2="1185" y2="540"/>
+
+  <text class="label center" x="720" y="212">shared rules and reusable skills</text>
+  <text class="label center" x="715" y="603">projects keep only their domain-specific adapters</text>
+
+  <polyline class="arrow-soft" points="955,360 955,394 1290,394 1290,430"/>
+  <polyline class="arrow-soft" points="1355,360 1355,394 1415,394 1415,430"/>
+  <polyline class="arrow-soft" points="955,650 955,712 1355,712 1355,650"/>
+
+  <text class="label center" x="1160" y="385">selected skills only</text>
+  <text class="label center" x="1155" y="745">local context overrides global defaults when needed</text>
+
+  <rect class="panel" x="120" y="800" width="1405" height="120"/>
+  <text class="small center" x="822" y="844">Practical rule of thumb</text>
+  <text class="tiny center" x="822" y="876">Keep 80 percent of agent knowledge global in the vault, and 20 percent local in each repository.</text>
+  <text class="tiny center" x="822" y="902">That gives consistency, reuse, and versioning without losing project-specific constraints.</text>
+</svg>
