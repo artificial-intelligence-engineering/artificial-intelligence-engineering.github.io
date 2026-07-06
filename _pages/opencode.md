@@ -2,6 +2,9 @@
 permalink: /opencode/
 title: "OpenCode Architecture"
 author_profile: false
+toc: true
+toc_sticky: true
+toc_label: "On this page"
 ---
 
 This page summarizes how OpenCode routes model traffic depending on the provider path you choose.
@@ -202,6 +205,189 @@ Example prompts that trigger each skill naturally:
 - "Review this patch and list critical risks first." -> code-review
 - "Draft a new docs section with steps and references." -> docs-authoring
 - "We have a spike in 500 errors, propose triage and containment." -> incident-triage
+
+## The Second Brain Approach Proposal
+
+Many teams start by creating `AGENTS.md` and `SKILL.md` files independently in every repository. This works for one or two projects, but it quickly becomes expensive when you manage many repositories with different stacks and release cycles.
+
+The second brain approach proposes a central knowledge repository (for example, `my-second-brain.git`) that acts like an Obsidian-style vault for AI agent instructions. Instead of rewriting the same guidance repeatedly, teams maintain shared agent rules, reusable skills, playbooks, and templates in one place, then combine that with lightweight project-local instructions.
+
+### Problem statement
+
+If each repository owns a full instruction stack, teams usually hit these issues:
+
+- Duplicate skills with slight drift in behavior.
+- Inconsistent review quality across repositories.
+- High maintenance overhead for policy updates.
+- Slow onboarding because every project has a different instruction style.
+
+### Proposed model: hybrid, not purely centralized
+
+The most reliable implementation is a hybrid model with two layers:
+
+1. Global layer (`my-second-brain.git`)
+   - Shared standards, reusable skills, governance policies, and operational playbooks.
+2. Local layer (inside each code repository)
+   - Minimal `AGENTS.md` adapter with project constraints, domain language, and overrides.
+
+Decision rule: local context wins when there is a conflict.
+
+### Reference architecture for my-second-brain.git
+
+	my-second-brain/
+	|- README.md
+	|- CHANGELOG.md
+	|- VERSION
+	|- governance/
+	|  |- engineering-principles.md
+	|  |- security-baseline.md
+	|- agents/
+	|  |- global/
+	|  |  |- AGENTS.md
+	|  |- templates/
+	|  |  |- AGENTS.project-template.md
+	|  |- projects/
+	|     |- ai-engineering/
+	|     |  |- AGENTS.md
+	|- skills/
+	|  |- catalog.yml
+	|  |- shared/
+	|  |  |- code-review/
+	|  |  |  |- SKILL.md
+	|  |  |- docs-authoring/
+	|  |  |  |- SKILL.md
+	|  |  |- incident-triage/
+	|  |     |- SKILL.md
+	|  |- stacks/
+	|  |  |- python-fastapi/
+	|  |  |  |- SKILL.md
+	|  |  |- node-nextjs/
+	|  |     |- SKILL.md
+	|  |- projects/
+	|     |- ai-engineering/
+	|        |- jekyll-page-edit/
+	|           |- SKILL.md
+	|- playbooks/
+	|  |- release-day.md
+	|  |- sev1-triage.md
+	|- automation/
+	   |- validate-frontmatter.ps1
+	   |- sync-to-projects.ps1
+
+### Example: global AGENTS.md in the second brain
+
+	# AGENTS.md
+    
+	## Mission
+	- Deliver correct, minimal, and reviewable changes.
+    
+	## Global rules
+	- Prefer the smallest safe change.
+	- Avoid unrelated refactors.
+	- Mark assumptions explicitly when evidence is incomplete.
+	- For documentation, include practical examples and references.
+    
+	## Output contract
+	- For review requests, list findings first by severity.
+	- Include risk, impact, and concrete remediation.
+
+### Example: reusable shared skill
+
+Path: `.opencode/skills/code-review/SKILL.md` (or the equivalent path in your central vault)
+
+	---
+	name: code-review
+	description: Review changed files, rank risks by severity, and propose precise fixes.
+	version: 1.3.0
+	owner: platform-ai
+	tags: [quality, review, risk]
+	---
+    
+	# Scope
+	- Analyze changed files first.
+	- Prioritize correctness, regressions, security, and maintainability.
+    
+	# Workflow
+	1. Build a change map.
+	2. Identify high-risk areas.
+	3. Validate behavior and edge cases.
+	4. Propose targeted fixes.
+    
+	# Output format
+	- Severity
+	- File and line
+	- Risk and impact
+	- Suggested fix
+	- Missing tests
+
+### Example: local adapter per project
+
+Each code repository keeps a short `AGENTS.md` with only project-specific constraints:
+
+	# AGENTS.md (project adapter)
+    
+	## Project context
+	- Service: payments-api
+	- Critical constraints: PCI, auditability, backward compatibility
+    
+	## Local overrides
+	- Any security recommendation must state PCI impact.
+	- Schema changes require migration and rollback notes.
+    
+	## Baseline
+	- Follow shared standards from my-second-brain version 1.3.x.
+
+### How OpenCode executes this pattern
+
+1. OpenCode loads baseline rules from local `AGENTS.md` plus configured instruction files.
+2. OpenCode discovers available skills and their descriptions.
+3. The model selects relevant skills for the current task.
+4. OpenCode loads only selected `SKILL.md` files on demand.
+5. Final output reflects both global standards and local repository constraints.
+
+### Governance and lifecycle
+
+- Version your central vault (`VERSION`, `CHANGELOG.md`).
+- Assign an owner to each shared skill.
+- Define compatibility windows (for example, project adapters pinned to `1.3.x`).
+- Add lightweight validation scripts for front matter, links, and required metadata.
+
+### Benefits and trade-offs
+
+Benefits:
+
+- Strong consistency across repositories.
+- Lower duplicated maintenance work.
+- Faster onboarding with common operating patterns.
+- Better skill quality through central review and versioning.
+
+Trade-offs:
+
+- Requires governance discipline and release management.
+- Over-centralization can reduce project autonomy.
+- A breaking change in shared guidance may affect many repositories.
+
+Mitigation: keep project adapters small but explicit, and let local constraints override global defaults.
+
+### When this approach is a strong fit
+
+- You maintain several repositories with shared engineering practices.
+- You want AI agent behavior to be consistent across teams.
+- You need reusable incident, review, and documentation playbooks.
+
+### When to stay mostly local
+
+- Highly regulated environments with strict repository isolation.
+- Teams with radically different workflows and tooling.
+- Projects where domain constraints dominate generic engineering practices.
+
+### Recommended adoption path
+
+1. Extract 2 to 3 shared skills from existing repositories.
+2. Create one global `AGENTS.md` in `my-second-brain.git`.
+3. Keep each repository adapter under 100 lines.
+4. Introduce versioning and changelog discipline.
+5. Expand the shared catalog only after proving value in daily workflows.
 
 ### References
 
