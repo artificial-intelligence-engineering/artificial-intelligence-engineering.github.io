@@ -206,6 +206,19 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row">Worktrees</th>
+        <td>
+            A Git worktree is a feature that allows you to have multiple, isolated working directories attached to the exact same Git repository. Instead of constantly stashing changes or switching branches, you can spin up a new folder for a specific task, such as an AI agent working on a bug, without copying the entire repository history.
+        </td>
+        <td>
+            <ul>
+              <li><a href="https://git-scm.com/docs/git-worktree" target="_blank">git-worktree documentation – Git</a></li>
+              <li><a href="https://www.atlassian.com/git/tutorials/git-worktree" target="_blank">Git worktree tutorial – Atlassian</a></li>
+              <li><a href="https://github.blog/open-source/git/git-2-5-including-multiple-worktrees-and-triangular-workflows/" target="_blank">Git 2.5, including multiple worktrees – GitHub Blog</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
       <th scope="row">Vibe Coding</th>
         <td>
             Vibe coding is a software development practice assisted by artificial intelligence (AI) where the software developer describes a project or task in a prompt to a large language model (LLM), which generates source code automatically.
