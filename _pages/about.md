@@ -30,6 +30,11 @@ AWS AI Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (A
       <td><a href="/ai-agent/">/ai-agent/</a></td>
     </tr>
     <tr>
+      <th scope="row">Agent Loop</th>
+      <td><code>agent-loop.md</code></td>
+      <td><a href="/agent-loop/">/agent-loop/</a></td>
+    </tr>
+    <tr>
       <th scope="row">AI Product Governance</th>
       <td><code>ai-governance.md</code></td>
       <td><a href="/ai-governance/">/ai-governance/</a></td>
