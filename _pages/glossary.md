@@ -206,7 +206,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row">Worktrees</th>
+      <th scope="row"><a href="/worktrees/">Worktrees</a></th>
         <td>
             A Git worktree is a feature that allows you to have multiple, isolated working directories attached to the exact same Git repository. Instead of constantly stashing changes or switching branches, you can spin up a new folder for a specific task, such as an AI agent working on a bug, without copying the entire repository history.
         </td>

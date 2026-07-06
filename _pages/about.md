@@ -119,5 +119,10 @@ AWS AI Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (A
       <td><code>tools.md</code></td>
       <td><a href="/tools/">/tools/</a></td>
     </tr>
+    <tr>
+      <th scope="row">Worktrees</th>
+      <td><code>worktrees.md</code></td>
+      <td><a href="/worktrees/">/worktrees/</a></td>
+    </tr>
   </tbody>
 </table>
