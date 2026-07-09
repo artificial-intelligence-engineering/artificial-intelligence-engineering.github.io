@@ -513,6 +513,21 @@ layout: splash
         <a href="https://www.youtube.com/results?search_query=litellm+tutorial+llm+proxy" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>LM Studio</td>
+      <td>Element Labs Inc. (OSS)</td>
+      <td>
+        LM Studio is a popular desktop application that allows you to discover, download, and run
+        large language models (LLMs) directly on your local consumer hardware. It provides an intuitive,
+        user-friendly interface that lets you run models completely offline.
+      </td>
+      <td>
+        <a href="https://lmstudio.ai" target="_blank">🔗 lmstudio.ai</a><br>
+        <a href="https://github.com/lmstudio-ai/lmstudio" target="_blank">📄 GitHub repo</a><br>
+        <a href="https://www.youtube.com/results?search_query=lmstudio+local+llm+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
 
     <!-- ── AI Assistants ───────────────────────────────────── -->
     <tr>
