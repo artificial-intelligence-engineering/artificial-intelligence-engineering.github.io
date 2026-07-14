@@ -692,7 +692,7 @@ layout: splash
            February, 2025
         </td>
         <td>
-           Active
+              Preview
         </td>
         <td>
            Experimental higher-capability Gemini 2.0 tier for advanced tasks.
@@ -1743,7 +1743,7 @@ layout: splash
             9 June 2026
         </td>
         <td>
-            Limited availability
+            Preview
         </td>
         <td>
             Ready for a small group of cyberdefenders and infrastructure providers. It's the same underlying model as Fable 5, but with the safeguards lifted in some areas.
@@ -2037,6 +2037,21 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Mistral Medium 3
+        </td>
+        <td>
+            May, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Medium-tier model release announced in May 2025.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Devstral Small (25.05)
         </td>
         <td>
@@ -2202,6 +2217,21 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Magistral Medium
+        </td>
+        <td>
+            June, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Reasoning-focused medium model released alongside Magistral Small.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Magistral Small 2509
         </td>
         <td>
@@ -2352,6 +2382,21 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Grok Code Fast 1
+        </td>
+        <td>
+            August, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Coding-focused reasoning model introduced for agentic development workflows.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Grok 4.1
         </td>
         <td>
@@ -2388,25 +2433,40 @@ layout: splash
             April, 2026
         </td>
         <td>
-            Active
+            Preview
         </td>
         <td>
-            Latest stable track listed in Wikipedia infobox timeline.
+            Beta release listed in the infobox stable-release timeline.
         </td>
     </tr>
     <tr>
       <th scope="row"></th>
         <td>
-            Grok 4.5 Beta
+            Grok 4.5
         </td>
         <td>
-            June, 2026
+            July, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Public release followed private beta testing in late June 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Grok Build
+        </td>
+        <td>
+            May, 2026
         </td>
         <td>
             Preview
         </td>
         <td>
-            Private beta reported in late June 2026 as the next Grok 4-series iteration.
+            Terminal-based coding agent released in early beta for SuperGrok subscribers.
         </td>
     </tr>
     <tr>
@@ -2502,6 +2562,21 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Qwen2.5-Max
+        </td>
+        <td>
+            January, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Higher-capability Qwen2.5 release announced at the end of January 2025.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Qwen 3
         </td>
         <td>
@@ -2517,16 +2592,31 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
-            QwQ-32B
+            QwQ-32B-Preview
         </td>
         <td>
             November, 2024
         </td>
         <td>
+            Discontinued
+        </td>
+        <td>
+            Initial reasoning preview that preceded the full QwQ-32B release.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            QwQ-32B
+        </td>
+        <td>
+            March, 2025
+        </td>
+        <td>
             Active
         </td>
         <td>
-            Reasoning-focused model line released with open weights.
+            Full QwQ reasoning model release under Apache 2.0 license.
         </td>
     </tr>
     <tr>
