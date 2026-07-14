@@ -98,9 +98,11 @@ toc_label: "Table of Contents"
     <tr><th scope="row">2025-02</th><td>Research Platform</td><td>OpenReview</td><td><a href="https://openreview.net">OpenReview - the standard and official platform for publishing and reviewing papers in top conferences (ICLR, NeurIPS, and others)</a></td></tr>
     <tr><th scope="row">2025-03</th><td>Preprint Repository</td><td>Cornell University</td><td><a href="https://arxiv.org/list/cs.LG/recent">arXiv (cs.LG/cs.CL) - the primary source of cutting-edge preprints in AI/LLMs</a></td></tr>
     <tr><th scope="row">2025-04</th><td>Benchmarks &amp; SOTA</td><td>Meta AI</td><td><a href="https://paperswithcode.com">Papers with Code - tracking papers, benchmarks, and reproducible state-of-the-art results</a></td></tr>
+    <tr><th scope="row">2025-04</th><td>Hybrid Reasoning</td><td>Alibaba</td><td><a href="https://qwen.ai/blog?id=qwen3">Qwen3: Think Deeper, Act Faster</a></td></tr>
     <tr><th scope="row">2025-05</th><td>NLP Proceedings</td><td>ACL</td><td><a href="https://aclanthology.org">ACL Anthology - official repository of NLP/LLM papers from ACL, EMNLP, NAACL, and more</a></td></tr>
     <tr><th scope="row">2025-06</th><td>Research Discovery</td><td>Allen Institute for AI</td><td><a href="https://www.semanticscholar.org">Semantic Scholar - indexing, discovery, and tracking of relevant AI research papers</a></td></tr>
     <tr><th scope="row">2025-07</th><td>AI Conference</td><td>ICLR</td><td><a href="https://iclr.cc/">ICLR (International Conference on Learning Representations) - one of the top annual conferences in ML/LLMs with high impact</a></td></tr>
+    <tr><th scope="row">2025-07</th><td>Agentic MoE</td><td>MoonshotAI</td><td><a href="https://arxiv.org/abs/2507.20534">Kimi K2: Open Agentic Intelligence</a></td></tr>
     <tr><th scope="row">2025-08</th><td>AI Conference</td><td>ICML</td><td><a href="https://icml.cc/">ICML (International Conference on Machine Learning) - a leading annual global conference in ML and foundation models</a></td></tr>
     <tr><th scope="row">2025-08</th><td>Research post</td><td>Hugging Face</td><td><a href="https://mike.gold/notes/x-bookmarks/ai/the-smol-training-playbook-comprehensive-llm-guide">The Smol Training Playbook</a></td></tr>
     <tr><th scope="row">2025-09</th><td>AI Conference</td><td>NeurIPS Foundation</td><td><a href="https://neurips.cc/">NeurIPS (Conference on Neural Information Processing Systems) - a global benchmark conference for cutting-edge AI advances</a></td></tr>
@@ -113,6 +115,7 @@ toc_label: "Table of Contents"
     <tr><th scope="row">2026-03</th><td>Codebase-Memory</td><td>DeusData</td><td><a href="https://arxiv.org/abs/2603.27277">Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP</a></td></tr>
     <tr><th scope="row">2026-03</th><td>LeWorldModel</td><td>Yann LeCun</td><td><a href="https://le-wm.github.io/">LeWorldModel: Stable End-to-End JEPA from Pixels</a></td></tr>
     <tr><th scope="row">2026-05</th><td>Agentic Search</td><td>Zhuofeng Li</td><td><a href="https://arxiv.org/abs/2605.05242">Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction</a></td></tr>
+    <tr><th scope="row">2026-06</th><td>Long Context</td><td>DeepSeek</td><td><a href="https://arxiv.org/abs/2606.19348">DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence</a></td></tr>
     <tr><th scope="row">2026-06</th><td>Research post</td><td>OpenAI</td><td><a href="https://openai.com/index/chatgpt-memory-dreaming/">Dreaming: Better memory for a more helpful ChatGPT</a></td></tr>
     <tr><th scope="row">2026-06</th><td>Research Post</td><td>Thariq Shihipar (Anthropic)</td><td><a href="https://x.com/trq212/status/2052809885763747935">The Unreasonable Effectiveness of HTML.</a></td></tr>
   </tbody>
