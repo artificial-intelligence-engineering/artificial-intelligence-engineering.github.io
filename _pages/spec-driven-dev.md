@@ -147,6 +147,87 @@ The referenced article highlights five practical conclusions:
 4. Keep specs concise and map each requirement to one or more DSL jobs.
 5. Track evolution by versioning both specs and DSL artifacts together.
 
+## A real example
+
+In the context of Large Language Models (LLMs) and Artificial Intelligence, **SDD** stands for **Specification-Driven Development**. Software legend "Uncle Bob" (Robert C. Martin) advocates for this approach as a necessary, disciplined guardrail to prevent AI agents from writing uncontrolled or hallucinated code
+
+Core concepts of Uncle Bob's approach to SDD include:
+
+1. Living Specifications (Gherkin): Specifications should be written in structured, natural-language formats like Gherkin (Feature/Scenario). This serves as the single "source of truth" that the human and the AI agree upon.
+
+2. Iterative Slicing (Avoid BUFD): To avoid "Big Up Front Design" (BUFD), Uncle Bob emphasizes writing "just enough specs" iteratively for the specific stories in your current sprint. The AI should never be left to assume what to build without a localized, actionable spec.
+
+3. Human Veto Power: Specs should be co-authored or refined by both humans and the AI, but final approval and enforcement remain strictly in the hands of the humans.
+
+4. Testing is Mandatory: AI-generated code should never be blindly trusted. Uncle Bob emphasizes that disciplined Test-Driven Development (TDD) and acceptance testing are critical to catch inaccuracies.
+
+The following Gherkin DSL code snapshots show how to express SDD work items in a structured, testable format.
+
+### Gherkin code snapshot 1: Feature + Rule + Background + Scenario
+
+```gherkin
+Feature: Account transfer risk controls
+	To reduce transfer fraud
+	As a banking platform
+	We enforce transfer limits and dual approval rules
+
+	Rule: Transfers above threshold require dual approval
+
+		Background:
+			Given an account "A-102" with a balance of 12000 EUR
+			And a transfer threshold of 5000 EUR
+
+		Scenario: A high-value transfer remains pending until second approval
+			When an operator submits a transfer of 7000 EUR from "A-102" to "B-220"
+			Then the transfer status should be "PendingApproval"
+			And an approval request should be visible to a second approver
+```
+
+### Gherkin code snapshot 2: Scenario Outline with Examples
+
+```gherkin
+Feature: Credit scoring decisions
+
+	Scenario Outline: Decision is based on score and debt ratio
+		Given an applicant with credit score <score>
+		And a debt ratio of <debt_ratio>
+		When the underwriting engine evaluates the application
+		Then the decision should be <decision>
+
+		Examples:
+			| score | debt_ratio | decision   |
+			| 810   | 0.22       | Approved   |
+			| 690   | 0.31       | ManualReview |
+			| 580   | 0.45       | Rejected   |
+```
+
+### Gherkin code snapshot 3: Data Table and observable outcomes
+
+```gherkin
+Feature: Product search ranking
+
+	Scenario: Ranked results prioritize in-stock products
+		Given the catalog contains:
+			| sku   | title                  | in_stock | score |
+			| P-101 | Noise Cancelling Headset | true     | 0.86  |
+			| P-202 | USB-C Dock             | false    | 0.91  |
+			| P-303 | 4K Webcam              | true     | 0.84  |
+		When a shopper searches for "office setup"
+		Then the first visible product should be "Noise Cancelling Headset"
+		And "USB-C Dock" should appear after all in-stock products
+```
+
+### AI-oriented Gherkin writing notes
+
+Following the Cucumber reference and AI-oriented guidelines:
+
+- Keep scenarios short (typically 3-5 steps) and behavior-focused.
+- Use domain language, not UI implementation details.
+- Prefer observable outcomes in `Then` steps instead of internal database checks.
+- Use `Rule` to separate business constraints clearly.
+- Use `Scenario Outline` and `Examples` for variable combinations instead of duplicating scenarios.
+- Maintain consistent formatting (for example, 2-space indentation) for tool and agent reliability.
+
 ## Reference
 
 This page is based on the analysis in:

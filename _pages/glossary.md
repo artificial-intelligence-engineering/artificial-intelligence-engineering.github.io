@@ -206,6 +206,30 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row"><a href="/spec-driven-dev/">Spec-Driven Development (SDD)</a></th>
+        <td>
+            Spec-Driven Development (SDD) is an engineering approach where structured specifications are the primary source of truth for AI-assisted implementation. Requirements, constraints, contracts, and acceptance criteria are defined before code generation, improving predictability and reviewability.
+        </td>
+        <td>
+            See the dedicated page for implementation levels (spec-first, spec-anchored, spec-as-source) and practical adoption guidance.
+            <ul>
+              <li><a href="/spec-driven-dev/">Spec Driven Development page</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"><a href="/spec-driven-dev/"><em>Domain-Specific Languages (DSLs)</em></a></th>
+        <td>
+            Domain-Specific Languages (DSLs) are constrained languages tailored to a specific problem domain, such as SQL, Mermaid, or infrastructure manifests. In AI-assisted development, DSLs reduce ambiguity and narrow the generation space, which increases reliability.
+        </td>
+        <td>
+            In SDD workflows, DSLs are effective for defining executable jobs with deterministic validation through schemas, parsers, compilers, or type checks.
+            <ul>
+              <li><a href="/spec-driven-dev/">SDD and DSL integration</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
       <th scope="row"><a href="/worktrees/">Worktrees</a></th>
         <td>
             A Git worktree is a feature that allows you to have multiple, isolated working directories attached to the exact same Git repository. Instead of constantly stashing changes or switching branches, you can spin up a new folder for a specific task, such as an AI agent working on a bug, without copying the entire repository history.
