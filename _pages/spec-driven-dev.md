@@ -39,6 +39,8 @@ rather than attacking a monolithic prompt.
 
 4. Validation: CI/CD pipelines and linters automatically test the generated codebase against the specification. If the code deviates from the spec, the build fails.
 
+![SDD Core Methodology Flow](/assets/images/sdd-core-methodology-flow.svg)
+
 ## Levels of Adoption
 
 Current industry practice commonly shows three maturity levels:

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Spec-Driven Development Core Methodology</title>
+  <desc id="desc">Flow diagram of SDD phases: Specification, Planning and Task Decomposition, Generation, and Validation, with a feedback loop when validation fails.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#eef2ff" />
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f2937" />
+    </marker>
+    <style>
+      .title { font: 700 34px 'Segoe UI', Arial, sans-serif; fill: #111827; }
+      .subtitle { font: 500 18px 'Segoe UI', Arial, sans-serif; fill: #374151; }
+      .phaseTitle { font: 700 20px 'Segoe UI', Arial, sans-serif; fill: #111827; }
+      .phaseText { font: 500 16px 'Segoe UI', Arial, sans-serif; fill: #1f2937; }
+      .label { font: 600 15px 'Segoe UI', Arial, sans-serif; fill: #111827; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1400" height="760" fill="url(#bg)" />
+
+  <text x="700" y="70" text-anchor="middle" class="title">Spec-Driven Development: Core Methodology</text>
+  <text x="700" y="102" text-anchor="middle" class="subtitle">Formal phases from specification to automated validation</text>
+
+  <rect x="90" y="180" rx="16" ry="16" width="280" height="210" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2" />
+  <text x="230" y="220" text-anchor="middle" class="phaseTitle">1) Specification</text>
+  <text x="110" y="255" class="phaseText">- Define intent and behaviors</text>
+  <text x="110" y="283" class="phaseText">- Capture edge cases</text>
+  <text x="110" y="311" class="phaseText">- Set architecture constraints</text>
+  <text x="110" y="339" class="phaseText">- Use structured formats</text>
+  <text x="110" y="367" class="phaseText">  (for example YAML/TOML)</text>
+
+  <rect x="420" y="180" rx="16" ry="16" width="280" height="210" fill="#dcfce7" stroke="#15803d" stroke-width="2" />
+  <text x="560" y="220" text-anchor="middle" class="phaseTitle">2) Planning</text>
+  <text x="440" y="255" class="phaseText">- Parse spec into plan</text>
+  <text x="440" y="283" class="phaseText">- Decompose into atomic tasks</text>
+  <text x="440" y="311" class="phaseText">- Define execution order</text>
+  <text x="440" y="339" class="phaseText">- Avoid monolithic prompts</text>
+
+  <rect x="750" y="180" rx="16" ry="16" width="280" height="210" fill="#fef3c7" stroke="#b45309" stroke-width="2" />
+  <text x="890" y="220" text-anchor="middle" class="phaseTitle">3) Generation</text>
+  <text x="770" y="255" class="phaseText">- Execute task list</text>
+  <text x="770" y="283" class="phaseText">- Keep spec as source of truth</text>
+  <text x="770" y="311" class="phaseText">- Produce code and tests</text>
+  <text x="770" y="339" class="phaseText">- Maintain traceability</text>
+
+  <rect x="1080" y="180" rx="16" ry="16" width="240" height="210" fill="#fee2e2" stroke="#b91c1c" stroke-width="2" />
+  <text x="1200" y="220" text-anchor="middle" class="phaseTitle">4) Validation</text>
+  <text x="1100" y="255" class="phaseText">- Run CI/CD checks</text>
+  <text x="1100" y="283" class="phaseText">- Lint and test against spec</text>
+  <text x="1100" y="311" class="phaseText">- Build fails on deviations</text>
+  <text x="1100" y="339" class="phaseText">- Approve only compliant output</text>
+
+  <line x1="370" y1="285" x2="420" y2="285" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="700" y1="285" x2="750" y2="285" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="1030" y1="285" x2="1080" y2="285" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)" />
+
+  <path d="M1200,390 C1200,520 560,520 560,390" fill="none" stroke="#b91c1c" stroke-width="4" marker-end="url(#arrow)" />
+  <text x="880" y="560" text-anchor="middle" class="label">If validation fails, refine specification and repeat the cycle</text>
+
+  <rect x="90" y="610" rx="10" ry="10" width="1230" height="92" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="120" y="648" class="label">Outcome:</text>
+  <text x="220" y="648" class="phaseText">Predictable delivery through explicit contracts, atomic execution, and automated conformance checks.</text>
+  <text x="120" y="678" class="phaseText">This keeps AI-assisted implementation aligned with intent and minimizes uncontrolled or hallucinated output.</text>
+</svg>
