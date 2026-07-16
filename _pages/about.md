@@ -45,6 +45,11 @@ AWS AI Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (A
       <td><a href="/application-development/">/application-development/</a></td>
     </tr>
     <tr>
+      <th scope="row">Spec Driven Development</th>
+      <td><code>spec-driven-dev.md</code></td>
+      <td><a href="/spec-driven-dev/">/spec-driven-dev/</a></td>
+    </tr>
+    <tr>
       <th scope="row">Benchmarks Table</th>
       <td><code>benchmarks.md</code></td>
       <td><a href="/benchmarks/">/benchmarks/</a></td>
