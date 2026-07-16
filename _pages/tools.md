@@ -1012,6 +1012,24 @@ layout: splash
     </tr>
     <tr>
       <th scope="row"></th>
+      <td>Headroom</td>
+      <td>Headroom Labs (OSS) / Tejas Chopra</td>
+      <td>
+        Context compression layer for AI agents that reduces token usage across tool outputs,
+        logs, files, RAG chunks, and conversation history before requests reach the model.
+        Supports library mode, proxy mode, and MCP server mode for integration into coding
+        agents and LLM application workflows. The project is primarily maintained by Tejas
+        Chopra (chopratejas), whose public profile lists Netflix.
+      </td>
+      <td>
+        <a href="https://github.com/headroomlabs-ai/headroom" target="_blank">🔗 github.com/headroomlabs-ai/headroom</a><br>
+        <a href="https://github.com/chopratejas" target="_blank">👤 Principal maintainer: @chopratejas</a><br>
+        <a href="https://headroom-docs.vercel.app/docs" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=headroom+ai+agent+compression" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
       <td>Agents Towards Production</td>
       <td>Nir Diamant (OSS)</td>
       <td>
