@@ -24,6 +24,21 @@ In practice, a high-quality spec usually includes:
 - non-functional constraints such as security, performance, and compliance
 - boundaries between existing behavior and new behavior
 
+## The Core Methodology
+
+In standard LLM usage, a developer usually prompts conversationally and iterates on the code.
+In SDD, the development lifecycle is strictly separated into formal phases:
+
+1. Specification (The Contract): Developers write explicit, structured definitions (often in formats like YAML or TOML) outlining intent,
+behaviors, edge cases, and architectural constraints.
+
+2. Planning & Task Decomposition: The LLM or an agent parses the spec to generate a detailed implementation plan and an atomic task list,
+rather than attacking a monolithic prompt.
+
+3. Generation: AI coding agents (or developers) execute the task list strictly referencing the original spec to generate code or tests.
+
+4. Validation: CI/CD pipelines and linters automatically test the generated codebase against the specification. If the code deviates from the spec, the build fails.
+
 ## Levels of Adoption
 
 Current industry practice commonly shows three maturity levels:
