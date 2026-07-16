@@ -769,6 +769,66 @@ layout: splash
     </tr>
     <tr>
       <th scope="row"></th>
+      <td>LiteLLM</td>
+      <td>BerriAI (OSS)</td>
+      <td>
+        Unified LLM gateway and proxy that provides an OpenAI-compatible interface across many
+        model providers. Adds routing, fallback, caching, budgets, usage tracking, and policy
+        controls, making it a practical orchestration layer for multi-model workflow automation.
+      </td>
+      <td>
+        <a href="https://github.com/BerriAI/litellm" target="_blank">🔗 github.com/BerriAI/litellm</a><br>
+        <a href="https://docs.litellm.ai" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=litellm+gateway+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>AI6x</td>
+      <td>API7 (OSS)</td>
+      <td>
+        Open-source AI gateway focused on secure, governable access to LLM services. Designed
+        to centralize auth, rate limiting, observability, and policy enforcement for AI traffic,
+        helping teams run production agent workflows with stronger operational controls.
+      </td>
+      <td>
+        <a href="https://github.com/api7/aisix" target="_blank">🔗 github.com/api7/aisix</a><br>
+        <a href="https://github.com/api7/aisix#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=api7+aisix+ai+gateway" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Envoy AI Gateway</td>
+      <td>Envoy Proxy (OSS)</td>
+      <td>
+        AI-focused gateway built on Envoy for managing and standardizing LLM inference traffic.
+        Supports provider abstraction, traffic controls, resiliency, observability, and governance
+        capabilities required for enterprise-grade AI workflow automation.
+      </td>
+      <td>
+        <a href="https://github.com/envoyproxy/ai-gateway" target="_blank">🔗 github.com/envoyproxy/ai-gateway</a><br>
+        <a href="https://github.com/envoyproxy/ai-gateway#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=envoy+ai+gateway+tutorial" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Open Connector</td>
+      <td>Oomol Lab (OSS)</td>
+      <td>
+        Open-source connector framework for integrating external apps, APIs, and services into
+        automated workflows. Useful for building reusable integration blocks that feed data and
+        actions into AI pipelines and agent orchestration layers.
+      </td>
+      <td>
+        <a href="https://github.com/oomol-lab/open-connector" target="_blank">🔗 github.com/oomol-lab/open-connector</a><br>
+        <a href="https://github.com/oomol-lab/open-connector#readme" target="_blank">📄 GitHub README</a><br>
+        <a href="https://www.youtube.com/results?search_query=oomol+open+connector" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
       <td>Rivet</td>
       <td>Ironclad (OSS)</td>
       <td>
@@ -936,6 +996,22 @@ layout: splash
     </tr>
     <tr>
       <th scope="row"></th>
+      <td>RODA MCP Server</td>
+      <td>AWS Labs (OSS)</td>
+      <td>
+        Model Context Protocol (MCP) server for discovering and exploring datasets from the
+        Registry of Open Data on AWS. Enables natural-language dataset search, metadata inspection,
+        license-aware discovery, and early fit evaluation through S3 structure preview and file
+        sampling for eligible public datasets.
+      </td>
+      <td>
+        <a href="https://github.com/awslabs/mcp/tree/main/src/roda-mcp-server" target="_blank">🔗 github.com/awslabs/mcp/tree/main/src/roda-mcp-server</a><br>
+        <a href="https://aws.amazon.com/blogs/opensource/introducing-mcp-server-for-registry-of-open-data-on-aws/" target="_blank">📄 AWS Open Source Blog announcement</a><br>
+        <a href="https://registry.opendata.aws/" target="_blank">📘 Registry of Open Data on AWS</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
       <td>Agents Towards Production</td>
       <td>Nir Diamant (OSS)</td>
       <td>
@@ -977,6 +1053,21 @@ layout: splash
       <td>
         <a href="https://github.com/addyosmani/web-quality-skills" target="_blank">🔗 github.com/addyosmani/web-quality-skills</a><br>
         <a href="https://github.com/addyosmani/web-quality-skills#readme" target="_blank">📄 GitHub README</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>LiteRT.js</td>
+      <td>Google AI Edge (OSS)</td>
+      <td>
+        Web runtime for LiteRT (formerly TensorFlow Lite) that runs `.tflite` models directly
+        in the browser. Supports WebGPU acceleration on compatible browsers, XNNPack-accelerated
+        CPU execution, and integration with existing TensorFlow.js pipelines.
+      </td>
+      <td>
+        <a href="https://github.com/google-ai-edge/LiteRT/tree/main/litert/js" target="_blank">🔗 github.com/google-ai-edge/LiteRT/tree/main/litert/js</a><br>
+        <a href="https://ai.google.dev/edge/litert/web" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=LiteRT.js+tutorial" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
     <tr>
