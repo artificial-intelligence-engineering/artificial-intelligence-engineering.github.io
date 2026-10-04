@@ -383,6 +383,21 @@ layout: splash
         <a href="https://www.youtube.com/results?search_query=codegraph+coding+assistant+tutorial" target="_blank">▶ YouTube tutorials</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Codex Security</td>
+      <td>OpenAI (OSS)</td>
+      <td>
+        Command-line tool and TypeScript SDK (@openai/codex-security) from OpenAI for defining
+        repository security policies (SECURITY.md), generating and exporting threat models, and
+        autonomously finding, validating, and fixing security vulnerabilities in source code.
+      </td>
+      <td>
+        <a href="https://github.com/openai/codex-security" target="_blank">🔗 github.com/openai/codex-security</a><br>
+        <a href="https://learn.chatgpt.com/docs/security/cli" target="_blank">📄 Official docs</a><br>
+        <a href="https://www.youtube.com/results?search_query=openai+codex+security" target="_blank">▶ YouTube tutorials</a>
+      </td>
+    </tr>
 
     <!-- ── Dev Frameworks ──────────────────────────────────── -->
     <tr>
