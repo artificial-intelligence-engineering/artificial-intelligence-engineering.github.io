@@ -1,4 +1,4 @@
-﻿---
+---
 title: "LxM Ecosystem Table"
 permalink: /lxm/
 layout: splash
@@ -241,10 +241,10 @@ layout: splash
             December, 2025
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            Follow-up GPT-5 release listed in the ChatGPT model timeline on Wikipedia.
+            Follow-up GPT-5 release listed in the ChatGPT model timeline; discontinued in ChatGPT as of June 12, 2026.
         </td>
     </tr>
     <tr>
@@ -253,13 +253,13 @@ layout: splash
             GPT-5.3
         </td>
         <td>
-            2026
+            February, 2026
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            GPT-5 branch update listed in the ChatGPT model list on Wikipedia.
+            GPT-5.3 generation (comprising GPT-5.3-Codex and GPT-5.3 Instant) listed in the ChatGPT model timeline.
         </td>
     </tr>
     <tr>
@@ -268,13 +268,28 @@ layout: splash
             GPT-5.3-Codex
         </td>
         <td>
-            2026
+            February, 2026
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
             Coding-specialized GPT-5.3 variant listed on the ChatGPT page.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-5.3 Instant
+        </td>
+        <td>
+            March, 2026
+        </td>
+        <td>
+            Discontinued
+        </td>
+        <td>
+            Fast-response variant in the GPT-5.3 branch released in March 2026.
         </td>
     </tr>
     <tr>
@@ -286,10 +301,10 @@ layout: splash
             March, 2026
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            Enterprise-focused GPT-5 update listed in the ChatGPT timeline on Wikipedia.
+            Enterprise-focused GPT-5 update with improved autonomous computer and external tool use.
         </td>
     </tr>
     <tr>
@@ -298,13 +313,28 @@ layout: splash
             GPT-5.5
         </td>
         <td>
-            2026
+            April, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Most capable GPT-5 branch release listed as the current engine on Wikipedia.
+            Designed for complex, multi-step professional work including agentic coding and computer use.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-5.5-Cyber
+        </td>
+        <td>
+            April, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Cyber-defense specialized variant of GPT-5.5 listed in the ChatGPT model versions table.
         </td>
     </tr>
     <tr>
@@ -313,13 +343,13 @@ layout: splash
             GPT-5.6 Series
         </td>
         <td>
-            June, 2026
+            July, 2026
         </td>
         <td>
-            Preview
+            Active
         </td>
         <td>
-            New three-tier GPT-5.6 family composed of Sol, Terra, and Luna.
+            Three-tier GPT-5.6 family (Luna, Terra, and Sol) previewed on June 26, 2026 and publicly released on July 9, 2026.
         </td>
     </tr>
     <tr>
@@ -328,13 +358,13 @@ layout: splash
             GPT-5.6 Sol
         </td>
         <td>
-            June, 2026
+            July, 2026
         </td>
         <td>
-            Preview
+            Active
         </td>
         <td>
-            Flagship GPT-5.6 tier with the highest capability ceiling, including max reasoning effort and ultra mode.
+            Flagship GPT-5.6 tier publicly released on July 9, 2026 for complex reasoning, coding, and agentic workflows.
         </td>
     </tr>
     <tr>
@@ -343,13 +373,13 @@ layout: splash
             GPT-5.6 Terra
         </td>
         <td>
-            June, 2026
+            July, 2026
         </td>
         <td>
-            Preview
+            Active
         </td>
         <td>
-            Balanced GPT-5.6 default tier positioned near GPT-5.5-level quality at lower cost.
+            Balanced GPT-5.6 intermediate tier publicly released on July 9, 2026 with GPT-5.5-class quality at lower cost.
         </td>
     </tr>
     <tr>
@@ -358,13 +388,103 @@ layout: splash
             GPT-5.6 Luna
         </td>
         <td>
-            June, 2026
+            July, 2026
         </td>
         <td>
-            Preview
+            Active
         </td>
         <td>
-            Fast, budget-oriented GPT-5.6 tier for high-volume and latency-sensitive workloads.
+            Fast, budget-oriented GPT-5.6 tier publicly released on July 9, 2026 for high-volume and latency-sensitive workloads.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-5.6-Cyber
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Cybersecurity-focused GPT-5.6 variant launched on August 10, 2026 for defensive security tasks.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-6 Astra
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Flagship GPT-6 tier released on September 4, 2026 (previewed September 3) using a looped-transformer reasoning architecture.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-6 Sol
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            High-capability GPT-6 tier released on September 22, 2026 alongside GPT-6 Luna.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-6 Luna
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Efficiency-focused tier of the GPT-6 family released on September 22, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-6.1 Sol
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Released on September 29, 2026 with near-Astra intelligence at lower per-task cost.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-6.1 Astra
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Announced
+        </td>
+        <td>
+            Announced GPT-6.1 frontier tier whose public release was delayed in late September 2026 for safety alignment review.
         </td>
     </tr>
     <tr>
@@ -493,13 +613,13 @@ layout: splash
             gpt-oss-20b
         </td>
         <td>
-            2026
+            August, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Open-weight OpenAI model listed in Amazon Bedrock model cards.
+            21B-parameter Apache 2.0 open-weight reasoning model released by OpenAI and listed in Amazon Bedrock model cards.
         </td>
     </tr>
     <tr>
@@ -508,13 +628,13 @@ layout: splash
             gpt-oss-120b
         </td>
         <td>
-            2026
+            August, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Larger open-weight OpenAI model listed in Amazon Bedrock model cards.
+            117B-parameter Apache 2.0 open-weight reasoning model released by OpenAI and listed in Amazon Bedrock model cards.
         </td>
     </tr>
     <tr>
@@ -662,10 +782,10 @@ layout: splash
            January, 2025
         </td>
         <td>
-           Active
+           Discontinued
         </td>
         <td>
-           	Developed by Google with a focus on multimodality, agentic capabilities, and speed
+           Developed by Google with a focus on multimodality, agentic capabilities, and speed; succeeded by Gemini 2.5 Flash.
         </td>
     </tr>
     <tr>
@@ -677,10 +797,10 @@ layout: splash
            December, 2024
         </td>
         <td>
-           Active
+           Discontinued
         </td>
         <td>
-           Reasoning-oriented Gemini variant designed for longer multi-step problem solving.
+           Reasoning-oriented Gemini 2.0 variant designed for longer multi-step problem solving.
         </td>
     </tr>
     <tr>
@@ -692,10 +812,10 @@ layout: splash
            February, 2025
         </td>
         <td>
-              Preview
+           Discontinued
         </td>
         <td>
-           Experimental higher-capability Gemini 2.0 tier for advanced tasks.
+           Experimental higher-capability Gemini 2.0 tier succeeded by Gemini 2.5 Pro.
         </td>
     </tr>
     <tr>
@@ -707,10 +827,10 @@ layout: splash
            February, 2025
         </td>
         <td>
-           Active
+           Discontinued
         </td>
         <td>
-           	First-ever Gemini Flash-Lite model designed for cost-efficiency and speed	
+           First Gemini Flash-Lite model designed for cost-efficiency and speed; succeeded by Gemini 2.5 Flash-Lite.
         </td>
     </tr>
     <tr>
@@ -809,13 +929,13 @@ layout: splash
             Gemma 3
         </td>
         <td>
-           2025
+           March, 2025
         </td>
         <td>
            Active
         </td>
         <td>
-           Latest Gemma family iteration focused on stronger reasoning and multimodal support.
+           Multimodal open-weight Gemma generation (1B, 4B, 12B, 27B) with 128k context window, later expanded with Gemma 3n.
         </td>
     </tr>
     <tr>
@@ -827,16 +947,16 @@ layout: splash
             November, 2025
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            New Gemini 3 flagship generation that replaced 2.5 Pro in Google announcements.
+            First Gemini 3 flagship model released on November 18, 2025 and shut down on March 9, 2026 in favor of Gemini 3.1 Pro.
         </td>
     </tr>
     <tr>
       <th scope="row"></th>
         <td>
-            Gemini 3 Deep Think
+            Gemini 3 Pro Image (Nano Banana Pro)
         </td>
         <td>
             November, 2025
@@ -845,7 +965,22 @@ layout: splash
             Active
         </td>
         <td>
-            Reasoning-focused Gemini 3 variant based on the 2.5 Pro Deep Think mode.
+            Image generation and editing model released in preview on November 20, 2025 and made generally available on May 28, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Gemini 3 Deep Think
+        </td>
+        <td>
+            December, 2025
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            Reasoning-focused Gemini 3 mode released on December 4, 2025 for Google AI Ultra subscribers and updated on February 12, 2026.
         </td>
     </tr>
     <tr>
@@ -881,6 +1016,21 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Gemini 3.1 Flash Image (Nano Banana 2)
+        </td>
+        <td>
+            February, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Multimodal image and text generation model based on Gemini 3 Flash, released on February 26, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Gemini 3.1 Flash-Lite
         </td>
         <td>
@@ -911,6 +1061,96 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Cost-effective image generation model based on Gemini 3.1 Flash-Lite, released on June 30, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Gemini 3.5 Flash-Lite
+        </td>
+        <td>
+            July, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Released on July 21, 2026 based on Gemini 3.1 Flash-Lite for high-volume, latency-sensitive, and agentic workflows.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Gemini 3.6 Flash
+        </td>
+        <td>
+            July, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Released on July 21, 2026 with improvements in coding, multimodal processing, and token efficiency over Gemini 3.5 Flash.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Gemini 3.7 Flash
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Released on August 13, 2026 featuring core reasoning foundation improvements over Gemini 3.6 Flash.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Gemini 3.8 Flash
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Released on September 2, 2026 as the latest Flash iteration, alongside the 3.8 Flash Cyber variant for Google's Fairwind Program.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Gemini 4 Argon
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            Limited preview released on September 30, 2026 expanding output token capacity to 1M tokens with stronger coding and safety guardrails.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Gemini Robotics
         </td>
         <td>
@@ -935,7 +1175,7 @@ layout: splash
             Active
         </td>
         <td>
-            Gemma generation designed for stronger reasoning and agentic workflows.
+            Apache 2.0 open-weight family (E2B, E4B, 26B MoE, 31B Dense) with native vision/audio support and up to 256k context window.
         </td>
     </tr>
     <tr>
@@ -1146,7 +1386,7 @@ layout: splash
             Announced
         </td>
         <td>
-            Announced by Meta but not publicly released at the time Scout and Maverick shipped.
+            Announced by Meta as a ~2T-parameter teacher model (288B active parameters) but not publicly released.
         </td>
     </tr>
     <tr>
@@ -1161,7 +1401,67 @@ layout: splash
             Preview
         </td>
         <td>
-            New Meta Superintelligence Labs model reported as a successor direction beyond the Llama line.
+            Proprietary multimodal reasoning model introduced on April 8, 2026 by Meta Superintelligence Labs to power Meta AI.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Muse Spark 1.1
+        </td>
+        <td>
+            July, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            First production release in Meta's Muse family (July 9, 2026) with a 1M context window for multimodal reasoning and coding.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Muse Spark 1.2
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Released on August 5, 2026 alongside the Muse Code terminal coding agent and made available via the Meta Model API.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Muse Glimmer
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Open-weight 30B multimodal model released under Apache 2.0 on August 10, 2026 for local agentic and coding workloads.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Muse Spark 1.3
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Latest release in the Muse Spark model family, launched on September 2, 2026.
         </td>
     </tr>
     <tr>
@@ -1275,13 +1575,13 @@ layout: splash
             Phi-4-mini
         </td>
         <td>
-            2025
+            February, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Lower-latency, lower-cost Phi-4 variant for edge and high-throughput scenarios.
+            Lower-latency, lower-cost 3.8B Phi-4 variant for edge and high-throughput scenarios.
         </td>
     </tr>
     <tr>
@@ -1290,13 +1590,13 @@ layout: splash
             Phi-4-multimodal
         </td>
         <td>
-            2025
+            February, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Multimodal Phi-4 variant supporting image+text understanding and generation.
+            5.6B multimodal Phi-4 variant supporting text, image, and audio understanding.
         </td>
     </tr>
     <tr>
@@ -1305,13 +1605,28 @@ layout: splash
             Phi-4-reasoning
         </td>
         <td>
-            2025
+            April, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Reasoning-focused Phi-4 variant optimized for multi-step analytical tasks.
+            Reasoning-focused 14B Phi-4 variant (alongside Phi-4-reasoning-plus and Phi-4-mini-reasoning) optimized for multi-step analytical tasks.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Phi-4-reasoning-vision-15B
+        </td>
+        <td>
+            March, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            15B-parameter open-weights vision-language model released under MIT license capable of dynamically deciding when to invoke reasoning.
         </td>
     </tr>
     <tr>
@@ -1488,10 +1803,10 @@ layout: splash
             March, 2024
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            Multimodal family balancing speed, cost and reasoning quality.
+            Multimodal family balancing speed, cost and reasoning quality; retired following the Claude 4 and 4.5 releases.
         </td>
     </tr>
     <tr>
@@ -1503,10 +1818,10 @@ layout: splash
             June, 2024
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            Strong coding and agentic performance with better latency/cost profile.
+            Strong coding and agentic performance with computer use capability introduced in the October 2024 refresh; retired in October 2025.
         </td>
     </tr>
     <tr>
@@ -1518,10 +1833,10 @@ layout: splash
             October, 2024
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            Fast and cost-efficient model for high-throughput use cases.
+            Fast and cost-efficient model for high-throughput use cases; retired in February 2026.
         </td>
     </tr>
     <tr>
@@ -1533,10 +1848,10 @@ layout: splash
             February, 2025
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            Hybrid reasoning model with improved long-horizon task execution.
+            Hybrid reasoning model with extended thinking mode; retired in February 2026.
         </td>
     </tr>
     <tr>
@@ -1548,10 +1863,10 @@ layout: splash
             May, 2025
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            New generation tuned for coding, tool use and production workflows.
+            Claude 4 generation tuned for coding, tool use and production workflows; retired in June 2026.
         </td>
     </tr>
     <tr>
@@ -1563,10 +1878,10 @@ layout: splash
             May, 2025
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            Highest-capability Claude tier for complex reasoning and agent tasks.
+            Highest-capability Claude 4 tier for complex reasoning and agent tasks; retired in June 2026.
         </td>
     </tr>
     <tr>
@@ -1575,13 +1890,28 @@ layout: splash
             Claude Opus 4.1
         </td>
         <td>
-            April, 2026
+            August, 2025
+        </td>
+        <td>
+            Discontinued
+        </td>
+        <td>
+            Incremental Opus 4 update released in August 2025 for agentic coding and reasoning; retired in June 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Sonnet 4.5
+        </td>
+        <td>
+            September, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Incremental Opus 4 update listed in the Claude model timeline on Wikipedia.
+            Sonnet 4.5 release launched on September 29, 2025 for coding, agent building, and computer use.
         </td>
     </tr>
     <tr>
@@ -1596,22 +1926,7 @@ layout: splash
             Active
         </td>
         <td>
-            Haiku branch update focused on speed and cost efficiency.
-        </td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-        <td>
-            Claude Sonnet 4.5
-        </td>
-        <td>
-            2025
-        </td>
-        <td>
-            Active
-        </td>
-        <td>
-            Sonnet branch update listed in the model versions table on Wikipedia.
+            Haiku 4.5 release launched on October 15, 2025 focused on speed and cost efficiency.
         </td>
     </tr>
     <tr>
@@ -1620,13 +1935,28 @@ layout: splash
             Claude Opus 4.5
         </td>
         <td>
-            2025
+            November, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Opus branch update listed in the model versions table on Wikipedia.
+            Opus 4.5 release launched on November 24, 2025 with improved token efficiency and coding capabilities.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Opus 4.6
+        </td>
+        <td>
+            February, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Opus 4.6 release launched on February 5, 2026 featuring agent teams and a 1M token context window in beta.
         </td>
     </tr>
     <tr>
@@ -1641,37 +1971,22 @@ layout: splash
             Active
         </td>
         <td>
-            Sonnet branch update listed as a stable release in the Wikipedia infobox.
+            Sonnet 4.6 release launched on February 17, 2026 with improved coding, computer use, and 1M context window in beta.
         </td>
     </tr>
     <tr>
       <th scope="row"></th>
         <td>
-            Claude Sonnet 5
+            Claude Mythos Preview
         </td>
         <td>
-            June, 2026
+            April, 2026
         </td>
         <td>
-            Active
+            Preview
         </td>
         <td>
-            Most agentic Sonnet generation, with major improvements in planning, tool use, and coding at lower cost than Opus 4.8.
-        </td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-        <td>
-            Claude Opus 4.6
-        </td>
-        <td>
-            2026
-        </td>
-        <td>
-            Active
-        </td>
-        <td>
-            Opus branch update listed in the model versions table on Wikipedia.
+            Limited-availability cybersecurity preview launched on April 7, 2026 via Project Glasswing and listed in Amazon Bedrock model cards.
         </td>
     </tr>
     <tr>
@@ -1686,7 +2001,7 @@ layout: splash
             Active
         </td>
         <td>
-            Latest Opus stable release listed in the Wikipedia infobox timeline.
+            Opus 4.7 release launched on April 16, 2026 with stronger self-verification and high-resolution vision support.
         </td>
     </tr>
     <tr>
@@ -1695,28 +2010,13 @@ layout: splash
             Claude Opus 4.8
         </td>
         <td>
-            2026
+            May, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Newer Opus release listed in Amazon Bedrock model cards.
-        </td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-        <td>
-            Claude Mythos Preview
-        </td>
-        <td>
-            2026
-        </td>
-        <td>
-            Preview
-        </td>
-        <td>
-            Preview Claude model listed in Amazon Bedrock model cards.
+            Opus 4.8 release launched on May 28, 2026 and listed in Amazon Bedrock model cards.
         </td>
     </tr>
     <tr>
@@ -1725,13 +2025,13 @@ layout: splash
             Claude Fable 5
         </td>
         <td>
-            9 June 2026
+            June, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            A Mythos-class model that we've made safe for general use.
+            Publicly released Mythos-class model launched on June 9, 2026 with additional safety guardrails for general use.
         </td>
     </tr>
     <tr>
@@ -1740,13 +2040,28 @@ layout: splash
             Claude Mythos 5 (preview)
         </td>
         <td>
-            9 June 2026
+            June, 2026
         </td>
         <td>
             Preview
         </td>
         <td>
-            Ready for a small group of cyberdefenders and infrastructure providers. It's the same underlying model as Fable 5, but with the safeguards lifted in some areas.
+            Limited-availability version of the Fable 5 underlying model released on June 9, 2026 for cyberdefenders and infrastructure providers.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Sonnet 5
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Sonnet 5 release launched on June 24, 2026 with major improvements in planning, tool use, and coding at lower cost than Opus 4.8.
         </td>
     </tr>
     <tr>
@@ -1761,7 +2076,7 @@ layout: splash
             Active
         </td>
         <td>
-            Access was restored globally after redeployment with updated safeguards, including a new classifier blocking the reported bypass in over 99% of cases.
+            Access was restored globally on July 3, 2026 after redeployment with updated safeguards blocking reported classifier bypasses.
         </td>
     </tr>
     <tr>
@@ -1776,7 +2091,82 @@ layout: splash
             Preview
         </td>
         <td>
-            Access was restored for a set of approved US organizations, with expansion coordinated through Project Glasswing partners.
+            Access was restored for approved organizations in July 2026, with expansion coordinated through Project Glasswing partners.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Opus 5
+        </td>
+        <td>
+            July, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Opus-tier model in the Claude 5 generation, released on July 24, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Fable 5.1
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Updated Fable 5.1 release launched on September 1, 2026 with improved token efficiency and lower workload costs.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Mythos 5.1
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Preview
+        </td>
+        <td>
+            Limited-availability Mythos 5.1 update released on September 1, 2026 alongside Claude Fable 5.1.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Opus 5.5
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            First model in the Claude 5.5 series, released on September 22, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Sonnet 5.5
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Sonnet-tier model in the Claude 5.5 generation, released on September 28, 2026.
         </td>
     </tr>
     <tr>
@@ -2112,6 +2502,21 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Voxtral Small
+        </td>
+        <td>
+            July, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            24B-parameter open-weights speech understanding model released under Apache 2.0 alongside Voxtral Mini.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Codestral 25.08
         </td>
         <td>
@@ -2127,6 +2532,51 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Mistral Medium 3.1 (25.08)
+        </td>
+        <td>
+            August, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Proprietary refresh of Mistral Medium 3 with improved tone and performance.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Magistral Medium
+        </td>
+        <td>
+            June, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Reasoning-focused medium model released alongside Magistral Small.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Magistral Small 2509
+        </td>
+        <td>
+            September, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            24B Apache 2.0 reasoning-focused Mistral release (Magistral Small 1.2) listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Mistral Large 3
         </td>
         <td>
@@ -2136,7 +2586,7 @@ layout: splash
             Active
         </td>
         <td>
-            Sparse MoE flagship generation succeeding Mistral Large 2.
+            Sparse MoE flagship generation (675B total, 41B active parameters) succeeding Mistral Large 2 under Apache 2.0.
         </td>
     </tr>
     <tr>
@@ -2166,7 +2616,7 @@ layout: splash
             Active
         </td>
         <td>
-            New Devstral generation focused on stronger coding performance.
+            123B-parameter Devstral generation focused on stronger coding performance.
         </td>
     </tr>
     <tr>
@@ -2181,22 +2631,37 @@ layout: splash
             Active
         </td>
         <td>
-            Compact coding model released alongside Devstral 2.
+            24B Apache 2.0 compact coding model released alongside Devstral 2.
         </td>
     </tr>
     <tr>
       <th scope="row"></th>
         <td>
-            Mistral Medium 3.5
+            Voxtral Mini Transcribe V2
         </td>
         <td>
-            2026
+            February, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Medium-tier model listed in the current product lineup.
+            Proprietary speech understanding and transcription model released in February 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Voxtral Realtime
+        </td>
+        <td>
+            February, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            4B-parameter Apache 2.0 model designed for real-time speech transcription.
         </td>
     </tr>
     <tr>
@@ -2205,43 +2670,88 @@ layout: splash
             Mistral Small 4
         </td>
         <td>
-            2026
+            March, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Latest small model generation in the Mistral product line.
+            119B-parameter open-weights MoE model (6B active parameters) released under Apache 2.0 in March 2026.
         </td>
     </tr>
     <tr>
       <th scope="row"></th>
         <td>
-            Magistral Medium
+            Voxtral TTS
         </td>
         <td>
-            June, 2025
+            March, 2026
         </td>
         <td>
-            Active
+            Non-commercial
         </td>
         <td>
-            Reasoning-focused medium model released alongside Magistral Small.
+            4B-parameter open-weights text-to-speech model (CC BY-NC 4.0) supporting multilingual voice generation and real-time streaming.
         </td>
     </tr>
     <tr>
       <th scope="row"></th>
         <td>
-            Magistral Small 2509
+            Mistral Medium 3.5
         </td>
         <td>
-            2025
+            April, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Reasoning-focused Mistral release listed in Amazon Bedrock model cards.
+            Medium-tier model released in April 2026 in the Mistral product lineup.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Mistral OCR 4
+        </td>
+        <td>
+            June, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Optical character recognition and document-understanding model released in June 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Robostral Navigate
+        </td>
+        <td>
+            July, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Embodied navigation model introduced in July 2026 for physical environment interaction.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Shieldstral
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Model focused on AI safety and security applications, introduced in August 2026.
         </td>
     </tr>
     <tr>
@@ -2328,10 +2838,10 @@ layout: splash
             February, 2025
         </td>
         <td>
-            Discontinued
+            Active
         </td>
         <td>
-            Major flagship release with reasoning modes and DeepSearch.
+            Major flagship release with reasoning modes and DeepSearch, open-sourced in February 2026.
         </td>
     </tr>
     <tr>
@@ -2361,22 +2871,22 @@ layout: splash
             Active
         </td>
         <td>
-            Successor to Grok 3; flagship generation introduced with Grok 4 Heavy.
+            Successor to Grok 3; flagship generation introduced with native tool use and real-time search.
         </td>
     </tr>
     <tr>
       <th scope="row"></th>
         <td>
-            Grok 4 Fast
+            Grok 4 Heavy
         </td>
         <td>
-            September, 2025
+            July, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Enterprise-focused variant tuned for lower latency and reduced token usage.
+            Higher-compute multi-agent reasoning tier introduced alongside Grok 4 for SuperGrok Heavy subscribers.
         </td>
     </tr>
     <tr>
@@ -2397,6 +2907,21 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Grok 4 Fast
+        </td>
+        <td>
+            September, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Unified reasoning/non-reasoning model with a 2M context window tuned for lower latency and reduced token cost.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Grok 4.1
         </td>
         <td>
@@ -2406,7 +2931,22 @@ layout: splash
             Active
         </td>
         <td>
-            Incremental Grok 4 update aimed at better reasoning and lower hallucination rates.
+            Incremental Grok 4 update aimed at better reasoning, creative interaction, and lower hallucination rates.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Grok 4.1 Thinking
+        </td>
+        <td>
+            November, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Reasoning-enabled variant released alongside Grok 4.1 in November 2025.
         </td>
     </tr>
     <tr>
@@ -2421,22 +2961,52 @@ layout: splash
             Active
         </td>
         <td>
-            Fast variant of Grok 4.1 optimized for tool-calling and agentic workflows.
+            Fast variant of Grok 4.1 optimized for tool-calling and agentic workflows with a 2M context window.
         </td>
     </tr>
     <tr>
       <th scope="row"></th>
         <td>
-            Grok 4.3 Beta
+            Grok 4.20
+        </td>
+        <td>
+            February, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Flagship Grok 4.x release emphasizing speed, agentic tool calling, low hallucination rate, and prompt adherence.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Grok 4.3
         </td>
         <td>
             April, 2026
         </td>
         <td>
-            Preview
+            Active
         </td>
         <td>
-            Beta release listed in the infobox stable-release timeline.
+            Originally released as Grok 4.3 Beta in April 2026 with three-mode effort controls for reasoning intensity.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Grok Build
+        </td>
+        <td>
+            May, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Terminal-based coding agent released in beta in May 2026 and open-sourced under Apache 2.0 in July 2026.
         </td>
     </tr>
     <tr>
@@ -2451,22 +3021,37 @@ layout: splash
             Active
         </td>
         <td>
-            Public release followed private beta testing in late June 2026.
+            Publicly released on July 8, 2026 on a 1.5T-parameter V9 foundation model with Cursor coding dataset integration.
         </td>
     </tr>
     <tr>
       <th scope="row"></th>
         <td>
-            Grok Build
+            Grok 4.6
         </td>
         <td>
-            May, 2026
+            August, 2026
         </td>
         <td>
-            Preview
+            Active
         </td>
         <td>
-            Terminal-based coding agent released in early beta for SuperGrok subscribers.
+            Released on August 12, 2026 on the 1.5T-parameter V9 foundation and distributed via xAI API, GitHub Copilot, and Amazon Bedrock.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Grok 4.7
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Latest stable Grok release launched on September 21, 2026, trained with Cursor dataset integration.
         </td>
     </tr>
     <tr>
@@ -2505,13 +3090,58 @@ layout: splash
             Aya 23
         </td>
         <td>
-            2024
+            May, 2024
+        </td>
+        <td>
+            Non-commercial
+        </td>
+        <td>
+            Open-weights multilingual model family (8B and 35B) from Cohere Labs covering 23 languages.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Aya Vision
+        </td>
+        <td>
+            March, 2025
+        </td>
+        <td>
+            Non-commercial
+        </td>
+        <td>
+            Multimodal vision-language model from Cohere Labs for image description, translation, and summarization across 23 languages.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Command A
+        </td>
+        <td>
+            March, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Open multilingual model family from Cohere For AI.
+            111B-parameter enterprise generative model succeeding Command R+, later expanded with Command A Reasoning, Translate, and Vision variants.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Command A+
+        </td>
+        <td>
+            May, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Flagship enterprise Command A+ model released on May 20, 2026.
         </td>
     </tr>
     <tr>
@@ -2682,6 +3312,51 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Qwen3-Coder-Flash
+        </td>
+        <td>
+            July, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Fast coding-focused Qwen3 variant released alongside Qwen3-Coder under Apache 2.0.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Qwen3-Max
+        </td>
+        <td>
+            September, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Proprietary flagship model in the Qwen3 series released in September 2025.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Qwen3-Next
+        </td>
+        <td>
+            September, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Open-weights Apache 2.0 model line in the Qwen3 family released in September 2025.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Qwen3-Omni
         </td>
         <td>
@@ -2757,6 +3432,51 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            Qwen3.5-Omni
+        </td>
+        <td>
+            April, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Proprietary multimodal model in the Qwen3.5 series released in April 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Qwen3.6
+        </td>
+        <td>
+            April, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Open-weights Apache 2.0 release of the Qwen3.6 model family in April 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Qwen3.6-Plus
+        </td>
+        <td>
+            April, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Proprietary higher-capability tier in the Qwen3.6 generation released in April 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             Qwen3.6-35B-A3B
         </td>
         <td>
@@ -2790,13 +3510,13 @@ layout: splash
             Qwen3.7 Plus
         </td>
         <td>
-            May, 2026
+            June, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Latest stable-track Qwen3.7 Plus release listed in the infobox timeline.
+            Proprietary Qwen3.7 Plus release launched on June 30, 2026.
         </td>
     </tr>
     <tr>
@@ -2811,7 +3531,67 @@ layout: splash
             Active
         </td>
         <td>
-            Latest flagship stable-track Qwen3.7 Max release.
+            Proprietary flagship Qwen3.7 Max release launched in May 2026 (previewed on May 22, 2026).
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Qwen3.8-Max
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Flagship 2.4T-parameter sparse MoE model (95B active, 1M context window) previewed in July and released on August 3, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Qwen3.8-2.4T-A95B
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Open-weights release of Qwen3.8-Max (2.4T total, 95B active parameters) published on August 12, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Qwen3.8-27B
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            27B-parameter open-weights model released under Apache 2.0 on August 14, 2026 with image input and non-thinking mode.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Qwen3.8-Flash
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Fast Qwen3.8 tier released in August 2026 alongside Qwen3.8-Flash-Next.
         </td>
     </tr>
     <tr>
@@ -2823,10 +3603,10 @@ layout: splash
             November, 2023
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            First DeepSeek model family focused on code generation tasks.
+            First DeepSeek model family focused on code generation tasks, succeeded by DeepSeek-Coder-V2.
         </td>
     </tr>
     <tr>
@@ -2838,10 +3618,10 @@ layout: splash
             May, 2024
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            Efficient MoE model focused on cost/performance.
+            236B MoE model (21B active) introducing Multi-head Latent Attention (MLA); succeeded by V2.5 and V3.
         </td>
     </tr>
     <tr>
@@ -2853,10 +3633,25 @@ layout: splash
             September, 2024
         </td>
         <td>
+            Discontinued
+        </td>
+        <td>
+            Unified update combining general and coding capabilities from DeepSeek-V2-Chat and DeepSeek-Coder-V2.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            DeepSeek-VL2
+        </td>
+        <td>
+            December, 2024
+        </td>
+        <td>
             Active
         </td>
         <td>
-            Unified update combining general and coding capabilities from the V2 line.
+            MoE vision-language model family (Tiny, Small, and VL2) extending DeepSeek multimodal capabilities.
         </td>
     </tr>
     <tr>
@@ -2871,7 +3666,37 @@ layout: splash
             Active
         </td>
         <td>
-            Upgraded base model with strong benchmark results.
+            671B-parameter MoE base model (37B active parameters) with strong benchmark results.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            DeepSeek-R1-Lite-Preview
+        </td>
+        <td>
+            November, 2024
+        </td>
+        <td>
+            Discontinued
+        </td>
+        <td>
+            Early preview release of the R1 reasoning line via DeepSeek chat.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            DeepSeek-R1
+        </td>
+        <td>
+            January, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            MIT-licensed reasoning-focused model family (including R1-Zero and distilled variants) emphasizing chain-of-thought quality.
         </td>
     </tr>
     <tr>
@@ -2887,6 +3712,36 @@ layout: splash
         </td>
         <td>
             MIT-licensed refresh of the V3 line released in March 2025.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            DeepSeek-Prover-V2
+        </td>
+        <td>
+            May, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Open-weights formal theorem-proving model family released in 7B and 671B variants on May 1, 2025.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            DeepSeek-R1-0528
+        </td>
+        <td>
+            May, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Updated R1 release under MIT license with improved reasoning behavior.
         </td>
     </tr>
     <tr>
@@ -2931,7 +3786,22 @@ layout: splash
             Discontinued
         </td>
         <td>
-            Experimental V3.2 preview before final V3.2 release.
+            Experimental V3.2 preview introducing DeepSeek Sparse Attention before the final V3.2 release.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            DeepSeek-Math-V2
+        </td>
+        <td>
+            November, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            685B-parameter Apache 2.0 mathematical reasoning model released on November 27, 2025.
         </td>
     </tr>
     <tr>
@@ -2946,67 +3816,22 @@ layout: splash
             Active
         </td>
         <td>
-            V3.2 production release in the DeepSeek V3 family.
+            MIT-licensed V3.2 production release in the DeepSeek V3 family.
         </td>
     </tr>
     <tr>
       <th scope="row"></th>
         <td>
-            DeepSeek-VL2
+            DeepSeek-V3.2-Speciale
         </td>
         <td>
-            November, 2025
+            December, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Vision-language model line extending DeepSeek multimodal capabilities.
-        </td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-        <td>
-            DeepSeek-R1-Lite-Preview
-        </td>
-        <td>
-            November, 2024
-        </td>
-        <td>
-            Discontinued
-        </td>
-        <td>
-            Early preview release of the R1 reasoning line via chat.
-        </td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-        <td>
-            DeepSeek-R1
-        </td>
-        <td>
-            January, 2025
-        </td>
-        <td>
-            Active
-        </td>
-        <td>
-            Reasoning-focused model family emphasizing chain-of-thought quality.
-        </td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-        <td>
-            DeepSeek-R1-0528
-        </td>
-        <td>
-            May, 2025
-        </td>
-        <td>
-            Active
-        </td>
-        <td>
-            Updated R1 release under MIT license with improved reasoning behavior.
+            Reasoning-specialized variant released alongside DeepSeek-V3.2 under MIT license on December 1, 2025.
         </td>
     </tr>
     <tr>
@@ -3021,7 +3846,7 @@ layout: splash
             Preview
         </td>
         <td>
-            Preview of the V4 series with 1M context window in the April 2026 announcement.
+            Preview of the V4-Pro series with 1M context window in the April 2026 announcement.
         </td>
     </tr>
     <tr>
@@ -3036,7 +3861,52 @@ layout: splash
             Preview
         </td>
         <td>
-            Faster V4 preview variant released alongside V4-Pro.
+            Faster V4 preview variant released alongside V4-Pro in April 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            DeepSeek-V4-Flash
+        </td>
+        <td>
+            July, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Official release of the 284B-parameter V4-Flash model on July 31, 2026 with a 1M context window under MIT license.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            DeepSeek-V4-Pro
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Official release of the 1.6T-parameter V4-Pro model on August 13, 2026 with a 1M context window under MIT license.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            DeepSeek-V4.1-Flash
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Released on September 10, 2026 under MIT license, introducing a causal encoder-decoder architecture with reduced memory usage.
         </td>
     </tr>
     <tr>
@@ -3119,16 +3989,31 @@ layout: splash
     <tr>
       <th scope="row" id="ecosystem-minimax"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=minimax.io&sz=64" alt="MiniMax logo" loading="lazy">MiniMax</span></th>
         <td>
-            MiniMax M2
+            MiniMax M1
         </td>
         <td>
-            2025
+            June, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            MiniMax model family listed in Amazon Bedrock model cards.
+            Open-weights hybrid-attention reasoning model with a 1M token context window.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiniMax M2
+        </td>
+        <td>
+            October, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            MiniMax model family listed in Amazon Bedrock model cards and released in October 2025.
         </td>
     </tr>
     <tr>
@@ -3152,13 +4037,28 @@ layout: splash
             MiniMax M2.5
         </td>
         <td>
-            2026
+            February, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Latest MiniMax model listed in Amazon Bedrock model cards.
+            230B-parameter MoE model (10B active parameters) released in February 2026 and listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiniMax M2.7
+        </td>
+        <td>
+            March, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Incremental M2-series release launched on March 18, 2026.
         </td>
     </tr>
     <tr>
@@ -3167,28 +4067,73 @@ layout: splash
             MiniMax M3
         </td>
         <td>
-            2026
+            June, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            New MiniMax M3 generation listed in Amazon Bedrock model cards.
+            MiniMax M3 generation released on June 17, 2026 and listed in Amazon Bedrock model cards.
         </td>
     </tr>
     <tr>
       <th scope="row" id="ecosystem-moonshot"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=moonshot.ai&sz=64" alt="Moonshot AI logo" loading="lazy">Moonshot AI</span></th>
         <td>
-            Kimi K2 Thinking
+            Kimi K1.5
         </td>
         <td>
-            2026
+            January, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Reasoning-focused Kimi model listed in Amazon Bedrock model cards.
+            Multimodal reinforcement-learning reasoning model released on January 20, 2025.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Kimi K2
+        </td>
+        <td>
+            July, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            1T-parameter open-weights MoE model (32B active parameters) released under Modified MIT license in July 2025.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Kimi Linear
+        </td>
+        <td>
+            October, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            48B-parameter MoE model (3B active parameters) using hybrid linear attention (Kimi Delta Attention), released under MIT license.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Kimi K2 Thinking
+        </td>
+        <td>
+            November, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Reasoning-focused 1T-parameter MoE Kimi model released on November 6, 2025 and listed in Amazon Bedrock model cards.
         </td>
     </tr>
     <tr>
@@ -3197,13 +4142,28 @@ layout: splash
             Kimi K2.5
         </td>
         <td>
-            2026
+            January, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Updated Kimi family release listed in Amazon Bedrock model cards.
+            Multimodal agentic update to Kimi K2 (1T total, 32B active parameters) released on January 26, 2026 and listed in Amazon Bedrock model cards.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Kimi K2.6
+        </td>
+        <td>
+            April, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Open-weights Kimi K2.6 update released on April 20, 2026 under Modified MIT license.
         </td>
     </tr>
     <tr>
@@ -3212,13 +4172,28 @@ layout: splash
             Kimi K2.7 Code
         </td>
         <td>
-            2026
+            June, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Coding-specialized Kimi release listed in the Moonshot model timeline.
+            Coding-specialized Kimi release listed in the Moonshot model timeline (June 2026).
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Kimi K3
+        </td>
+        <td>
+            July, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Next-generation Kimi K3 model family announced in July 2026 with a 2T-parameter architecture.
         </td>
     </tr>
     <tr>
@@ -3284,16 +4259,46 @@ layout: splash
     <tr>
       <th scope="row" id="ecosystem-zai"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=z.ai&sz=64" alt="Z.AI logo" loading="lazy">Z.AI</span></th>
         <td>
-            GLM 4.7
+            GLM 4.5
         </td>
         <td>
-            2026
+            July, 2025
         </td>
         <td>
             Active
         </td>
         <td>
-            Z.AI GLM series release listed in Amazon Bedrock model cards.
+            355B-parameter open-weights MoE model (32B active parameters) released under MIT license on July 28, 2025, alongside GLM-4.5-Air and GLM-4.5V.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GLM 4.6
+        </td>
+        <td>
+            September, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Updated 355B MoE model released on September 30, 2025 with improved coding and agentic performance, followed by GLM-4.6V in December 2025.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GLM 4.7
+        </td>
+        <td>
+            December, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            355B MoE release (December 22, 2025) with stronger coding and reasoning capabilities, listed in Amazon Bedrock model cards.
         </td>
     </tr>
     <tr>
@@ -3302,13 +4307,13 @@ layout: splash
             GLM 4.7 Flash
         </td>
         <td>
-            2026
+            January, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Faster GLM variant listed in Amazon Bedrock model cards.
+            30B-parameter MoE (3B active) fast GLM 4.7 variant released on January 19, 2026 and listed in Amazon Bedrock model cards.
         </td>
     </tr>
     <tr>
@@ -3317,13 +4322,28 @@ layout: splash
             GLM 5
         </td>
         <td>
-            2026
+            February, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Latest GLM generation listed in Amazon Bedrock model cards.
+            744B-parameter open-weights MoE model (40B active parameters) with DeepSeek Sparse Attention, released under MIT license on February 11, 2026 and expanded with GLM-5-Turbo and GLM-5V-Turbo.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GLM 5.1
+        </td>
+        <td>
+            April, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            744B-parameter MoE update released under MIT license on April 7, 2026 for long-horizon agentic coding tasks.
         </td>
     </tr>
     <tr>
@@ -3332,13 +4352,58 @@ layout: splash
             GLM 5.2
         </td>
         <td>
-            2026
+            June, 2026
         </td>
         <td>
             Active
         </td>
         <td>
-            Incremental GLM 5 update listed in the Z.AI model timeline.
+            Incremental GLM 5 update released in June 2026, trained on clean data without distillation.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GLM 5.3
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            1.15T-parameter open-weights MoE model (48B active parameters) released under MIT license on August 10, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GLM 5.3-Flash
+        </td>
+        <td>
+            August, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            215B-parameter open-weights MoE model (12B active parameters) released under MIT license on August 31, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GLM 5.3-FlashX
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Proprietary high-speed variant of GLM 5.3-Flash released on September 2, 2026.
         </td>
     </tr>
     <tr>
