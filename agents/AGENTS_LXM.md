@@ -24,6 +24,7 @@ Always review these first:
 - https://en.wikipedia.org/wiki/Grok_(chatbot)
 - https://en.wikipedia.org/wiki/Qwen
 - https://en.wikipedia.org/wiki/DeepSeek
+- https://en.wikipedia.org/wiki/Xiaomi_MiMo
 
 ## Additional sources (recommended)
 Use official sources to validate or refine data when possible:

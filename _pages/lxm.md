@@ -25,6 +25,7 @@ layout: splash
     <li><a href="#ecosystem-writer">Writer</a></li>
     <li><a href="#ecosystem-zai">Z.AI</a></li>
     <li><a href="#ecosystem-opencode">Opencode</a></li>
+    <li><a href="#ecosystem-xiaomi">Xiaomi</a></li>
   </ul>
 </nav>
 
@@ -4436,6 +4437,171 @@ layout: splash
         <td>
            AI Gateway that provides a curated list of models from the OpenCode team. It acts as a provider hub for tested coding agents. Expert
            level subscription. 
+        </td>
+    </tr>
+    <tr>
+      <th scope="row" id="ecosystem-xiaomi"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/xiaomi" alt="Xiaomi logo" loading="lazy">Xiaomi</span></th>
+        <td>
+            MiMo-7B
+        </td>
+        <td>
+            April, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            7B-parameter open-weights reasoning model (MIT license) pre-trained on 25T tokens for mathematics and code generation (including Base, RL, and May 2025 RL-0530 variants).
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-VL-7B
+        </td>
+        <td>
+            June, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            7B vision-language model combining a Vision Transformer encoder with the MiMo-7B backbone and Mixed On-Policy Reinforcement Learning (MORL).
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-V2-Flash
+        </td>
+        <td>
+            December, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            309B-parameter open-weights MoE model (15B active parameters) trained on 27T tokens with hybrid sliding-window/global attention under MIT license.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-Audio-7B
+        </td>
+        <td>
+            December, 2025
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            7B audio-language model designed for few-shot voice conversion, style transfer, and speech editing.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-V2-Pro
+        </td>
+        <td>
+            March, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Proprietary 1T-parameter MoE flagship model (42B active parameters) with a 1M token context window, previously tested on OpenRouter under the codename "Hunter Alpha".
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-V2-Omni
+        </td>
+        <td>
+            March, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Proprietary multimodal model supporting image, video, audio, and text inputs, previously tested under the codename "Healer Alpha".
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-V2-TTS
+        </td>
+        <td>
+            March, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Proprietary text-to-speech synthesis model supporting emotional transitions, tone shifts, singing, and regional Chinese dialects.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-V2.5
+        </td>
+        <td>
+            April, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            310B-parameter open-weights model released under MIT license on April 22, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-V2.5-Pro
+        </td>
+        <td>
+            April, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            1.02T-parameter open-weights Pro model released under MIT license on April 22, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-V2.6-Flash
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            310B-parameter open-weights MoE model (15B active parameters) released under MIT license on September 21, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-V2.6-Pro
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            1.02T-parameter open-weights MoE flagship model (42B active parameters) released under MIT license on September 21, 2026.
         </td>
     </tr>
   </tbody>
