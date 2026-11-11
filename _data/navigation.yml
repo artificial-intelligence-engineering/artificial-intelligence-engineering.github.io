@@ -13,5 +13,7 @@ main:
     url: /research/
   - title: "The Best Of"
     url: /the-best-of/
+  - title: "POCLI"
+    url: /pocli/
   - title: "About"
     url: /about/
