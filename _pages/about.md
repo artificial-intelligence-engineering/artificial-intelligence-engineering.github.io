@@ -105,6 +105,11 @@ AWS AI Architect, HPC Engineer, Embedded Engineer and Open Source Contributor (A
       <td><a href="/overview/">/overview/</a></td>
     </tr>
     <tr>
+      <th scope="row">POCLI</th>
+      <td><code>pocli.md</code></td>
+      <td><a href="/pocli/">/pocli/</a></td>
+    </tr>
+    <tr>
       <th scope="row">Prompt Patterns Guide</th>
       <td><code>prompt-patterns.md</code></td>
       <td><a href="/prompt-patterns/">/prompt-patterns/</a></td>
