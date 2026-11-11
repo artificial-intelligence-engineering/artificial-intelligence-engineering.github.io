@@ -1,6 +1,6 @@
 ---
 title: "POCLI — The AI Dev Team in Your Terminal"
-permalink: /pocli/
+permalink: /pocli-project/
 layout: single
 author_profile: false
 toc: true
