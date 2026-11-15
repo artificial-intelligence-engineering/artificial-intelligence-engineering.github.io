@@ -491,6 +491,51 @@ layout: splash
     <tr>
       <th scope="row"></th>
         <td>
+            GPT-6 Instant
+        </td>
+        <td>
+            October, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Released on October 7, 2026, introducing an Intelligent UI with interactive widgets in ChatGPT.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-6.1 Terra
+        </td>
+        <td>
+            October, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Released on October 26, 2026 as a fast, economical GPT-6.1 tier focused on visual reasoning and computer-use tasks.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            GPT-6 Cyber
+        </td>
+        <td>
+            November, 2026
+        </td>
+        <td>
+            Announced
+        </td>
+        <td>
+            Announced on November 5, 2026 for defensive cybersecurity, vulnerability discovery, and authorized penetration testing.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
             GPT-4 Turbo
         </td>
         <td>
@@ -1140,13 +1185,43 @@ layout: splash
             Gemini 4 Argon
         </td>
         <td>
-            September, 2026
+            October, 2026
         </td>
         <td>
-            Preview
+            Active
         </td>
         <td>
-            Limited preview released on September 30, 2026 expanding output token capacity to 1M tokens with stronger coding and safety guardrails.
+            General availability released on October 13, 2026 (previewed September 30) with a 1M context window for frontier reasoning and software engineering.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Gemini 4 Carbon
+        </td>
+        <td>
+            November, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Flagship frontier reasoning model released on November 10, 2026 with a 1M context window for deep multi-step coding, science, and cybersecurity.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Gemini 4 Hydrogen
+        </td>
+        <td>
+            November, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            High-efficiency workhorse model released on November 12, 2026 with configurable thinking levels and a 1M context window for fast agentic workflows.
         </td>
     </tr>
     <tr>
@@ -1463,6 +1538,36 @@ layout: splash
         </td>
         <td>
             Latest release in the Muse Spark model family, launched on September 2, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Muse Spark Open
+        </td>
+        <td>
+            October, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Open-weight 816B MoE model with a 1M context window released in October 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Muse Wonder
+        </td>
+        <td>
+            October, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Frontier proprietary model in Meta's Muse family launched in October 2026 for personal and professional agent tasks.
         </td>
     </tr>
     <tr>
@@ -2171,6 +2276,36 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Haiku 5.5
+        </td>
+        <td>
+            October, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Latency-sensitive, cost-efficient model in the Claude 5.5 lineup released on October 7, 2026 with adjustable reasoning effort controls.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Claude Fable 5.2
+        </td>
+        <td>
+            November, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Flagship public Claude model released on November 9, 2026 for complex coding, science, and long-horizon agentic tasks.
+        </td>
+    </tr>
+    <tr>
       <th scope="row" id="ecosystem-mistral"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/mistralai" alt="Mistral AI logo" loading="lazy">Mistral AI</span></th>
         <td>
             Mistral 7B
@@ -2753,6 +2888,36 @@ layout: splash
         </td>
         <td>
             Model focused on AI safety and security applications, introduced in August 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Mistral OCR 4.1
+        </td>
+        <td>
+            2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Updated document-understanding and structural OCR model in the Mistral Document AI stack.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Mistral Large 4
+        </td>
+        <td>
+            October, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Flagship 1.05T-parameter sparse MoE multimodal model (49B-52B active, 1M context) with open weights released on October 29, 2026 (previewed October 6).
         </td>
     </tr>
     <tr>
@@ -4078,6 +4243,36 @@ layout: splash
         </td>
     </tr>
     <tr>
+      <th scope="row"></th>
+        <td>
+            MiniMax M3.1 Flash
+        </td>
+        <td>
+            October, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Open-weight 428B MoE model (23B active, 1M context window) released on October 19, 2026 for high-speed coding and computer-use tasks.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiniMax H3-Image
+        </td>
+        <td>
+            November, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Open-weight 33.1B diffusion transformer model released on November 10, 2026 for native 4K text-to-image generation and editing.
+        </td>
+    </tr>
+    <tr>
       <th scope="row" id="ecosystem-moonshot"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=moonshot.ai&sz=64" alt="Moonshot AI logo" loading="lazy">Moonshot AI</span></th>
         <td>
             Kimi K1.5
@@ -4195,6 +4390,21 @@ layout: splash
         </td>
         <td>
             Next-generation Kimi K3 model family announced in July 2026 with a 2T-parameter architecture.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            Kimi K3.1 Pro
+        </td>
+        <td>
+            October, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            Updated Kimi K3 frontier tier rolled out in October 2026 for long-context agentic reasoning.
         </td>
     </tr>
     <tr>
@@ -4553,10 +4763,10 @@ layout: splash
             April, 2026
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            310B-parameter open-weights model released under MIT license on April 22, 2026.
+            310B-parameter open-weights model released under MIT license on April 22, 2026 and retired from the MiMo API on October 21, 2026.
         </td>
     </tr>
     <tr>
@@ -4568,10 +4778,10 @@ layout: splash
             April, 2026
         </td>
         <td>
-            Active
+            Discontinued
         </td>
         <td>
-            1.02T-parameter open-weights Pro model released under MIT license on April 22, 2026.
+            1.02T-parameter open-weights Pro model released under MIT license on April 22, 2026 and retired from the MiMo API on October 21, 2026.
         </td>
     </tr>
     <tr>
@@ -4602,6 +4812,36 @@ layout: splash
         </td>
         <td>
             1.02T-parameter open-weights MoE flagship model (42B active parameters) released under MIT license on September 21, 2026.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-V2.6-Pro-UltraSpeed
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            High-throughput variant of MiMo-V2.6-Pro delivering up to 20x faster output generation speeds.
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+        <td>
+            MiMo-V2.6-Distill-Qwen-9B
+        </td>
+        <td>
+            September, 2026
+        </td>
+        <td>
+            Active
+        </td>
+        <td>
+            9B-parameter distilled open-weights variant built on a Qwen base for single-GPU deployments.
         </td>
     </tr>
   </tbody>
