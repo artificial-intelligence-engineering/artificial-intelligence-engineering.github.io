@@ -64,6 +64,58 @@ layout: splash
   });
 </script>
 
+<h2 id="cutting-edge">Cutting Edge</h2>
+
+<table class="lxm-table lxm-cutting-edge-table">
+  <colgroup>
+    <col style="width: 33.333%;">
+    <col style="width: 33.333%;">
+    <col style="width: 33.334%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th scope="col"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/anthropic" alt="Anthropic logo" loading="lazy">Anthropic</span></th>
+      <th scope="col"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128" alt="OpenAI / ChatGPT logo" loading="lazy">OpenAI</span></th>
+      <th scope="col"><span class="ecosystem-label"><img class="ecosystem-logo" src="https://cdn.simpleicons.org/googlegemini" alt="Gemini logo" loading="lazy">Google</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <strong>Latest &amp; Most Powerful:</strong><br>
+        <strong>Claude Fable 5.2</strong> (Nov 2026, Active) — Flagship public model for complex coding, science, and long-horizon agentic tasks.<br>
+        <strong>Claude Opus 5.5</strong> (Sep 2026, Active) — Top Opus-tier model in the 5.5 series.
+      </td>
+      <td>
+        <strong>Latest &amp; Most Powerful:</strong><br>
+        <strong>GPT-6.1 Sol</strong> (Sep 2026, Active) &amp; <strong>GPT-6 Astra</strong> (Sep 2026, Active) — Flagship frontier reasoning tiers.<br>
+        <strong>GPT-6 Cyber</strong> (Nov 2026, Announced) — Specialized cybersecurity and vulnerability discovery model.
+      </td>
+      <td>
+        <strong>Latest &amp; Most Powerful:</strong><br>
+        <strong>Gemini 4 Carbon</strong> (Nov 2026, Active) — Strongest frontier reasoning model (1M context) for deep coding, science, and cybersecurity.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Latest Fast / Balanced:</strong><br>
+        <strong>Claude Haiku 5.5</strong> (Oct 2026, Active) — High-speed, cost-efficient tier with adjustable reasoning effort.<br>
+        <strong>Claude Sonnet 5.5</strong> (Sep 2026, Active) — Balanced production tier.
+      </td>
+      <td>
+        <strong>Latest Fast / Interactive:</strong><br>
+        <strong>GPT-6.1 Terra</strong> (Oct 2026, Active) — Fast, economical tier for visual reasoning and computer-use.<br>
+        <strong>GPT-6 Instant</strong> (Oct 2026, Active) — Interactive UI tier in ChatGPT.
+      </td>
+      <td>
+        <strong>Latest Fast / Balanced:</strong><br>
+        <strong>Gemini 4 Hydrogen</strong> (Nov 2026, Active) — Latest high-efficiency workhorse (1M context, configurable thinking levels).<br>
+        <strong>Gemini 4 Argon</strong> (Oct 2026, Active) — Balanced frontier engineering tier.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <table class="lxm-table lxm-ecosystem-table">
   <colgroup>
     <col style="width: 12%;">

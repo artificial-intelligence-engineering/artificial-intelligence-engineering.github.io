@@ -105,17 +105,26 @@ $page-table-accent: #6f5aa8;
   white-space: nowrap;
 }
 
-.page__content table.lxm-ecosystem-table .ecosystem-label {
+.page__content table.lxm-table .ecosystem-label {
   display: inline-flex;
   align-items: center;
   gap: 0.7rem;
 }
 
-.page__content table.lxm-ecosystem-table .ecosystem-logo {
+.page__content table.lxm-table .ecosystem-logo {
   width: 30px;
   height: 30px;
   flex: 0 0 30px;
   object-fit: contain;
+}
+
+.page__content table.lxm-table.lxm-cutting-edge-table td:nth-child(3),
+.page__content table.lxm-table.lxm-cutting-edge-table th:nth-child(3) {
+  white-space: normal;
+}
+
+.page__content table.lxm-table.lxm-cutting-edge-table td {
+  vertical-align: top;
 }
 
 /* Tools table – description column (4th child) wider and justified */
