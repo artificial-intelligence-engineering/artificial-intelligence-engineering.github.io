@@ -70,6 +70,94 @@ CPU / GPU / NPU on your hardware
 
 ---
 
+## History of the GGUF Format
+
+### The Author: Georgi Gerganov
+
+The creator of **GGUF** and the surrounding local-inference ecosystem is **Georgi Gerganov** ([@ggerganov](https://github.com/ggerganov) on GitHub), a Bulgarian software engineer based in Sofia. Before entering AI, he spent years as a systems software engineer in the medical-device industry at ViewRay (image-guided radiation therapy), specializing in low-level C/C++ — an engineering background clearly reflected in the minimalist, dependency-free, portable design of his libraries.
+
+In August 2023, Hugging Face announced that it had hired Gerganov to work full-time on `llama.cpp` while providing financial backing to the project and key community contributors. Since then, he has led the development of `llama.cpp`, `ggml`, and `whisper.cpp` under the [`ggml-org`](https://github.com/ggml-org) GitHub organization with Hugging Face sponsorship.
+
+### Timeline: Genealogy of the Formats
+
+GGUF did not appear out of nowhere — it is the **fourth iteration** of the serialization format for the [`ggml`](https://github.com/ggml-org/ggml) tensor library:
+
+```text
+ggml (tensor library, 2022)
+│
+├── Oct 2022  whisper.cpp — C++ audio transcription with OpenAI Whisper
+│
+├── Mar 2023  llama.cpp — running Meta's LLaMA on a Mac CPU
+│             └── GGML (v0): raw binary tensor dump, no real versioning
+│
+├── May 2023  GGMF — added basic metadata, but parsing remained fragile
+│
+├── Jun 2023  GGJT — introduced format versioning, yet still used an
+│             untyped positional value list → every change broke compatibility
+│
+└── Aug 2023  GGUF — ground-up rewrite with an explicit, extensible design
+```
+
+### Why Earlier Formats Failed
+
+GGUF solved a major pain point: with `GGML`, `GGMF`, and `GGJT`, almost every `llama.cpp` update risked breaking compatibility with already-downloaded model files, forcing users to constantly re-convert and re-download gigabytes of weights. The root causes were:
+
+- **Untyped positional hyperparameters:** Values were stored as a plain list without keys or types, so inserting a single new parameter shifted and broke all downstream parsing.
+- **No self-describing metadata:** There was no reliable way to inspect a file without knowing the exact code revision that produced it.
+- **External tokenizers:** Tokenizer data sometimes had to travel in separate sidecar files.
+
+### GGUF Design Goals (August 2023)
+
+The official specification ([`docs/gguf.md`](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) in `ggml-org/ggml`) defines five core goals:
+
+| Goal | What It Means in Practice |
+|---|---|
+| **Single-file deployment** | Weights, metadata, and tokenizer live inside a single `.gguf` file — no external sidecar files needed. |
+| **Extensible** | Metadata is stored as typed, versioned key–value pairs so new fields can be added without breaking older loaders. |
+| **mmap-compatible** | Models can be memory-mapped (`mmap`) directly from disk, enabling near-instant startup and low RAM overhead. |
+| **Easy to parse** | A compact binary specification implementable in any language without external dependencies. |
+| **Complete information** | Everything required to load and run the model is self-contained inside the file. |
+
+The key technical shift was replacing the positional list of hyperparameters with an **explicitly typed, versioned key–value metadata table**, making the format forward-compatible.
+
+### Relationship with `ggml` and `llama.cpp`
+
+- **[`ggml`](https://github.com/ggml-org/ggml):** Gerganov's C tensor library (hence the name: **G**GML **U**niversal **F**ormat → **GGUF**).
+- **[`llama.cpp`](https://github.com/ggml-org/llama.cpp):** The inference runtime that executes models on top of `ggml`.
+- **GGUF:** The binary serialization format used to store models for `llama.cpp`.
+
+Models are typically trained in PyTorch / Transformers (distributed in `.safetensors` or `.bin`) and converted to `.gguf` using `llama.cpp`'s conversion scripts.
+
+### De Facto Standard Status
+
+GGUF is not a formal standard backed by an RFC or standards body such as ISO or IEEE — it is a **community de facto standard** governed by an open specification in [`ggml-org/ggml`](https://github.com/ggml-org/ggml). Its adoption across local AI is widespread:
+
+- **Reference runtime:** `llama.cpp`.
+- **Mainstream local runners:** Ollama (most of its models use GGUF under the hood), LM Studio, GPT4All, Jan, and KoboldCpp.
+- **Hugging Face Hub:** Hosts thousands of community and official GGUF conversions (e.g., `bartowski`, historically `TheBloke`) and natively inspects and displays GGUF metadata in the Hub UI.
+- **Broad architecture coverage:** Official conversions and quantizations exist across Llama, Qwen, Gemma, Mistral, DeepSeek, MoE, and multimodal architectures.
+
+### Alternative & Competing Formats
+
+| Format | Primary Ecosystem | Notes |
+|---|---|---|
+| **Safetensors** (Hugging Face) | PyTorch / Transformers / vLLM | Standard for full-precision / FP16 weights; GGUF is usually derived from it via conversion. |
+| **EXL2** | ExLlamaV2 | NVIDIA GPU-only quantization format. |
+| **GPTQ / AWQ / Marlin** | AutoGPTQ, vLLM, TGI | GPU-oriented serving quantizations typically stored in `.safetensors`. |
+| **MLX** | Apple (`mlx-lm`) | Apple Silicon-specific framework and format. |
+| **ONNX** | Microsoft / ONNX Runtime | Formal cross-platform standard, less common in the local LLM community. |
+| **TensorRT engines** | NVIDIA TensorRT-LLM | Compiled per target GPU architecture; not portable across hardware. |
+
+### Internal Versioning & Quantization Evolution
+
+GGUF also carries internal format versions (`v1`, `v2`, `v3`), which added features such as explicit endianness and improved support for very large tensors. Meanwhile, quantization schemes continue to evolve *inside* the same GGUF container (K-quants like `Q4_K_M`, I-quants, ternary `TQ1_0` / `TQ2_0`, etc.): the container format stays stable while weight encoding improves.
+
+> **In one sentence:** **GGUF** is the self-contained binary format created in August 2023 by Georgi Gerganov — Bulgarian systems engineer, former ViewRay developer, sponsored by Hugging Face — as the successor to GGML/GGMF/GGJT to make local LLM inference reproducible, extensible, and instant to load via `mmap`; today it is the de facto standard for local LLMs thanks to `llama.cpp`, Ollama, and Hugging Face Hub.
+>
+> *Primary verified source: [`docs/gguf.md`](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) in the `ggml-org/ggml` repository.*
+
+---
+
 ## Popular Local Models
 
 | Model | Creator | Strengths | Typical Size |
