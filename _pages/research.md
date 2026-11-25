@@ -121,6 +121,149 @@ toc_label: "Table of Contents"
   </tbody>
 </table>
 
+## KOLs (Key Opinion Leaders)
+
+**KOLs** (*Key Opinion Leaders*) are influential researchers, engineers, founders, and educators whose essays, talks, papers, and open-source work shape the modern AI landscape.
+
+<table style="width:100%; table-layout:fixed;">
+  <colgroup>
+    <col style="width: 22%;">
+    <col style="width: 20%;">
+    <col style="width: 34%;">
+    <col style="width: 24%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th scope="col">Person</th>
+      <th scope="col">Affiliation / Role</th>
+      <th scope="col">Focus &amp; Contribution</th>
+      <th scope="col">Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Andrej Karpathy</th>
+      <td>Eureka Labs (ex-OpenAI, ex-Tesla)</td>
+      <td>Deep learning education, LLM internals from scratch (<code>nanoGPT</code>, <code>llm.c</code>), and practical AI engineering.</td>
+      <td><a href="https://karpathy.ai/">Website</a> · <a href="https://www.youtube.com/@AndrejKarpathy">YouTube</a> · <a href="https://github.com/karpathy">GitHub</a> · <a href="https://x.com/karpathy">X</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Simon Willison</th>
+      <td>Independent (Datasette &amp; LLM CLI)</td>
+      <td>Pragmatic LLM tooling, prompt injection security, agentic coding workflows, and daily AI engineering notes.</td>
+      <td><a href="https://simonwillison.net/">Blog</a> · <a href="https://github.com/simonw">GitHub</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Lilian Weng</th>
+      <td>ex-OpenAI (VP of Research &amp; Safety)</td>
+      <td>Deep technical surveys on LLM-powered autonomous agents, alignment, diffusion, and RL (<em>Lil'Log</em>).</td>
+      <td><a href="https://lilianweng.github.io/">Lil'Log</a> · <a href="https://x.com/lilianweng">X</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Shawn &ldquo;swyx&rdquo; Wang</th>
+      <td>Latent Space (The AI Engineer Publication)</td>
+      <td>AI Engineering discipline, model releases, agent harnesses, and interviews with frontier lab builders.</td>
+      <td><a href="https://www.latent.space/">Latent Space</a> · <a href="https://www.swyx.io/">swyx</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Jay Alammar</th>
+      <td>Cohere / Visual ML Educator</td>
+      <td>Visual explanations of Transformers, attention, and LLMs; co-author of <em>Hands-On Large Language Models</em>.</td>
+      <td><a href="https://jalammar.github.io/">Blog</a> · <a href="https://jalammar.github.io/illustrated-transformer/">Illustrated Transformer</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Demis Hassabis</th>
+      <td>Google DeepMind (CEO, Nobel Laureate)</td>
+      <td>Reinforcement learning, AlphaGo/AlphaZero, AlphaFold, and neuro-inspired general AI research.</td>
+      <td><a href="https://en.wikipedia.org/wiki/Demis_Hassabis">Wikipedia</a> · <a href="https://x.com/demishassabis">X</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Dario Amodei</th>
+      <td>Anthropic (CEO)</td>
+      <td>Scaling laws, Constitutional AI, frontier model safety, and long-horizon societal impact of AI.</td>
+      <td><a href="https://darioamodei.com/">Essays</a> · <a href="https://en.wikipedia.org/wiki/Dario_Amodei">Wikipedia</a> · <a href="https://x.com/DarioAmodei">X</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Sam Altman</th>
+      <td>OpenAI (CEO)</td>
+      <td>Frontier model deployment, AI compute infrastructure, and product/industry strategy.</td>
+      <td><a href="https://blog.samaltman.com/">Blog</a> · <a href="https://en.wikipedia.org/wiki/Sam_Altman">Wikipedia</a> · <a href="https://x.com/sama">X</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Yann LeCun</th>
+      <td>AMI Labs / NYU (ex-Meta, Turing Laureate)</td>
+      <td>Convolutional networks, self-supervised learning, world models (JEPA), and critiques of pure autoregressive LLMs.</td>
+      <td><a href="https://yann.lecun.com/">Website</a> · <a href="https://amilabs.xyz/">AMI Labs</a> · <a href="https://en.wikipedia.org/wiki/Yann_LeCun">Wikipedia</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Jeffrey Adgate &ldquo;Jeff&rdquo; Dean</th>
+      <td>Google (Chief Scientist)</td>
+      <td>Large-scale distributed ML systems (MapReduce, TensorFlow, Pathways, Gemini) and AI hardware-software co-design.</td>
+      <td><a href="https://research.google/people/jeff/">Google Research</a> · <a href="https://en.wikipedia.org/wiki/Jeff_Dean">Wikipedia</a> · <a href="https://x.com/JeffDean">X</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Ilya Sutskever FRS</th>
+      <td>Safe Superintelligence Inc. (ex-OpenAI)</td>
+      <td>AlexNet, sequence-to-sequence learning, GPT series foundations, and superalignment research.</td>
+      <td><a href="https://ssi.inc/">SSI</a> · <a href="https://en.wikipedia.org/wiki/Ilya_Sutskever">Wikipedia</a> · <a href="https://x.com/ilyasut">X</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Gary Marcus</th>
+      <td>NYU Professor Emeritus</td>
+      <td>Critical analysis of pure deep learning limits, hallucinations, AI governance, and neuro-symbolic AI architectures.</td>
+      <td><a href="https://garymarcus.substack.com/">Substack</a> · <a href="https://en.wikipedia.org/wiki/Gary_Marcus">Wikipedia</a> · <a href="https://x.com/GaryMarcus">X</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Geoffrey Hinton</th>
+      <td>University of Toronto (Nobel &amp; Turing Laureate)</td>
+      <td>Backpropagation, Boltzmann machines, deep neural networks, and existential AI risk advocacy.</td>
+      <td><a href="https://www.cs.toronto.edu/~hinton/">Homepage</a> · <a href="https://en.wikipedia.org/wiki/Geoffrey_Hinton">Wikipedia</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Yoshua Bengio</th>
+      <td>Mila / U. de Montréal (Turing Laureate)</td>
+      <td>Neural language modeling, attention mechanisms, deep learning theory, and international AI safety governance.</td>
+      <td><a href="https://yoshuabengio.org/">Website</a> · <a href="https://en.wikipedia.org/wiki/Yoshua_Bengio">Wikipedia</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Fei-Fei Li</th>
+      <td>Stanford HAI / World Labs</td>
+      <td>ImageNet pioneer, computer vision, human-centered AI policy, and spatial intelligence world models.</td>
+      <td><a href="https://profiles.stanford.edu/fei-fei-li">Stanford</a> · <a href="https://en.wikipedia.org/wiki/Fei-Fei_Li">Wikipedia</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Andrew Ng</th>
+      <td>DeepLearning.AI / Stanford</td>
+      <td>Global AI education, agentic design patterns, and practical enterprise AI adoption.</td>
+      <td><a href="https://www.andrewng.org/">Website</a> · <a href="https://www.deeplearning.ai/">DeepLearning.AI</a> · <a href="https://en.wikipedia.org/wiki/Andrew_Ng">Wikipedia</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Chip Huyen</th>
+      <td>Author &amp; AI Systems Engineer</td>
+      <td>Production AI engineering, evals, RAG, and ML systems; author of <em>AI Engineering</em> (2025).</td>
+      <td><a href="https://huyenchip.com/">Blog</a> · <a href="https://github.com/chiphuyen">GitHub</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Sebastian Raschka</th>
+      <td>Researcher &amp; Author (<em>Ahead of AI</em>)</td>
+      <td>Clear technical breakdowns of LLM architectures, post-training, reasoning models, and PyTorch from scratch.</td>
+      <td><a href="https://sebastianraschka.com/">Website</a> · <a href="https://magazine.sebastianraschka.com/">Ahead of AI</a></td>
+    </tr>
+    <tr>
+      <th scope="row">François Chollet</th>
+      <td>Ndea / ARC Prize (Creator of Keras)</td>
+      <td>Abstract reasoning benchmarks (ARC-AGI), program synthesis, and critiques of memorization vs. generalization.</td>
+      <td><a href="https://fchollet.com/">Website</a> · <a href="https://arcprize.org/">ARC Prize</a> · <a href="https://x.com/fchollet">X</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Chris Olah</th>
+      <td>Anthropic (Co-founder)</td>
+      <td>Mechanistic interpretability, circuits in neural networks, and feature visualization.</td>
+      <td><a href="https://colah.github.io/">Blog</a> · <a href="https://transformer-circuits.pub/">Transformer Circuits</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ## AI Books
 
 <table style="width:100%; table-layout:fixed;">
