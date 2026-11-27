@@ -5,11 +5,9 @@
 - Site-wide behavior lives in `_config.yml` and `Gemfile`, using the remote theme `mmistakes/minimal-mistakes` plus Jekyll plugins.
 - Use `_pages/overview.md` to understand the site’s organizing model: **Application Development**, **Model Development**, **AI Infrastructure**, and **AI Governance**.
 
-## Actions coding agents must never take
-- Do **not** run destructive or state-changing `git` commands, including `git add`, `git commit`, and `git push`, or any command that modifies the local or remote repository state. Never create new branches (git bracn), never create worktrees. All of this git
-operations are resposibility of the human (developer).
-- Do **not** run `bundle install` or `bundle exec jekyll serve`; these tasks are reserved for the human operator.
-- If a task would normally require installing dependencies, serving the site locally, or writing repository state, stop after preparing file changes and hand execution back to the human.
+## Git workflow for coding agents
+- Coding agents **may** create feature branches, stage and commit changes (`git add`, `git commit`), push branches (`git push`), open and merge pull requests, and prune/delete merged feature branches when requested by the user.
+- Never run `git push --force` to `master`/`main` or discard uncommitted user work without explicit confirmation.
 
 ## Human workflow reference
 - The documented local workflow is `bundle install` followed by `bundle exec jekyll serve`.

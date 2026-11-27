@@ -12,9 +12,9 @@ layout: splash
   </colgroup>
   <thead>
     <tr>
-      <th scope="col" style="white-space:nowrap;">Term</th>
-      <th scope="col">Definition</th>
-      <th scope="col">Notes</th>
+      <th scope="col" style="width:18%; white-space:nowrap;">Term</th>
+      <th scope="col" style="width:52%;">Definition</th>
+      <th scope="col" style="width:30%;">Notes</th>
     </tr>
   </thead>
   <tbody>
@@ -206,7 +206,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row"><a href="/spec-driven-dev/">Spec-Driven Development (SDD)</a></th>
+      <th scope="row"><a href="/spec-driven-dev/">Spec-Driven<br>Development (SDD)</a></th>
         <td>
             Spec-Driven Development (SDD) is an engineering approach where structured specifications are the primary source of truth for AI-assisted implementation. Requirements, constraints, contracts, and acceptance criteria are defined before code generation, improving predictability and reviewability.
         </td>
@@ -218,7 +218,7 @@ layout: splash
         </td>
     </tr>
     <tr>
-      <th scope="row"><a href="/spec-driven-dev/"><em>Domain-Specific Languages (DSLs)</em></a></th>
+      <th scope="row"><a href="/spec-driven-dev/"><em>Domain-Specific<br>Languages (DSLs)</em></a></th>
         <td>
             Domain-Specific Languages (DSLs) are constrained languages tailored to a specific problem domain, such as SQL, Mermaid, or infrastructure manifests. In AI-assisted development, DSLs reduce ambiguity and narrow the generation space, which increases reliability.
         </td>
@@ -438,6 +438,31 @@ layout: splash
         <ul>
           <li><a href="https://arxiv.org/abs/1810.03993" target="_blank">Model Cards for Model Reporting – Mitchell et al. (Google Research)</a></li>
           <li><a href="https://huggingface.co/docs/hub/model-cards" target="_blank">Model Cards – Hugging Face Docs</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Self-Improvement<br>Memory (SIM)</th>
+      <td>
+        Self-Improvement Memory (SIM) is a persistent memory framework for AI agent harness optimizers that enables Continual Recursive Self-Improvement (CRSI). Instead of storing only the final modified prompts, tools, or control code, SIM records the optimization history—grouping edits by recurring harness problems, logging the root-cause rationale for each change, and tracking predicted versus observed outcomes across evaluation contexts—so improvements can be preserved and transferred when underlying models or benchmarks change.
+      </td>
+      <td>
+        Solves the "model-switching trap" where an evolved agent harness loses experimental context when migrated to a new policy model.
+        <ul>
+          <li><a href="https://arxiv.org/abs/2611.18856" target="_blank">Self-Improvement Memory Enables Continual Recursive Self-Improvement – arXiv (2026)</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Recursive<br>Self-Improvement<br>of AI Research<br>Agents (RSI)</th>
+      <td>
+        Recursive Self-Improvement (RSI) of AI research agents is an iterative optimization paradigm in which an autonomous AI research agent analyzes, modifies, and evaluates its own source code, workflows, or search policies to produce a more capable successor. Each validated improvement becomes the new baseline for the next generation, allowing the agent to compound its research and engineering capabilities over successive cycles.
+      </td>
+      <td>
+        Moves RSI from theoretical concepts into practical agentic engineering, such as self-modifying systems like AIDE² that generalize improvements across ML and algorithmic tasks.
+        <ul>
+          <li><a href="https://arxiv.org/abs/2609.26457" target="_blank">Recursive self-improvement of AI research agents – arXiv (2026)</a></li>
+          <li><a href="https://arxiv.org/abs/2609.11873" target="_blank">The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement – arXiv (2026)</a></li>
         </ul>
       </td>
     </tr>
