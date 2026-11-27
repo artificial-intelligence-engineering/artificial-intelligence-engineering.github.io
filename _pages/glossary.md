@@ -454,7 +454,7 @@ layout: splash
       </td>
     </tr>
     <tr>
-      <th scope="row">Recursive<br>Self-Improvement<br>of AI Research<br>Agents (RSI)</th>
+      <th scope="row"><a href="/recursive-self-improvement/">Recursive<br>Self-Improvement<br>of AI Research<br>Agents (RSI)</a></th>
       <td>
         Recursive Self-Improvement (RSI) of AI research agents is an iterative optimization paradigm in which an autonomous AI research agent analyzes, modifies, and evaluates its own source code, workflows, or search policies to produce a more capable successor. Each validated improvement becomes the new baseline for the next generation, allowing the agent to compound its research and engineering capabilities over successive cycles.
       </td>
