@@ -467,6 +467,20 @@ layout: splash
       </td>
     </tr>
     <tr>
+      <th scope="row"><a href="/ai-singularity/">AI Singularity</a></th>
+      <td>
+        The AI Singularity (or Technological Singularity) is a hypothesized threshold at which artificial intelligence surpasses human-level intelligence and initiates a self-reinforcing cycle of recursive self-improvement, driving technological progress beyond human predictability. Recent milestones—such as the November 2026 AI-assisted, Lean-verified proof of the Riemann Hypothesis—have sparked debate over whether formal mathematics has entered an early "mathematical singularity" where machine-verified reasoning outpaces human comprehension.
+      </td>
+      <td>
+        Rooted in I. J. Good's "intelligence explosion" (1965), Vernor Vinge's singularity horizon (1993), and Ray Kurzweil's exponential timelines.
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Technological_singularity" target="_blank">Technological Singularity – Wikipedia</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Alp%C3%B6ge%27s_proof_of_the_Riemann_hypothesis" target="_blank">Alpöge's proof of the Riemann hypothesis – Wikipedia (2026)</a></li>
+          <li><a href="https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/" target="_blank">Terence Tao on GRH &amp; Singularities (Nov 2026)</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
         <th scope="row">TODO</th>
         <td>
             TODO
