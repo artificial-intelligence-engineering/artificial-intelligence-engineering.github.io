@@ -442,7 +442,7 @@ layout: splash
       </td>
     </tr>
     <tr>
-      <th scope="row">Self-Improvement<br>Memory (SIM)</th>
+      <th scope="row"><a href="/self-improvement-memory/">Self-Improvement<br>Memory (SIM)</a></th>
       <td>
         Self-Improvement Memory (SIM) is a persistent memory framework for AI agent harness optimizers that enables Continual Recursive Self-Improvement (CRSI). Instead of storing only the final modified prompts, tools, or control code, SIM records the optimization history—grouping edits by recurring harness problems, logging the root-cause rationale for each change, and tracking predicted versus observed outcomes across evaluation contexts—so improvements can be preserved and transferred when underlying models or benchmarks change.
       </td>
